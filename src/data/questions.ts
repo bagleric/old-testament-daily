@@ -3,6 +3,7 @@ export interface Question {
   date: string; // YYYY-MM-DD format
   weekTitle: string;
   scriptureReference: string;
+  lessonUrl: string; // URL to the Come Follow Me lesson
   question: string;
   options: string[];
   correctAnswer: number; // index of correct option
@@ -18,6 +19,7 @@ export const questions: Question[] = [
     date: "2026-01-01",
     weekTitle: "Introductory Week",
     scriptureReference: "Moses 1",
+    lessonUrl: "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/01?lang=eng",
     question: "In Moses 1, what did God tell Moses about his divine identity?",
     options: [
       "Moses was a servant of God",
@@ -33,6 +35,7 @@ export const questions: Question[] = [
     date: "2026-01-02",
     weekTitle: "Introductory Week",
     scriptureReference: "Moses 1",
+    lessonUrl: "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/01?lang=eng",
     question: "After Satan departed from Moses, what did Moses realize about man compared to God?",
     options: [
       "Man is powerful like God",
@@ -48,6 +51,7 @@ export const questions: Question[] = [
     date: "2026-01-03",
     weekTitle: "Introductory Week",
     scriptureReference: "Moses 1",
+    lessonUrl: "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/01?lang=eng",
     question: "How did Moses resist Satan's temptations?",
     options: [
       "He ran away and hid",
@@ -63,6 +67,7 @@ export const questions: Question[] = [
     date: "2026-01-04",
     weekTitle: "Introductory Week",
     scriptureReference: "Moses 1",
+    lessonUrl: "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/01?lang=eng",
     question: "What is God's work and glory according to Moses 1:39?",
     options: [
       "To create worlds without number",
@@ -80,6 +85,7 @@ export const questions: Question[] = [
     date: "2026-01-05",
     weekTitle: "Moses 1; Abraham 3",
     scriptureReference: "Abraham 3",
+    lessonUrl: "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/02?lang=eng",
     question: "What did the Lord show Abraham through the Urim and Thummim?",
     options: [
       "The future of his descendants",
@@ -95,6 +101,7 @@ export const questions: Question[] = [
     date: "2026-01-06",
     weekTitle: "Moses 1; Abraham 3",
     scriptureReference: "Abraham 3",
+    lessonUrl: "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/02?lang=eng",
     question: "What is the name of the great star nearest to God's throne?",
     options: [
       "Shinehah",
@@ -110,6 +117,7 @@ export const questions: Question[] = [
     date: "2026-01-07",
     weekTitle: "Moses 1; Abraham 3",
     scriptureReference: "Abraham 3",
+    lessonUrl: "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/02?lang=eng",
     question: "According to Abraham 3, what existed before the world was created?",
     options: [
       "Only darkness and void",
@@ -125,6 +133,7 @@ export const questions: Question[] = [
     date: "2026-01-08",
     weekTitle: "Moses 1; Abraham 3",
     scriptureReference: "Abraham 3",
+    lessonUrl: "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/02?lang=eng",
     question: "Who was 'like unto God' among the noble and great spirits?",
     options: [
       "Abraham",
@@ -140,6 +149,7 @@ export const questions: Question[] = [
     date: "2026-01-09",
     weekTitle: "Moses 1; Abraham 3",
     scriptureReference: "Abraham 3",
+    lessonUrl: "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/02?lang=eng",
     question: "What was the purpose of earth life according to Abraham 3:25?",
     options: [
       "To punish the wicked",
@@ -155,6 +165,7 @@ export const questions: Question[] = [
     date: "2026-01-10",
     weekTitle: "Moses 1; Abraham 3",
     scriptureReference: "Moses 1",
+    lessonUrl: "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/02?lang=eng",
     question: "What did Satan want Moses to do that would have been contrary to God's commandment?",
     options: [
       "Curse God",
@@ -170,6 +181,7 @@ export const questions: Question[] = [
     date: "2026-01-11",
     weekTitle: "Moses 1; Abraham 3",
     scriptureReference: "Abraham 3",
+    lessonUrl: "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/02?lang=eng",
     question: "Abraham was told he was chosen before he was born. What does this teach about premortal life?",
     options: [
       "Only prophets existed before birth",
@@ -187,6 +199,7 @@ export const questions: Question[] = [
     date: "2026-01-12",
     weekTitle: "The Creation",
     scriptureReference: "Genesis 1",
+    lessonUrl: "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/03?lang=eng",
     question: "What did God create on the first day according to Genesis 1?",
     options: [
       "The sun and moon",
@@ -202,6 +215,7 @@ export const questions: Question[] = [
     date: "2026-01-13",
     weekTitle: "The Creation",
     scriptureReference: "Genesis 1",
+    lessonUrl: "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/03?lang=eng",
     question: "On which day were humans created?",
     options: [
       "Fourth day",
@@ -217,6 +231,7 @@ export const questions: Question[] = [
     date: "2026-01-14",
     weekTitle: "The Creation",
     scriptureReference: "Genesis 2",
+    lessonUrl: "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/03?lang=eng",
     question: "What did God do on the seventh day?",
     options: [
       "Created more animals",
@@ -232,6 +247,7 @@ export const questions: Question[] = [
     date: "2026-01-15",
     weekTitle: "The Creation",
     scriptureReference: "Moses 3",
+    lessonUrl: "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/03?lang=eng",
     question: "According to Moses 3, what was created spiritually before it was naturally upon the earth?",
     options: [
       "Only humans",
@@ -247,6 +263,7 @@ export const questions: Question[] = [
     date: "2026-01-16",
     weekTitle: "The Creation",
     scriptureReference: "Genesis 2",
+    lessonUrl: "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/03?lang=eng",
     question: "From what did God form Adam?",
     options: [
       "Water",
@@ -262,6 +279,7 @@ export const questions: Question[] = [
     date: "2026-01-17",
     weekTitle: "The Creation",
     scriptureReference: "Abraham 4",
+    lessonUrl: "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/03?lang=eng",
     question: "In Abraham's account, who participated in the creation?",
     options: [
       "God alone",
@@ -277,6 +295,7 @@ export const questions: Question[] = [
     date: "2026-01-18",
     weekTitle: "The Creation",
     scriptureReference: "Genesis 2",
+    lessonUrl: "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/03?lang=eng",
     question: "What was the one tree Adam was commanded not to eat from?",
     options: [
       "The tree of life",
@@ -294,6 +313,7 @@ export const questions: Question[] = [
     date: "2026-01-19",
     weekTitle: "The Fall",
     scriptureReference: "Genesis 3",
+    lessonUrl: "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/04?lang=eng",
     question: "What animal did Satan use to tempt Eve?",
     options: [
       "A lion",
@@ -309,6 +329,7 @@ export const questions: Question[] = [
     date: "2026-01-20",
     weekTitle: "The Fall",
     scriptureReference: "Genesis 3",
+    lessonUrl: "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/04?lang=eng",
     question: "What did Adam and Eve realize after eating the forbidden fruit?",
     options: [
       "They became like gods knowing all things",
@@ -324,6 +345,7 @@ export const questions: Question[] = [
     date: "2026-01-21",
     weekTitle: "The Fall",
     scriptureReference: "Moses 4",
+    lessonUrl: "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/04?lang=eng",
     question: "According to Moses 4, why did Satan want to destroy the world?",
     options: [
       "Because he was bored",
@@ -339,6 +361,7 @@ export const questions: Question[] = [
     date: "2026-01-22",
     weekTitle: "The Fall",
     scriptureReference: "Genesis 4",
+    lessonUrl: "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/04?lang=eng",
     question: "What was the occupation of Abel?",
     options: [
       "A farmer",
@@ -354,6 +377,7 @@ export const questions: Question[] = [
     date: "2026-01-23",
     weekTitle: "The Fall",
     scriptureReference: "Genesis 4",
+    lessonUrl: "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/04?lang=eng",
     question: "Why was Cain's offering not accepted by the Lord?",
     options: [
       "It was too small",
@@ -369,6 +393,7 @@ export const questions: Question[] = [
     date: "2026-01-24",
     weekTitle: "The Fall",
     scriptureReference: "Moses 5",
+    lessonUrl: "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/04?lang=eng",
     question: "What was Adam commanded to offer as a sacrifice?",
     options: [
       "Grain and fruit",
@@ -384,6 +409,7 @@ export const questions: Question[] = [
     date: "2026-01-25",
     weekTitle: "The Fall",
     scriptureReference: "Moses 5",
+    lessonUrl: "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/04?lang=eng",
     question: "What did the sacrifice of the firstlings symbolize?",
     options: [
       "Man's dominion over animals",
@@ -401,6 +427,7 @@ export const questions: Question[] = [
     date: "2026-01-26",
     weekTitle: "Enoch and Zion",
     scriptureReference: "Moses 6",
+    lessonUrl: "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/05?lang=eng",
     question: "What book contained the genealogy and records of Adam's descendants?",
     options: [
       "The Book of Life",
@@ -416,6 +443,7 @@ export const questions: Question[] = [
     date: "2026-01-27",
     weekTitle: "Enoch and Zion",
     scriptureReference: "Moses 6",
+    lessonUrl: "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/05?lang=eng",
     question: "How old was Enoch when he was called to preach?",
     options: [
       "25 years old",
@@ -431,6 +459,7 @@ export const questions: Question[] = [
     date: "2026-01-28",
     weekTitle: "Enoch and Zion",
     scriptureReference: "Moses 7",
+    lessonUrl: "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/05?lang=eng",
     question: "What name was given to Enoch's righteous city?",
     options: [
       "Jerusalem",
@@ -446,6 +475,7 @@ export const questions: Question[] = [
     date: "2026-01-29",
     weekTitle: "Enoch and Zion",
     scriptureReference: "Moses 7",
+    lessonUrl: "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/05?lang=eng",
     question: "What happened to the city of Enoch?",
     options: [
       "It was destroyed by enemies",
@@ -461,6 +491,7 @@ export const questions: Question[] = [
     date: "2026-01-30",
     weekTitle: "Enoch and Zion",
     scriptureReference: "Moses 7",
+    lessonUrl: "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/05?lang=eng",
     question: "What did Enoch see that caused God to weep?",
     options: [
       "The destruction of the temple",
@@ -476,6 +507,7 @@ export const questions: Question[] = [
     date: "2026-01-31",
     weekTitle: "Enoch and Zion",
     scriptureReference: "Moses 6",
+    lessonUrl: "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/05?lang=eng",
     question: "According to Moses 6:57, how must one enter the kingdom of God?",
     options: [
       "By keeping all the commandments perfectly",
@@ -491,6 +523,7 @@ export const questions: Question[] = [
     date: "2026-02-01",
     weekTitle: "Enoch and Zion",
     scriptureReference: "Moses 7",
+    lessonUrl: "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/05?lang=eng",
     question: "What quality defined the people of Zion according to Moses 7:18?",
     options: [
       "They were wealthy and powerful",
@@ -508,6 +541,7 @@ export const questions: Question[] = [
     date: "2026-02-02",
     weekTitle: "The Patriarchs and Noah",
     scriptureReference: "Genesis 5",
+    lessonUrl: "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/06?lang=eng",
     question: "Who was the oldest person recorded in the Bible?",
     options: [
       "Adam",
@@ -523,6 +557,7 @@ export const questions: Question[] = [
     date: "2026-02-03",
     weekTitle: "The Patriarchs and Noah",
     scriptureReference: "Genesis 5",
+    lessonUrl: "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/06?lang=eng",
     question: "What was unique about Enoch's death according to Genesis 5?",
     options: [
       "He died young",
@@ -538,6 +573,7 @@ export const questions: Question[] = [
     date: "2026-02-04",
     weekTitle: "The Patriarchs and Noah",
     scriptureReference: "Moses 8",
+    lessonUrl: "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/06?lang=eng",
     question: "How old was Noah when he began preaching?",
     options: [
       "100 years old",
@@ -553,6 +589,7 @@ export const questions: Question[] = [
     date: "2026-02-05",
     weekTitle: "The Patriarchs and Noah",
     scriptureReference: "Moses 8",
+    lessonUrl: "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/06?lang=eng",
     question: "What message did Noah preach to the people?",
     options: [
       "To prepare for prosperity",
@@ -568,6 +605,7 @@ export const questions: Question[] = [
     date: "2026-02-06",
     weekTitle: "The Patriarchs and Noah",
     scriptureReference: "Genesis 5",
+    lessonUrl: "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/06?lang=eng",
     question: "Who was Noah's father?",
     options: [
       "Methuselah",
@@ -583,6 +621,7 @@ export const questions: Question[] = [
     date: "2026-02-07",
     weekTitle: "The Patriarchs and Noah",
     scriptureReference: "Moses 8",
+    lessonUrl: "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/06?lang=eng",
     question: "How did the people respond to Noah's preaching?",
     options: [
       "They repented and followed him",
@@ -598,6 +637,7 @@ export const questions: Question[] = [
     date: "2026-02-08",
     weekTitle: "The Patriarchs and Noah",
     scriptureReference: "Genesis 5",
+    lessonUrl: "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/06?lang=eng",
     question: "How many years did Adam live?",
     options: [
       "800 years",
@@ -609,13 +649,13 @@ export const questions: Question[] = [
     explanation: "'All the days that Adam lived were nine hundred and thirty years: and he died' (Genesis 5:5)."
   },
 
-  // Continue with more weeks...
   // Week 7: February 9-15 - Genesis 6-7; Moses 8
   {
     id: "2026-02-09",
     date: "2026-02-09",
     weekTitle: "Noah and the Flood",
     scriptureReference: "Genesis 6",
+    lessonUrl: "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
     question: "What were the dimensions of Noah's ark in cubits (length)?",
     options: [
       "200 cubits",
@@ -631,6 +671,7 @@ export const questions: Question[] = [
     date: "2026-02-10",
     weekTitle: "Noah and the Flood",
     scriptureReference: "Genesis 6",
+    lessonUrl: "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
     question: "What type of wood was the ark made from?",
     options: [
       "Cedar",
@@ -646,6 +687,7 @@ export const questions: Question[] = [
     date: "2026-02-11",
     weekTitle: "Noah and the Flood",
     scriptureReference: "Genesis 7",
+    lessonUrl: "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
     question: "How many of each clean animal did Noah take on the ark?",
     options: [
       "Two",
@@ -661,6 +703,7 @@ export const questions: Question[] = [
     date: "2026-02-12",
     weekTitle: "Noah and the Flood",
     scriptureReference: "Genesis 7",
+    lessonUrl: "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
     question: "How many days and nights did it rain during the flood?",
     options: [
       "7 days and nights",
@@ -676,6 +719,7 @@ export const questions: Question[] = [
     date: "2026-02-13",
     weekTitle: "Noah and the Flood",
     scriptureReference: "Genesis 6",
+    lessonUrl: "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
     question: "What was the condition of mankind that led God to send the flood?",
     options: [
       "They were too numerous",
@@ -691,6 +735,7 @@ export const questions: Question[] = [
     date: "2026-02-14",
     weekTitle: "Noah and the Flood",
     scriptureReference: "Genesis 6",
+    lessonUrl: "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
     question: "Noah found grace in the eyes of the Lord because he was:",
     options: [
       "The oldest man alive",
@@ -706,6 +751,7 @@ export const questions: Question[] = [
     date: "2026-02-15",
     weekTitle: "Noah and the Flood",
     scriptureReference: "Genesis 7",
+    lessonUrl: "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
     question: "How many people were saved on the ark?",
     options: [
       "Four",
