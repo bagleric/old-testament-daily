@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Question } from "@/data/questions";
 import { cn } from "@/lib/utils";
-import { Check, X, BookOpen } from "lucide-react";
+import { Check, X, BookOpen, ExternalLink } from "lucide-react";
 
 interface QuizCardProps {
   question: Question;
@@ -108,6 +108,18 @@ export function QuizCard({ question, onAnswerSelected }: QuizCardProps) {
             </p>
           </div>
         )}
+
+        {/* Lesson Link */}
+        <a
+          href={question.lessonUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-6 inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-primary/10 text-primary hover:bg-primary/20 transition-colors text-sm font-medium"
+        >
+          <BookOpen className="w-4 h-4" />
+          <span>Read This Week's Lesson</span>
+          <ExternalLink className="w-3 h-3" />
+        </a>
       </div>
     </div>
   );
