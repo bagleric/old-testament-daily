@@ -1,9 +1,12 @@
 import { useState, useEffect } from "react";
 import { format, parseISO } from "date-fns";
 import { QuizCard } from "@/components/QuizCard";
+import { WordCard } from "@/components/WordCard";
 import { DateSelector } from "@/components/DateSelector";
 import { getQuestionForDate, questions } from "@/data/questions";
+import { getWordForDate } from "@/data/words";
 import { BookOpen } from "lucide-react";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 const Index = () => {
   // Find today's date or the closest available date
@@ -27,6 +30,7 @@ const Index = () => {
   const [key, setKey] = useState(0);
 
   const question = getQuestionForDate(format(selectedDate, "yyyy-MM-dd"));
+  const word = getWordForDate(format(selectedDate, "yyyy-MM-dd"));
 
   // Reset quiz when date changes
   useEffect(() => {
@@ -60,23 +64,52 @@ const Index = () => {
         />
       </div>
 
-      {/* Main Content */}
+      {/* Main Content with Tabs */}
       <main className="px-4 pb-12">
-        {question ? (
-          <QuizCard key={key} question={question} />
-        ) : (
-          <div className="max-w-2xl mx-auto text-center py-12">
-            <div className="bg-gradient-card rounded-2xl p-8 shadow-card">
-              <BookOpen className="w-12 h-12 mx-auto text-muted-foreground mb-4" />
-              <h2 className="font-serif text-2xl text-foreground mb-2">
-                No Question Available
-              </h2>
-              <p className="text-muted-foreground">
-                There's no quiz question for this date. Try selecting a different day from the calendar.
-              </p>
-            </div>
-          </div>
-        )}
+        <div className="max-w-2xl mx-auto">
+          <Tabs defaultValue="question" className="w-full">
+            <TabsList className="grid w-full grid-cols-2 mb-6">
+              <TabsTrigger value="question">Question of the Day</TabsTrigger>
+              <TabsTrigger value="word">Word of the Day</TabsTrigger>
+            </TabsList>
+            
+            <TabsContent value="question">
+              {question ? (
+                <QuizCard key={key} question={question} />
+              ) : (
+                <div className="text-center py-12">
+                  <div className="bg-gradient-card rounded-2xl p-8 shadow-card">
+                    <BookOpen className="w-12 h-12 mx-auto text-muted-foreground mb-4" />
+                    <h2 className="font-serif text-2xl text-foreground mb-2">
+                      No Question Available
+                    </h2>
+                    <p className="text-muted-foreground">
+                      There's no quiz question for this date. Try selecting a different day from the calendar.
+                    </p>
+                  </div>
+                </div>
+              )}
+            </TabsContent>
+            
+            <TabsContent value="word">
+              {word ? (
+                <WordCard word={word} />
+              ) : (
+                <div className="text-center py-12">
+                  <div className="bg-gradient-card rounded-2xl p-8 shadow-card">
+                    <BookOpen className="w-12 h-12 mx-auto text-muted-foreground mb-4" />
+                    <h2 className="font-serif text-2xl text-foreground mb-2">
+                      No Word Available
+                    </h2>
+                    <p className="text-muted-foreground">
+                      There's no word of the day for this date. Try selecting a different day from the calendar.
+                    </p>
+                  </div>
+                </div>
+              )}
+            </TabsContent>
+          </Tabs>
+        </div>
       </main>
 
       {/* Footer */}
