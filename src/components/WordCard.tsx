@@ -21,7 +21,7 @@ export const WordCard = ({ word }: WordCardProps) => {
           <div className="inline-flex items-center gap-2 mb-2">
             <BookOpenText className="w-6 h-6 text-primary" />
             <span className="text-sm font-medium text-muted-foreground uppercase tracking-wide">
-              Word of the Week
+              Word of the Day
             </span>
           </div>
           <h2 className="font-serif text-4xl md:text-5xl text-foreground">
