@@ -2,9 +2,11 @@ import { useState, useEffect } from "react";
 import { format, parseISO } from "date-fns";
 import { QuizCard } from "@/components/QuizCard";
 import { WordCard } from "@/components/WordCard";
+import { DoctrineCard } from "@/components/DoctrineCard";
 import { DateSelector } from "@/components/DateSelector";
 import { getQuestionForDate, questions } from "@/data/questions";
 import { getWordForDate } from "@/data/words";
+import { getDoctrineForDate } from "@/data/doctrines";
 import { BookOpen } from "lucide-react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
@@ -31,6 +33,7 @@ const Index = () => {
 
   const question = getQuestionForDate(format(selectedDate, "yyyy-MM-dd"));
   const word = getWordForDate(format(selectedDate, "yyyy-MM-dd"));
+  const doctrine = getDoctrineForDate(format(selectedDate, "yyyy-MM-dd"));
 
   // Reset quiz when date changes
   useEffect(() => {
@@ -68,9 +71,10 @@ const Index = () => {
       <main className="px-4 pb-12">
         <div className="max-w-2xl mx-auto">
           <Tabs defaultValue="question" className="w-full">
-            <TabsList className="grid w-full grid-cols-2 mb-6">
-              <TabsTrigger value="question">Question of the Day</TabsTrigger>
-              <TabsTrigger value="word">Word of the Day</TabsTrigger>
+            <TabsList className="grid w-full grid-cols-3 mb-6">
+              <TabsTrigger value="question">Question</TabsTrigger>
+              <TabsTrigger value="word">Word</TabsTrigger>
+              <TabsTrigger value="doctrine">Doctrine</TabsTrigger>
             </TabsList>
             
             <TabsContent value="question">
@@ -103,6 +107,24 @@ const Index = () => {
                     </h2>
                     <p className="text-muted-foreground">
                       There's no word of the day for this date. Try selecting a different day from the calendar.
+                    </p>
+                  </div>
+                </div>
+              )}
+            </TabsContent>
+            
+            <TabsContent value="doctrine">
+              {doctrine ? (
+                <DoctrineCard doctrine={doctrine} />
+              ) : (
+                <div className="text-center py-12">
+                  <div className="bg-gradient-card rounded-2xl p-8 shadow-card">
+                    <BookOpen className="w-12 h-12 mx-auto text-muted-foreground mb-4" />
+                    <h2 className="font-serif text-2xl text-foreground mb-2">
+                      No Doctrine Available
+                    </h2>
+                    <p className="text-muted-foreground">
+                      There's no doctrine of the day for this date. Try selecting a different day from the calendar.
                     </p>
                   </div>
                 </div>
