@@ -80,3 +80,5 @@ Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/c
 - [ ] Add audio pronunciation for Word of the Day
 - [ ] Add bookmarking/favorites for questions and words
 - [ ] Add a weekly summary view showing all content for a given week
+- [ ] Family home evening rotations
+- [ ] Family fun night rotations
