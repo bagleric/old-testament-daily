@@ -70,7 +70,7 @@ const Index = () => {
           <Tabs defaultValue="question" className="w-full">
             <TabsList className="grid w-full grid-cols-2 mb-6">
               <TabsTrigger value="question">Question of the Day</TabsTrigger>
-              <TabsTrigger value="word">Word of the Day</TabsTrigger>
+              <TabsTrigger value="word">Word of the Week</TabsTrigger>
             </TabsList>
             
             <TabsContent value="question">
@@ -102,7 +102,7 @@ const Index = () => {
                       No Word Available
                     </h2>
                     <p className="text-muted-foreground">
-                      There's no word of the day for this date. Try selecting a different day from the calendar.
+                      There's no word of the week for this date. Try selecting a different day from the calendar.
                     </p>
                   </div>
                 </div>
