@@ -71,3 +71,12 @@ Yes, you can!
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+
+## Future Enhancements
+
+- [ ] Add questions and words for July-December 2026 (Exodus, Leviticus, Numbers, Deuteronomy)
+- [ ] Add a progress tracker with streak counter for consecutive days
+- [ ] Add social sharing for quiz results
+- [ ] Add audio pronunciation for Word of the Day
+- [ ] Add bookmarking/favorites for questions and words
+- [ ] Add a weekly summary view showing all content for a given week
