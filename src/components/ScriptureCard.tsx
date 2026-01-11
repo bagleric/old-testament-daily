@@ -1,4 +1,4 @@
-import { ExternalLink, BookOpen, History } from "lucide-react";
+import { ExternalLink, BookOpen, History, BookMarked } from "lucide-react";
 import { Scripture } from "@/data/scriptures";
 
 interface ScriptureCardProps {
@@ -46,6 +46,31 @@ export const ScriptureCard = ({ scripture }: ScriptureCardProps) => {
           {scripture.historicalBackground}
         </p>
       </div>
+
+      {/* Citations for Further Study */}
+      {scripture.citations && scripture.citations.length > 0 && (
+        <div className="mb-6">
+          <div className="flex items-center gap-2 mb-3">
+            <BookMarked className="w-4 h-4 text-primary" />
+            <h3 className="font-semibold text-foreground">Further Study</h3>
+          </div>
+          <ul className="space-y-2">
+            {scripture.citations.map((citation, index) => (
+              <li key={index}>
+                <a
+                  href={citation.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-primary hover:text-primary/80 transition-colors text-sm"
+                >
+                  <span>{citation.title}</span>
+                  <ExternalLink className="w-3 h-3" />
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
 
       {/* Scripture Link */}
       <a
