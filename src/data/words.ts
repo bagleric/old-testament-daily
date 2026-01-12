@@ -96,6 +96,71 @@ export const words: Word[] = [
       { reference: "Psalm 8:6", url: "https://www.churchofjesuschrist.org/study/scriptures/ot/ps/8?lang=eng&id=p6#p6" }
     ]
   },
+  {
+    id: "word-2026-01-14",
+    date: "2026-01-14",
+    weekTitle: "Genesis 1–2; Moses 2–3; Abraham 4–5",
+    word: "Sabbath",
+    definition: "A holy day of rest set apart by God; a time to cease from labors and focus on spiritual renewal.",
+    context: "God rested on the seventh day and sanctified it, establishing a pattern of rest and worship for His children.",
+    scriptures: [
+      { reference: "Genesis 2:2-3", url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/2?lang=eng&id=p2-p3#p2" },
+      { reference: "Exodus 20:8-11", url: "https://www.churchofjesuschrist.org/study/scriptures/ot/ex/20?lang=eng&id=p8-p11#p8" },
+      { reference: "D&C 59:9-13", url: "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/59?lang=eng&id=p9-p13#p9" }
+    ]
+  },
+  {
+    id: "word-2026-01-15",
+    date: "2026-01-15",
+    weekTitle: "Genesis 1–2; Moses 2–3; Abraham 4–5",
+    word: "Garden",
+    definition: "A place of beauty, growth, and communion with God; Eden was a paradise prepared for Adam and Eve.",
+    context: "God planted a garden eastward in Eden and placed Adam there to dress and keep it.",
+    scriptures: [
+      { reference: "Genesis 2:8", url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/2?lang=eng&id=p8#p8" },
+      { reference: "Moses 3:8", url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/3?lang=eng&id=p8#p8" },
+      { reference: "2 Nephi 2:19", url: "https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/2?lang=eng&id=p19#p19" }
+    ]
+  },
+  {
+    id: "word-2026-01-16",
+    date: "2026-01-16",
+    weekTitle: "Genesis 1–2; Moses 2–3; Abraham 4–5",
+    word: "Helpmeet",
+    definition: "A companion who is equal and essential; a partner who provides strength and support.",
+    context: "Eve was created as a helpmeet for Adam—not as a subordinate, but as an equal partner in their divine mission.",
+    scriptures: [
+      { reference: "Genesis 2:18", url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/2?lang=eng&id=p18#p18" },
+      { reference: "Moses 3:18", url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/3?lang=eng&id=p18#p18" },
+      { reference: "1 Corinthians 11:11", url: "https://www.churchofjesuschrist.org/study/scriptures/nt/1-cor/11?lang=eng&id=p11#p11" }
+    ]
+  },
+  {
+    id: "word-2026-01-17",
+    date: "2026-01-17",
+    weekTitle: "Genesis 1–2; Moses 2–3; Abraham 4–5",
+    word: "Expanse",
+    definition: "The vast space created by God to separate the waters; the firmament or heavens above.",
+    context: "God called the expanse Heaven, creating the atmosphere and sky that displays His creative power.",
+    scriptures: [
+      { reference: "Genesis 1:6-8", url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/1?lang=eng&id=p6-p8#p6" },
+      { reference: "Abraham 4:6-8", url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/4?lang=eng&id=p6-p8#p6" },
+      { reference: "Psalm 19:1", url: "https://www.churchofjesuschrist.org/study/scriptures/ot/ps/19?lang=eng&id=p1#p1" }
+    ]
+  },
+  {
+    id: "word-2026-01-18",
+    date: "2026-01-18",
+    weekTitle: "Genesis 1–2; Moses 2–3; Abraham 4–5",
+    word: "Multiply",
+    definition: "To increase in number through having children; the first commandment given to humanity.",
+    context: "God blessed Adam and Eve and commanded them to be fruitful and multiply, establishing the importance of families.",
+    scriptures: [
+      { reference: "Genesis 1:28", url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/1?lang=eng&id=p28#p28" },
+      { reference: "Moses 2:28", url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/2?lang=eng&id=p28#p28" },
+      { reference: "D&C 132:63", url: "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/132?lang=eng&id=p63#p63" }
+    ]
+  },
   // Week 4: Genesis 3-4; Moses 4-5
   {
     id: "word-2026-01-19",
@@ -121,6 +186,71 @@ export const words: Word[] = [
       { reference: "Moses 5:7-8", url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/5?lang=eng&id=p7-p8#p7" },
       { reference: "Alma 34:9-10", url: "https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/34?lang=eng&id=p9-p10#p9" },
       { reference: "Isaiah 53:5", url: "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/53?lang=eng&id=p5#p5" }
+    ]
+  },
+  {
+    id: "word-2026-01-21",
+    date: "2026-01-21",
+    weekTitle: "Genesis 3–4; Moses 4–5",
+    word: "Cherubim",
+    definition: "Heavenly beings who guard sacred things; placed at Eden's entrance after the Fall.",
+    context: "God placed cherubim and a flaming sword to guard the way to the tree of life after Adam and Eve left the garden.",
+    scriptures: [
+      { reference: "Genesis 3:24", url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/3?lang=eng&id=p24#p24" },
+      { reference: "Moses 4:31", url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/4?lang=eng&id=p31#p31" },
+      { reference: "Alma 42:2-3", url: "https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/42?lang=eng&id=p2-p3#p2" }
+    ]
+  },
+  {
+    id: "word-2026-01-22",
+    date: "2026-01-22",
+    weekTitle: "Genesis 3–4; Moses 4–5",
+    word: "Enmity",
+    definition: "Deep-seated hostility or opposition; the conflict between good and evil.",
+    context: "God placed enmity between Satan and the woman's seed, prophesying Christ's victory over the adversary.",
+    scriptures: [
+      { reference: "Genesis 3:15", url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/3?lang=eng&id=p15#p15" },
+      { reference: "Moses 4:21", url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/4?lang=eng&id=p21#p21" },
+      { reference: "Romans 16:20", url: "https://www.churchofjesuschrist.org/study/scriptures/nt/rom/16?lang=eng&id=p20#p20" }
+    ]
+  },
+  {
+    id: "word-2026-01-23",
+    date: "2026-01-23",
+    weekTitle: "Genesis 3–4; Moses 4–5",
+    word: "Offering",
+    definition: "Something presented to God as an act of worship; a gift expressing devotion and obedience.",
+    context: "Cain and Abel brought offerings to the Lord, but only Abel's was accepted because it was offered in faith.",
+    scriptures: [
+      { reference: "Genesis 4:3-5", url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/4?lang=eng&id=p3-p5#p3" },
+      { reference: "Moses 5:18-21", url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/5?lang=eng&id=p18-p21#p18" },
+      { reference: "Hebrews 11:4", url: "https://www.churchofjesuschrist.org/study/scriptures/nt/heb/11?lang=eng&id=p4#p4" }
+    ]
+  },
+  {
+    id: "word-2026-01-24",
+    date: "2026-01-24",
+    weekTitle: "Genesis 3–4; Moses 4–5",
+    word: "Transgression",
+    definition: "A violation of a law or commandment; distinct from sin in that it may lack full knowledge of wrongdoing.",
+    context: "Adam and Eve's choice is called a transgression because it was a necessary step, not a sinful rebellion.",
+    scriptures: [
+      { reference: "2 Nephi 2:22", url: "https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/2?lang=eng&id=p22#p22" },
+      { reference: "Articles of Faith 1:2", url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/a-of-f/1?lang=eng&id=p2#p2" },
+      { reference: "1 Timothy 2:14", url: "https://www.churchofjesuschrist.org/study/scriptures/nt/1-tim/2?lang=eng&id=p14#p14" }
+    ]
+  },
+  {
+    id: "word-2026-01-25",
+    date: "2026-01-25",
+    weekTitle: "Genesis 3–4; Moses 4–5",
+    word: "Redemption",
+    definition: "Deliverance from sin and its consequences through Christ's sacrifice; being bought back.",
+    context: "Eve rejoiced in the promise of redemption, understanding that through Christ they could return to God.",
+    scriptures: [
+      { reference: "Moses 5:9-11", url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/5?lang=eng&id=p9-p11#p9" },
+      { reference: "Helaman 5:11", url: "https://www.churchofjesuschrist.org/study/scriptures/bofm/hel/5?lang=eng&id=p11#p11" },
+      { reference: "Romans 3:24", url: "https://www.churchofjesuschrist.org/study/scriptures/nt/rom/3?lang=eng&id=p24#p24" }
     ]
   },
   // Week 5: Moses 6-7

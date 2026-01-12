@@ -33,7 +33,105 @@ export const scriptures: Scripture[] = [
   {
     id: 2,
     date: "2026-01-12",
-    weekTitle: "Genesis 3–4; Moses 5–6",
+    weekTitle: "Genesis 1–2; Moses 2–3; Abraham 4–5",
+    reference: "Genesis 1:27",
+    text: "So God created man in his own image, in the image of God created he him; male and female created he them.",
+    context: "This foundational verse declares that humanity is made in God's likeness, establishing our divine potential and the sacred nature of both male and female.",
+    historicalBackground: "This verse distinguishes the biblical account from ancient Near Eastern creation myths that portrayed humans as afterthoughts or servants of the gods. Here, humans are the crowning achievement of creation, made to reflect the divine.",
+    citations: [
+      { title: "Gospel Topics: Creation", url: "https://www.churchofjesuschrist.org/study/manual/gospel-topics/creation?lang=eng" },
+      { title: "D&C 130:22", url: "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/130?lang=eng&id=p22#p22" }
+    ],
+    url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/1?lang=eng&id=p27#p27"
+  },
+  {
+    id: 100,
+    date: "2026-01-13",
+    weekTitle: "Genesis 1–2; Moses 2–3; Abraham 4–5",
+    reference: "Genesis 2:24",
+    text: "Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh.",
+    context: "This verse establishes the divine pattern for marriage, emphasizing the unity and priority of the husband-wife relationship as the foundation for families.",
+    historicalBackground: "The Hebrew word for 'cleave' (dabaq) means to cling or be joined together, implying a permanent and devoted union. Jesus quoted this verse when teaching about the sanctity of marriage.",
+    citations: [
+      { title: "Matthew 19:5-6", url: "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/19?lang=eng&id=p5-p6#p5" },
+      { title: "The Family: A Proclamation to the World", url: "https://www.churchofjesuschrist.org/study/scriptures/the-family-a-proclamation-to-the-world/the-family-a-proclamation-to-the-world?lang=eng" }
+    ],
+    url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/2?lang=eng&id=p24#p24"
+  },
+  {
+    id: 101,
+    date: "2026-01-14",
+    weekTitle: "Genesis 1–2; Moses 2–3; Abraham 4–5",
+    reference: "Moses 2:31",
+    text: "And I, God, saw everything that I had made, and, behold, all things which I had made were very good.",
+    context: "God's assessment that creation was 'very good' affirms the value and purpose of the physical world and our bodies—they are not inherently evil but part of God's perfect plan.",
+    historicalBackground: "This declaration contrasts with ancient philosophies that viewed the material world as inferior or evil. The restored gospel affirms that matter, bodies, and the physical world are essential to God's plan.",
+    citations: [
+      { title: "D&C 59:16-20", url: "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/59?lang=eng&id=p16-p20#p16" },
+      { title: "D&C 93:33", url: "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/93?lang=eng&id=p33#p33" }
+    ],
+    url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/2?lang=eng&id=p31#p31"
+  },
+  {
+    id: 102,
+    date: "2026-01-15",
+    weekTitle: "Genesis 1–2; Moses 2–3; Abraham 4–5",
+    reference: "Abraham 4:26",
+    text: "And the Gods took counsel among themselves and said: Let us go down and form man in our image, after our likeness.",
+    context: "The plural 'Gods' reveals that the Creation was a collaborative work involving Heavenly Father, Jesus Christ, and likely others, working together to create mankind in their image.",
+    historicalBackground: "The Book of Abraham provides unique insights into the Creation, showing it as a council effort. This teaches that God works through councils and that Christ was actively involved in creating the earth.",
+    citations: [
+      { title: "Bible Dictionary: Creation", url: "https://www.churchofjesuschrist.org/study/scriptures/bd/creation?lang=eng" },
+      { title: "John 1:1-3", url: "https://www.churchofjesuschrist.org/study/scriptures/nt/john/1?lang=eng&id=p1-p3#p1" }
+    ],
+    url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/4?lang=eng&id=p26#p26"
+  },
+  {
+    id: 103,
+    date: "2026-01-16",
+    weekTitle: "Genesis 1–2; Moses 2–3; Abraham 4–5",
+    reference: "Genesis 2:7",
+    text: "And the Lord God formed man of the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.",
+    context: "This verse teaches that our bodies are formed from earthly elements, but life itself comes directly from God. We are the union of physical body and divine spirit.",
+    historicalBackground: "The Hebrew word for 'soul' (nephesh) refers to the whole person—body and spirit combined. This understanding is central to the restored gospel's teaching that the body and spirit together constitute the soul.",
+    citations: [
+      { title: "D&C 88:15", url: "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/88?lang=eng&id=p15#p15" },
+      { title: "Abraham 5:7", url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/5?lang=eng&id=p7#p7" }
+    ],
+    url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/2?lang=eng&id=p7#p7"
+  },
+  {
+    id: 104,
+    date: "2026-01-17",
+    weekTitle: "Genesis 1–2; Moses 2–3; Abraham 4–5",
+    reference: "Moses 3:5",
+    text: "For I, the Lord God, created all things, of which I have spoken, spiritually, before they were naturally upon the face of the earth.",
+    context: "All things were created spiritually before they were created physically. This establishes the reality of a spiritual creation that preceded the physical world.",
+    historicalBackground: "This unique doctrine from the Pearl of Great Price helps explain the nature of spirits and premortal existence. Everything has a spiritual component that preceded its physical form.",
+    citations: [
+      { title: "D&C 29:31-32", url: "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/29?lang=eng&id=p31-p32#p31" },
+      { title: "Moses 3:7", url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/3?lang=eng&id=p7#p7" }
+    ],
+    url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/3?lang=eng&id=p5#p5"
+  },
+  {
+    id: 105,
+    date: "2026-01-18",
+    weekTitle: "Genesis 1–2; Moses 2–3; Abraham 4–5",
+    reference: "Genesis 2:2-3",
+    text: "And on the seventh day God ended his work which he had made; and he rested on the seventh day from all his work which he had made. And God blessed the seventh day, and sanctified it.",
+    context: "God's rest on the seventh day established the pattern of the Sabbath. 'Sanctified' means set apart as holy—the Sabbath is different from other days.",
+    historicalBackground: "The Sabbath became one of the most distinctive aspects of Israelite worship, separating them from surrounding nations. It was both a memorial of creation and a covenant sign.",
+    citations: [
+      { title: "Exodus 31:13-17", url: "https://www.churchofjesuschrist.org/study/scriptures/ot/ex/31?lang=eng&id=p13-p17#p13" },
+      { title: "D&C 59:9-13", url: "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/59?lang=eng&id=p9-p13#p9" }
+    ],
+    url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/2?lang=eng&id=p2-p3#p2"
+  },
+  {
+    id: 106,
+    date: "2026-01-19",
+    weekTitle: "Genesis 3–4; Moses 4–5",
     reference: "Moses 5:11",
     text: "And Eve, his wife, heard all these things and was glad, saying: Were it not for our transgression we never should have had seed, and never should have known good and evil, and the joy of our redemption, and the eternal life which God giveth unto all the obedient.",
     context: "Eve's statement reveals profound understanding of the Fall as a necessary step in God's plan. Rather than viewing it solely as a tragedy, she recognized it as enabling mortality, agency, and ultimately redemption.",
@@ -45,8 +143,106 @@ export const scriptures: Scripture[] = [
     url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/5?lang=eng&id=p11#p11"
   },
   {
+    id: 107,
+    date: "2026-01-20",
+    weekTitle: "Genesis 3–4; Moses 4–5",
+    reference: "Genesis 3:15",
+    text: "And I will put enmity between thee and the woman, and between thy seed and her seed; it shall bruise thy head, and thou shalt bruise his heel.",
+    context: "This is the first messianic prophecy, foretelling Christ's victory over Satan. The serpent's head would be crushed (ultimate defeat), while Christ would suffer (bruised heel) but triumph.",
+    historicalBackground: "Known as the Protoevangelium ('first gospel'), this verse has been recognized since ancient times as prophesying the Savior's victory. The 'seed' of the woman refers to Christ.",
+    citations: [
+      { title: "Bible Dictionary: Fall of Adam", url: "https://www.churchofjesuschrist.org/study/scriptures/bd/fall-of-adam?lang=eng" },
+      { title: "Romans 16:20", url: "https://www.churchofjesuschrist.org/study/scriptures/nt/rom/16?lang=eng&id=p20#p20" }
+    ],
+    url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/3?lang=eng&id=p15#p15"
+  },
+  {
+    id: 108,
+    date: "2026-01-21",
+    weekTitle: "Genesis 3–4; Moses 4–5",
+    reference: "Moses 5:8",
+    text: "Wherefore, thou shalt do all that thou doest in the name of the Son, and thou shalt repent and call upon God in the name of the Son forevermore.",
+    context: "Adam was taught to do everything in Christ's name—a principle that applies to all our worship, prayers, and service. Christ is the central figure in all our approach to God.",
+    historicalBackground: "This verse shows that the gospel of Jesus Christ was taught from the beginning. Adam and Eve did not worship blindly but with full knowledge of the Savior who would come.",
+    citations: [
+      { title: "2 Nephi 31:13", url: "https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/31?lang=eng&id=p13#p13" },
+      { title: "Colossians 3:17", url: "https://www.churchofjesuschrist.org/study/scriptures/nt/col/3?lang=eng&id=p17#p17" }
+    ],
+    url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/5?lang=eng&id=p8#p8"
+  },
+  {
+    id: 109,
+    date: "2026-01-22",
+    weekTitle: "Genesis 3–4; Moses 4–5",
+    reference: "2 Nephi 2:25",
+    text: "Adam fell that men might be; and men are, that they might have joy.",
+    context: "This concise statement captures the purpose of the Fall and of life itself. The Fall enabled mortality, and mortality's purpose is to experience joy.",
+    historicalBackground: "Lehi taught this to his son Jacob, providing clarity on the Fall that is not found in the Bible. This doctrine transforms our understanding of Adam and Eve's choice from tragedy to triumph.",
+    citations: [
+      { title: "Gospel Topics: Fall of Adam and Eve", url: "https://www.churchofjesuschrist.org/study/manual/gospel-topics/fall-of-adam-and-eve?lang=eng" },
+      { title: "Moses 5:10-11", url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/5?lang=eng&id=p10-p11#p10" }
+    ],
+    url: "https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/2?lang=eng&id=p25#p25"
+  },
+  {
+    id: 110,
+    date: "2026-01-23",
+    weekTitle: "Genesis 3–4; Moses 4–5",
+    reference: "Moses 5:7",
+    text: "And Adam and Eve, his wife, called upon the name of the Lord, and they heard the voice of the Lord from the way toward the Garden of Eden, speaking unto them, and they saw him not; for they were shut out from his presence.",
+    context: "Though shut out from God's physical presence, Adam and Eve could still communicate with Him. This pattern shows that separation from God is not complete—He still reaches out to us.",
+    historicalBackground: "After the Fall, humanity was separated from God's presence but not abandoned. The entire plan of salvation is designed to reunite us with our Heavenly Father.",
+    citations: [
+      { title: "Alma 42:7-14", url: "https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/42?lang=eng&id=p7-p14#p7" },
+      { title: "Ether 3:13", url: "https://www.churchofjesuschrist.org/study/scriptures/bofm/ether/3?lang=eng&id=p13#p13" }
+    ],
+    url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/5?lang=eng&id=p7#p7"
+  },
+  {
+    id: 111,
+    date: "2026-01-24",
+    weekTitle: "Genesis 3–4; Moses 4–5",
+    reference: "Genesis 4:7",
+    text: "If thou doest well, shalt thou not be accepted? and if thou doest not well, sin lieth at the door. And unto thee shall be his desire, and thou shalt rule over him.",
+    context: "God warned Cain that he had a choice—do well and be accepted, or allow sin to overcome him. This shows that temptation can be mastered through righteous choices.",
+    historicalBackground: "This verse depicts sin as an adversary waiting at the door, ready to pounce. The imagery teaches that we must actively resist temptation rather than passively accept it.",
+    citations: [
+      { title: "James 4:7", url: "https://www.churchofjesuschrist.org/study/scriptures/nt/james/4?lang=eng&id=p7#p7" },
+      { title: "1 Corinthians 10:13", url: "https://www.churchofjesuschrist.org/study/scriptures/nt/1-cor/10?lang=eng&id=p13#p13" }
+    ],
+    url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/4?lang=eng&id=p7#p7"
+  },
+  {
+    id: 112,
+    date: "2026-01-25",
+    weekTitle: "Genesis 3–4; Moses 4–5",
+    reference: "Moses 5:10",
+    text: "And in that day Adam blessed God and was filled, and began to prophesy concerning all the families of the earth, saying: Blessed be the name of God, for because of my transgression my eyes are opened.",
+    context: "Adam's blessing of God shows gratitude for understanding that came through the Fall. His eyes were opened to see the plan of salvation and prophesy of future generations.",
+    historicalBackground: "Adam received revelation and prophesied about his descendants. This shows he held priesthood authority and was the first prophet, establishing the pattern of prophetic leadership.",
+    citations: [
+      { title: "D&C 107:41-42", url: "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/107?lang=eng&id=p41-p42#p41" },
+      { title: "Abraham 1:3", url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/1?lang=eng&id=p3#p3" }
+    ],
+    url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/5?lang=eng&id=p10#p10"
+  },
+  {
+    id: 113,
+    date: "2026-01-26",
+    weekTitle: "Moses 6–7",
+    reference: "Moses 7:18",
+    text: "And the Lord called his people Zion, because they were of one heart and one mind, and dwelt in righteousness; and there was no poor among them.",
+    context: "This verse describes the city of Enoch, which achieved such unity and righteousness that it was taken up to heaven. It serves as the model for what we strive to create in our communities.",
+    historicalBackground: "Enoch lived seven generations after Adam. His city existed during a time of great wickedness, yet they created a society so righteous that God translated them. This occurred approximately 3,000 years before Christ.",
+    citations: [
+      { title: "Bible Dictionary: Enoch", url: "https://www.churchofjesuschrist.org/study/scriptures/bd/enoch?lang=eng" },
+      { title: "Gospel Topics: Zion", url: "https://www.churchofjesuschrist.org/study/manual/gospel-topics/zion?lang=eng" }
+    ],
+    url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7?lang=eng&id=p18#p18"
+  },
+  {
     id: 3,
-    date: "2026-01-19",
+    date: "2026-01-27",
     weekTitle: "Genesis 5; Moses 6–7",
     reference: "Moses 7:18",
     text: "And the Lord called his people Zion, because they were of one heart and one mind, and dwelt in righteousness; and there was no poor among them.",

@@ -95,6 +95,71 @@ export const doctrines: Doctrine[] = [
       { reference: "Moses 6:9", url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/6?lang=eng&id=p9#p9" }
     ]
   },
+  {
+    id: "doctrine-2026-01-14",
+    date: "2026-01-14",
+    weekTitle: "Genesis 1–2; Moses 2–3; Abraham 4–5",
+    doctrine: "The Sabbath is a day of rest and renewal",
+    summary: "God set apart the seventh day as holy, establishing a pattern of rest and worship.",
+    explanation: "After the Creation, God rested on the seventh day—not from fatigue, but to establish a sacred pattern. The Sabbath invites us to pause from worldly pursuits, remember our Creator, and renew our covenants.",
+    references: [
+      { reference: "Genesis 2:2-3", url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/2?lang=eng&id=p2-p3#p2" },
+      { reference: "Exodus 20:8-11", url: "https://www.churchofjesuschrist.org/study/scriptures/ot/ex/20?lang=eng&id=p8-p11#p8" },
+      { reference: "Isaiah 58:13-14", url: "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/58?lang=eng&id=p13-p14#p13" }
+    ]
+  },
+  {
+    id: "doctrine-2026-01-15",
+    date: "2026-01-15",
+    weekTitle: "Genesis 1–2; Moses 2–3; Abraham 4–5",
+    doctrine: "Marriage between man and woman is ordained of God",
+    summary: "God established marriage as the foundation of society and eternal families.",
+    explanation: "The Lord said it was not good for man to be alone and created Eve as Adam's companion. Marriage between a man and woman is central to God's plan, enabling the creation of eternal families.",
+    references: [
+      { reference: "Genesis 2:24", url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/2?lang=eng&id=p24#p24" },
+      { reference: "The Family: A Proclamation to the World", url: "https://www.churchofjesuschrist.org/study/scriptures/the-family-a-proclamation-to-the-world/the-family-a-proclamation-to-the-world?lang=eng" },
+      { reference: "D&C 49:15-17", url: "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/49?lang=eng&id=p15-p17#p15" }
+    ]
+  },
+  {
+    id: "doctrine-2026-01-16",
+    date: "2026-01-16",
+    weekTitle: "Genesis 1–2; Moses 2–3; Abraham 4–5",
+    doctrine: "Physical bodies are a blessing",
+    summary: "Receiving a physical body is essential for eternal progression and a gift from God.",
+    explanation: "Creation of our bodies was a purposeful act of love. Having a body allows us to experience mortality, learn to control physical appetites, and eventually receive a glorified, resurrected body.",
+    references: [
+      { reference: "Genesis 2:7", url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/2?lang=eng&id=p7#p7" },
+      { reference: "D&C 93:33-34", url: "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/93?lang=eng&id=p33-p34#p33" },
+      { reference: "1 Corinthians 6:19-20", url: "https://www.churchofjesuschrist.org/study/scriptures/nt/1-cor/6?lang=eng&id=p19-p20#p19" }
+    ]
+  },
+  {
+    id: "doctrine-2026-01-17",
+    date: "2026-01-17",
+    weekTitle: "Genesis 1–2; Moses 2–3; Abraham 4–5",
+    doctrine: "We are stewards over the earth",
+    summary: "God has entrusted humanity with the care and responsible use of the earth and its resources.",
+    explanation: "Adam was placed in the garden to 'dress it and to keep it.' We are not owners but stewards, accountable to God for how we use and care for His creations.",
+    references: [
+      { reference: "Genesis 2:15", url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/2?lang=eng&id=p15#p15" },
+      { reference: "D&C 104:13-15", url: "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/104?lang=eng&id=p13-p15#p13" },
+      { reference: "Moses 3:15", url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/3?lang=eng&id=p15#p15" }
+    ]
+  },
+  {
+    id: "doctrine-2026-01-18",
+    date: "2026-01-18",
+    weekTitle: "Genesis 1–2; Moses 2–3; Abraham 4–5",
+    doctrine: "God's creations testify of Him",
+    summary: "The order and beauty of creation witness of God's existence, power, and love.",
+    explanation: "Every aspect of creation—from the stars to living creatures—testifies of a divine Creator. We can come to know God through studying and appreciating His works.",
+    references: [
+      { reference: "Alma 30:44", url: "https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/30?lang=eng&id=p44#p44" },
+      { reference: "Romans 1:20", url: "https://www.churchofjesuschrist.org/study/scriptures/nt/rom/1?lang=eng&id=p20#p20" },
+      { reference: "Moses 6:63", url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/6?lang=eng&id=p63#p63" }
+    ]
+  },
   // Week 4: Genesis 3-4; Moses 4-5
   {
     id: "doctrine-2026-01-19",
@@ -120,6 +185,71 @@ export const doctrines: Doctrine[] = [
       { reference: "Moses 5:5-8", url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/5?lang=eng&id=p5-p8#p5" },
       { reference: "Alma 34:14", url: "https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/34?lang=eng&id=p14#p14" },
       { reference: "Hebrews 10:1-4", url: "https://www.churchofjesuschrist.org/study/scriptures/nt/heb/10?lang=eng&id=p1-p4#p1" }
+    ]
+  },
+  {
+    id: "doctrine-2026-01-21",
+    date: "2026-01-21",
+    weekTitle: "Genesis 3–4; Moses 4–5",
+    doctrine: "Opposition is essential for growth",
+    summary: "Without opposition, we could not exercise agency, experience joy, or progress eternally.",
+    explanation: "There must be 'an opposition in all things.' The Fall introduced this opposition, allowing us to choose between good and evil, experience sorrow and joy, and ultimately grow toward godhood.",
+    references: [
+      { reference: "2 Nephi 2:11-16", url: "https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/2?lang=eng&id=p11-p16#p11" },
+      { reference: "Moses 6:55", url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/6?lang=eng&id=p55#p55" },
+      { reference: "D&C 29:39", url: "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/29?lang=eng&id=p39#p39" }
+    ]
+  },
+  {
+    id: "doctrine-2026-01-22",
+    date: "2026-01-22",
+    weekTitle: "Genesis 3–4; Moses 4–5",
+    doctrine: "Satan seeks to deceive and destroy",
+    summary: "The adversary actively works to lead God's children away from truth and happiness.",
+    explanation: "Satan, who rebelled in the premortal life, seeks to make all people 'miserable like unto himself.' Understanding his tactics helps us resist temptation and stay on the covenant path.",
+    references: [
+      { reference: "Moses 4:3-4", url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/4?lang=eng&id=p3-p4#p3" },
+      { reference: "2 Nephi 2:27", url: "https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/2?lang=eng&id=p27#p27" },
+      { reference: "1 Peter 5:8", url: "https://www.churchofjesuschrist.org/study/scriptures/nt/1-pet/5?lang=eng&id=p8#p8" }
+    ]
+  },
+  {
+    id: "doctrine-2026-01-23",
+    date: "2026-01-23",
+    weekTitle: "Genesis 3–4; Moses 4–5",
+    doctrine: "God provides a way for all to hear the gospel",
+    summary: "The gospel has been taught from the beginning, and God ensures all His children have opportunity to receive it.",
+    explanation: "Adam and Eve were taught the plan of salvation and the gospel of Jesus Christ. God's plan includes provisions for all people, in all times, to hear and accept His gospel.",
+    references: [
+      { reference: "Moses 5:58-59", url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/5?lang=eng&id=p58-p59#p58" },
+      { reference: "D&C 138:30-35", url: "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/138?lang=eng&id=p30-p35#p30" },
+      { reference: "1 Peter 4:6", url: "https://www.churchofjesuschrist.org/study/scriptures/nt/1-pet/4?lang=eng&id=p6#p6" }
+    ]
+  },
+  {
+    id: "doctrine-2026-01-24",
+    date: "2026-01-24",
+    weekTitle: "Genesis 3–4; Moses 4–5",
+    doctrine: "We are agents unto ourselves",
+    summary: "God has given us the power to choose and act for ourselves, not to be acted upon.",
+    explanation: "Agency is one of God's greatest gifts. We can choose to follow Christ or follow Satan, but we must accept the consequences of our choices. Agency makes repentance and progression possible.",
+    references: [
+      { reference: "Moses 4:3", url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/4?lang=eng&id=p3#p3" },
+      { reference: "2 Nephi 2:26-27", url: "https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/2?lang=eng&id=p26-p27#p26" },
+      { reference: "D&C 58:27-28", url: "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/58?lang=eng&id=p27-p28#p27" }
+    ]
+  },
+  {
+    id: "doctrine-2026-01-25",
+    date: "2026-01-25",
+    weekTitle: "Genesis 3–4; Moses 4–5",
+    doctrine: "The Holy Ghost is given to the faithful",
+    summary: "Those who exercise faith and are baptized receive the gift of the Holy Ghost.",
+    explanation: "Adam was taught that after baptism, he would receive the Holy Ghost. This gift provides constant companionship, guidance, comfort, and sanctification to covenant-keepers.",
+    references: [
+      { reference: "Moses 6:52", url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/6?lang=eng&id=p52#p52" },
+      { reference: "Acts 2:38", url: "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/2?lang=eng&id=p38#p38" },
+      { reference: "2 Nephi 31:17", url: "https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/31?lang=eng&id=p17#p17" }
     ]
   },
   // Week 5: Moses 6-7
