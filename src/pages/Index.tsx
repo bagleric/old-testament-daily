@@ -4,11 +4,13 @@ import { QuizCard } from "@/components/QuizCard";
 import { WordCard } from "@/components/WordCard";
 import { DoctrineCard } from "@/components/DoctrineCard";
 import { ScriptureCard } from "@/components/ScriptureCard";
+import { PeopleCard } from "@/components/PeopleCard";
 import { DateSelector } from "@/components/DateSelector";
 import { getQuestionForDate, questions } from "@/data/questions";
 import { getWordForDate } from "@/data/words";
 import { getDoctrineForDate } from "@/data/doctrines";
 import { getScriptureForDate } from "@/data/scriptures";
+import { getPeopleForDate } from "@/data/people";
 import { BookOpen } from "lucide-react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
@@ -37,6 +39,7 @@ const Index = () => {
   const word = getWordForDate(format(selectedDate, "yyyy-MM-dd"));
   const doctrine = getDoctrineForDate(format(selectedDate, "yyyy-MM-dd"));
   const scripture = getScriptureForDate(format(selectedDate, "yyyy-MM-dd"));
+  const people = getPeopleForDate(format(selectedDate, "yyyy-MM-dd"));
 
   // Reset quiz when date changes
   useEffect(() => {
@@ -74,11 +77,12 @@ const Index = () => {
       <main className="px-4 pb-12">
         <div className="max-w-2xl mx-auto">
           <Tabs defaultValue="question" className="w-full">
-            <TabsList className="grid w-full grid-cols-4 mb-6">
+            <TabsList className="grid w-full grid-cols-5 mb-6">
               <TabsTrigger value="question">Question</TabsTrigger>
               <TabsTrigger value="word">Word</TabsTrigger>
               <TabsTrigger value="doctrine">Doctrine</TabsTrigger>
               <TabsTrigger value="scripture">Scripture</TabsTrigger>
+              <TabsTrigger value="people">People</TabsTrigger>
             </TabsList>
             
             <TabsContent value="question">
@@ -147,6 +151,24 @@ const Index = () => {
                     </h2>
                     <p className="text-muted-foreground">
                       There's no scripture of the day for this date. Try selecting a different day from the calendar.
+                    </p>
+                  </div>
+                </div>
+              )}
+            </TabsContent>
+            
+            <TabsContent value="people">
+              {people ? (
+                <PeopleCard peopleData={people} />
+              ) : (
+                <div className="text-center py-12">
+                  <div className="bg-gradient-card rounded-2xl p-8 shadow-card">
+                    <BookOpen className="w-12 h-12 mx-auto text-muted-foreground mb-4" />
+                    <h2 className="font-serif text-2xl text-foreground mb-2">
+                      No People Available
+                    </h2>
+                    <p className="text-muted-foreground">
+                      There's no people list for this date. Try selecting a different day from the calendar.
                     </p>
                   </div>
                 </div>
