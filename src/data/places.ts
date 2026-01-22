@@ -176,6 +176,165 @@ export const places: PlacesOfTheDay[] = [
       { title: "D&C 116", url: "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/116" }
     ],
     url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/3"
+  },
+  // Week: January 27 - February 2 - Enoch and Zion (Moses 6-7)
+  {
+    id: 3,
+    date: "2026-01-27",
+    weekTitle: "Enoch and Zion (Moses 6–7)",
+    places: [
+      {
+        name: "Land of Cainan",
+        modernLocation: "Unknown; in the pre-Flood world, likely in the region of Missouri according to Latter-day Saint revelation",
+        locationType: "uncertain",
+        description: "The land where Enos, son of Seth, dwelt. The name Cainan appears in the genealogies as one of the early patriarchs. This was part of the inhabited world before the Flood.",
+        scriptureReferences: ["Moses 6:17", "Genesis 5:9-14"]
+      },
+      {
+        name: "Land of Shulon",
+        modernLocation: "Unknown; pre-Flood geography",
+        locationType: "uncertain",
+        description: "Mentioned in the Book of Moses as one of the regions where Enoch traveled and preached. The people who heard Enoch came to stand on a hill called Simeon.",
+        scriptureReferences: ["Moses 6:42"]
+      },
+      {
+        name: "Hill Simeon",
+        modernLocation: "Unknown; pre-Flood location",
+        locationType: "uncertain",
+        description: "A hill where Enoch stood when he began his prophetic ministry. The people gathered from the lands of Cainan, Sharon, and Enoch to hear him speak.",
+        scriptureReferences: ["Moses 6:42"]
+      },
+      {
+        name: "Land of Sharon",
+        modernLocation: "Unknown; pre-Flood location. Post-Flood Sharon is in Israel, but this refers to an antediluvian place.",
+        locationType: "uncertain",
+        description: "One of the lands from which people came to hear Enoch preach on the hill Simeon. Not to be confused with the post-Flood Sharon in ancient Israel.",
+        scriptureReferences: ["Moses 6:42"]
+      },
+      {
+        name: "Land of Enoch",
+        modernLocation: "Unknown; pre-Flood location",
+        locationType: "uncertain",
+        description: "A land named after the patriarch Enoch, from which people came to hear Enoch the prophet preach. This was distinct from the city that Enoch later built.",
+        scriptureReferences: ["Moses 6:42"]
+      },
+      {
+        name: "City of Zion (City of Enoch)",
+        modernLocation: "Taken up to heaven; originally in the pre-Flood world, likely in the Missouri region according to LDS tradition",
+        locationType: "symbolic",
+        description: "The holy city established by the prophet Enoch. The inhabitants were 'of one heart and one mind, and dwelt in righteousness; and there was no poor among them.' After 365 years, the entire city was translated and taken up to heaven. This city will return to the earth in the last days.",
+        scriptureReferences: ["Moses 7:18-21", "Moses 7:62-69", "D&C 45:11-12"]
+      },
+      {
+        name: "Adam-ondi-Ahman",
+        modernLocation: "Daviess County, Missouri, United States",
+        locationType: "confirmed",
+        description: "The patriarchal gathering place where Adam blessed his righteous posterity three years before his death. Enoch would have known this sacred location as the place where Adam dwelt after leaving the Garden of Eden. The Lord appeared to them, and Adam prophesied concerning his posterity.",
+        scriptureReferences: ["D&C 107:53-57", "D&C 116:1"]
+      },
+      {
+        name: "Waters of Judea",
+        modernLocation: "Unknown; pre-Flood location",
+        locationType: "uncertain",
+        description: "A body of water mentioned in Enoch's vision. Enoch saw that the wicked would be destroyed by the Flood, with waters covering the earth.",
+        scriptureReferences: ["Moses 6:42"]
+      },
+      {
+        name: "Land of Mahujah",
+        modernLocation: "Unknown; pre-Flood location",
+        locationType: "uncertain",
+        description: "A land mentioned in connection with Enoch's ministry. Mahujah was also the name of a man who questioned Enoch about his prophetic calling.",
+        scriptureReferences: ["Moses 6:40"]
+      },
+      {
+        name: "Land of Canaan (Antediluvian)",
+        modernLocation: "Unknown; pre-Flood location (not the same as post-Flood Canaan in the Middle East)",
+        locationType: "uncertain",
+        description: "Mentioned in the Book of Moses as one of the lands in the antediluvian world. A land of promise that the Lord cursed with much heat because of the wickedness of the people.",
+        scriptureReferences: ["Moses 7:6-8"]
+      }
+    ],
+    citations: [
+      { title: "Moses 6 - Enoch's Ministry", url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/6" },
+      { title: "Moses 7 - Zion Translated", url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7" },
+      { title: "Old Testament Student Manual: Enoch and His City", url: "https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-5-6-the-patriarchs-adam-to-noah" },
+      { title: "Gospel Topics: Zion", url: "https://www.churchofjesuschrist.org/study/manual/gospel-topics/zion" },
+      { title: "D&C 107 - Adam-ondi-Ahman", url: "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/107" }
+    ],
+    url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/6"
+  },
+  // Week: February 3-9 - The Patriarchs and Noah's Calling (Genesis 5; Moses 8)
+  {
+    id: 4,
+    date: "2026-02-03",
+    weekTitle: "The Patriarchs and Noah's Calling (Genesis 5; Moses 8)",
+    places: [
+      {
+        name: "Adam-ondi-Ahman",
+        modernLocation: "Daviess County, Missouri, United States",
+        locationType: "confirmed",
+        description: "The valley where Adam gathered his righteous posterity three years before his death to bestow blessings upon them. All the patriarchs from Seth to Methuselah were present. The Lord appeared to them. This location is prophesied to be the site of a future gathering in the last days.",
+        scriptureReferences: ["D&C 107:53-57", "D&C 116:1", "D&C 27:11"]
+      },
+      {
+        name: "City of Zion (City of Enoch)",
+        modernLocation: "Taken up to heaven",
+        locationType: "symbolic",
+        description: "By the time of Noah, the City of Zion had been translated (365 years after Enoch began his ministry). Those who remained on earth who were righteous were caught up to Zion, while the wicked remained to face the coming Flood.",
+        scriptureReferences: ["Moses 7:21", "Moses 7:27", "Moses 7:69"]
+      },
+      {
+        name: "Land of the Pre-Flood Patriarchs",
+        modernLocation: "According to LDS tradition, the region surrounding Jackson County and Daviess County, Missouri",
+        locationType: "confirmed",
+        description: "The general region where the patriarchs from Adam to Noah lived. The Book of Moses provides a priesthood lineage from Adam through Noah, all dwelling in this general area before the Flood scattered humanity.",
+        scriptureReferences: ["Moses 8:1-12", "D&C 84:6-17"]
+      },
+      {
+        name: "Where Noah Preached",
+        modernLocation: "Unknown; in the pre-Flood world",
+        locationType: "uncertain",
+        description: "Noah preached repentance to the people for 120 years before the Flood. He declared that unless they repented, the floods would come upon them. The people rejected his message, and all except his family perished.",
+        scriptureReferences: ["Moses 8:17-24", "Genesis 6:3", "2 Peter 2:5"]
+      },
+      {
+        name: "Mount Ararat Region (Pre-Flood)",
+        modernLocation: "Unknown original location; post-Flood Mount Ararat is in eastern Turkey",
+        locationType: "uncertain",
+        description: "While the Ark came to rest on the mountains of Ararat after the Flood, the pre-Flood geography may have been entirely different. The Flood reshaped the entire earth's surface.",
+        scriptureReferences: ["Genesis 8:4"]
+      },
+      {
+        name: "Land of Righteousness (Methuselah's Domain)",
+        modernLocation: "Unknown; pre-Flood location, likely near Adam-ondi-Ahman",
+        locationType: "uncertain",
+        description: "The region where Methuselah, the longest-living man in scripture (969 years), dwelt. He was the grandfather of Noah and held the priesthood. Tradition holds that the Flood came in the year of his death.",
+        scriptureReferences: ["Genesis 5:25-27", "Moses 8:1-7"]
+      },
+      {
+        name: "Lands of the Wicked",
+        modernLocation: "Unknown; pre-Flood geography",
+        locationType: "uncertain",
+        description: "The regions where wickedness abounded in the days before the Flood. The scripture records that 'the wickedness of men had become great in the earth; and every man was lifted up in the imagination of the thoughts of his heart, being only evil continually.'",
+        scriptureReferences: ["Moses 8:22", "Genesis 6:5", "Moses 8:28-30"]
+      },
+      {
+        name: "Where the Ark Was Built",
+        modernLocation: "Unknown; pre-Flood location",
+        locationType: "uncertain",
+        description: "The location where Noah, following God's commandment, built the ark over many years. The ark was 300 cubits long, 50 cubits wide, and 30 cubits high—a massive vessel capable of preserving life through the Flood.",
+        scriptureReferences: ["Genesis 6:14-22", "Moses 8:12"]
+      }
+    ],
+    citations: [
+      { title: "Moses 8 - Noah and the Flood", url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/8" },
+      { title: "Genesis 5 - The Patriarchs", url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/5" },
+      { title: "Old Testament Student Manual: The Patriarchs", url: "https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-5-6-the-patriarchs-adam-to-noah" },
+      { title: "D&C 107:53-57 - Adam-ondi-Ahman Meeting", url: "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/107" },
+      { title: "Bible Dictionary: Noah", url: "https://www.churchofjesuschrist.org/study/scriptures/bd/noah" },
+      { title: "2 Peter 2:5 - Noah, Preacher of Righteousness", url: "https://www.churchofjesuschrist.org/study/scriptures/nt/2-pet/2" }
+    ],
+    url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/8"
   }
 ];
 
