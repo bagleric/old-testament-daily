@@ -8,7 +8,7 @@ interface QuizCardProps {
   onAnswerSelected?: (correct: boolean) => void;
 }
 
-export function QuizCard({ question, onAnswerSelected }: QuizCardProps) {
+export const QuizCard = ({ question, onAnswerSelected }: QuizCardProps) => {
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
   const [showResult, setShowResult] = useState(false);
 
@@ -23,9 +23,9 @@ export function QuizCard({ question, onAnswerSelected }: QuizCardProps) {
   const isCorrect = selectedAnswer === question.correctAnswer;
 
   return (
-    <div className="w-full max-w-2xl mx-auto animate-fade-in">
+    <div className="w-full animate-fade-in">
       {/* Header */}
-      <div className="text-center mb-8">
+      <div className="text-center mb-6">
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-secondary/50 text-sm text-muted-foreground mb-4">
           <BookOpen className="w-4 h-4" />
           <span>{question.weekTitle}</span>
@@ -35,14 +35,14 @@ export function QuizCard({ question, onAnswerSelected }: QuizCardProps) {
         </p>
       </div>
 
-      {/* Question Card */}
+      {/* Question */}
       <div className={cn(
-        "rounded-2xl p-8 shadow-card transition-all duration-500",
-        showResult && isCorrect && "bg-gradient-correct",
-        showResult && !isCorrect && "bg-gradient-incorrect",
-        !showResult && "bg-gradient-card"
+        "rounded-xl p-6 transition-all duration-500",
+        showResult && isCorrect && "bg-success/10",
+        showResult && !isCorrect && "bg-destructive/10",
+        !showResult && "bg-muted/50"
       )}>
-        <h2 className="font-serif text-2xl md:text-3xl text-foreground leading-relaxed mb-8">
+        <h2 className="font-serif text-xl md:text-2xl text-foreground leading-relaxed mb-6">
           {question.question}
         </h2>
 
@@ -108,19 +108,19 @@ export function QuizCard({ question, onAnswerSelected }: QuizCardProps) {
             </p>
           </div>
         )}
-
-        {/* Lesson Link */}
-        <a
-          href={question.lessonUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="mt-6 inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-primary/10 text-primary hover:bg-primary/20 transition-colors text-sm font-medium"
-        >
-          <BookOpen className="w-4 h-4" />
-          <span>Read This Week's Lesson</span>
-          <ExternalLink className="w-3 h-3" />
-        </a>
       </div>
+
+      {/* Lesson Link */}
+      <a
+        href={question.lessonUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="mt-6 inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-primary/10 text-primary hover:bg-primary/20 transition-colors text-sm font-medium"
+      >
+        <BookOpen className="w-4 h-4" />
+        <span>Read This Week's Lesson</span>
+        <ExternalLink className="w-3 h-3" />
+      </a>
     </div>
   );
-}
+};
