@@ -1,53 +1,65 @@
 import { useState, useEffect } from "react";
-import { format, parseISO } from "date-fns";
+import { BookOpen } from "lucide-react";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { QuizCard } from "@/components/QuizCard";
 import { WordCard } from "@/components/WordCard";
 import { DoctrineCard } from "@/components/DoctrineCard";
 import { ScriptureCard } from "@/components/ScriptureCard";
-import { PeopleCard } from "@/components/PeopleCard";
-import { PlacesCard } from "@/components/PlacesCard";
-import { DateSelector } from "@/components/DateSelector";
-import { getQuestionForDate, questions } from "@/data/questions";
+import { WeekSelector } from "@/components/WeekSelector";
+import { DaySelector } from "@/components/DaySelector";
+import { WeeklyHeader } from "@/components/WeeklyHeader";
+import { Week, findInitialWeek, getDatesInWeek } from "@/data/weeks";
+import { getQuestionForDate } from "@/data/questions";
 import { getWordForDate } from "@/data/words";
 import { getDoctrineForDate } from "@/data/doctrines";
 import { getScriptureForDate } from "@/data/scriptures";
 import { getPeopleForDate } from "@/data/people";
 import { getPlacesForDate } from "@/data/places";
-import { BookOpen } from "lucide-react";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 const Index = () => {
-  // Find today's date or the closest available date
-  const findInitialDate = () => {
-    const today = new Date();
-    const todayString = format(today, "yyyy-MM-dd");
-    
-    // Check if today has a question
-    const todayQuestion = getQuestionForDate(todayString);
-    if (todayQuestion) return today;
-    
-    // Otherwise, use the first available question date
-    if (questions.length > 0) {
-      return parseISO(questions[0].date);
+  const [selectedWeek, setSelectedWeek] = useState<Week>(findInitialWeek);
+  const [datesInWeek, setDatesInWeek] = useState<string[]>([]);
+  const [selectedDate, setSelectedDate] = useState<string>("");
+  const [quizKey, setQuizKey] = useState(0);
+
+  // Update dates when week changes
+  useEffect(() => {
+    const dates = getDatesInWeek(selectedWeek);
+    setDatesInWeek(dates);
+    // Set to first date of the week
+    if (dates.length > 0) {
+      setSelectedDate(dates[0]);
     }
-    
-    return today;
-  };
-
-  const [selectedDate, setSelectedDate] = useState<Date>(findInitialDate);
-  const [key, setKey] = useState(0);
-
-  const question = getQuestionForDate(format(selectedDate, "yyyy-MM-dd"));
-  const word = getWordForDate(format(selectedDate, "yyyy-MM-dd"));
-  const doctrine = getDoctrineForDate(format(selectedDate, "yyyy-MM-dd"));
-  const scripture = getScriptureForDate(format(selectedDate, "yyyy-MM-dd"));
-  const people = getPeopleForDate(format(selectedDate, "yyyy-MM-dd"));
-  const places = getPlacesForDate(format(selectedDate, "yyyy-MM-dd"));
+  }, [selectedWeek]);
 
   // Reset quiz when date changes
   useEffect(() => {
-    setKey(prev => prev + 1);
+    setQuizKey(prev => prev + 1);
   }, [selectedDate]);
+
+  // Get data for selected date
+  const question = getQuestionForDate(selectedDate);
+  const word = getWordForDate(selectedDate);
+  const doctrine = getDoctrineForDate(selectedDate);
+  const scripture = getScriptureForDate(selectedDate);
+  
+  // Get weekly data (same for all days in the week)
+  const people = getPeopleForDate(selectedDate);
+  const places = getPlacesForDate(selectedDate);
+
+  const EmptyState = ({ title }: { title: string }) => (
+    <div className="text-center py-8">
+      <div className="bg-muted/50 rounded-xl p-6">
+        <BookOpen className="w-10 h-10 mx-auto text-muted-foreground mb-3" />
+        <h3 className="font-serif text-lg text-foreground mb-1">
+          No {title} Available
+        </h3>
+        <p className="text-sm text-muted-foreground">
+          Try selecting a different day.
+        </p>
+      </div>
+    </div>
+  );
 
   return (
     <div className="min-h-screen bg-gradient-hero">
@@ -63,140 +75,81 @@ const Index = () => {
             </h1>
           </div>
           <p className="text-muted-foreground font-sans">
-            Old Testament Daily Quiz • 2026
+            Old Testament Daily Study • 2026
           </p>
         </div>
       </header>
 
-      {/* Date Selector */}
-      <div className="py-6 px-4">
-        <DateSelector 
-          selectedDate={selectedDate} 
-          onDateChange={setSelectedDate} 
+      {/* Week Selector */}
+      <div className="py-4 px-4">
+        <WeekSelector 
+          selectedWeek={selectedWeek} 
+          onWeekChange={setSelectedWeek} 
         />
       </div>
 
-      {/* Main Content with Tabs */}
+      {/* Main Content */}
       <main className="px-4 pb-12">
-        <div className="max-w-2xl mx-auto">
-          <Tabs defaultValue="question" className="w-full">
-            <TabsList className="grid w-full grid-cols-6 mb-6">
-              <TabsTrigger value="question">Question</TabsTrigger>
-              <TabsTrigger value="word">Word</TabsTrigger>
-              <TabsTrigger value="doctrine">Doctrine</TabsTrigger>
-              <TabsTrigger value="scripture">Scripture</TabsTrigger>
-              <TabsTrigger value="people">People</TabsTrigger>
-              <TabsTrigger value="places">Places</TabsTrigger>
-            </TabsList>
-            
-            <TabsContent value="question">
-              {question ? (
-                <QuizCard key={key} question={question} />
-              ) : (
-                <div className="text-center py-12">
-                  <div className="bg-gradient-card rounded-2xl p-8 shadow-card">
-                    <BookOpen className="w-12 h-12 mx-auto text-muted-foreground mb-4" />
-                    <h2 className="font-serif text-2xl text-foreground mb-2">
-                      No Question Available
-                    </h2>
-                    <p className="text-muted-foreground">
-                      There's no quiz question for this date. Try selecting a different day from the calendar.
-                    </p>
-                  </div>
-                </div>
-              )}
-            </TabsContent>
-            
-            <TabsContent value="word">
-              {word ? (
-                <WordCard word={word} />
-              ) : (
-                <div className="text-center py-12">
-                  <div className="bg-gradient-card rounded-2xl p-8 shadow-card">
-                    <BookOpen className="w-12 h-12 mx-auto text-muted-foreground mb-4" />
-                    <h2 className="font-serif text-2xl text-foreground mb-2">
-                      No Word Available
-                    </h2>
-                    <p className="text-muted-foreground">
-                      There's no word of the day for this date. Try selecting a different day from the calendar.
-                    </p>
-                  </div>
-                </div>
-              )}
-            </TabsContent>
-            
-            <TabsContent value="doctrine">
-              {doctrine ? (
-                <DoctrineCard doctrine={doctrine} />
-              ) : (
-                <div className="text-center py-12">
-                  <div className="bg-gradient-card rounded-2xl p-8 shadow-card">
-                    <BookOpen className="w-12 h-12 mx-auto text-muted-foreground mb-4" />
-                    <h2 className="font-serif text-2xl text-foreground mb-2">
-                      No Doctrine Available
-                    </h2>
-                    <p className="text-muted-foreground">
-                      There's no doctrine of the day for this date. Try selecting a different day from the calendar.
-                    </p>
-                  </div>
-                </div>
-              )}
-            </TabsContent>
-            
-            <TabsContent value="scripture">
-              {scripture ? (
-                <ScriptureCard scripture={scripture} />
-              ) : (
-                <div className="text-center py-12">
-                  <div className="bg-gradient-card rounded-2xl p-8 shadow-card">
-                    <BookOpen className="w-12 h-12 mx-auto text-muted-foreground mb-4" />
-                    <h2 className="font-serif text-2xl text-foreground mb-2">
-                      No Scripture Available
-                    </h2>
-                    <p className="text-muted-foreground">
-                      There's no scripture of the day for this date. Try selecting a different day from the calendar.
-                    </p>
-                  </div>
-                </div>
-              )}
-            </TabsContent>
-            
-            <TabsContent value="people">
-              {people ? (
-                <PeopleCard peopleData={people} />
-              ) : (
-                <div className="text-center py-12">
-                  <div className="bg-gradient-card rounded-2xl p-8 shadow-card">
-                    <BookOpen className="w-12 h-12 mx-auto text-muted-foreground mb-4" />
-                    <h2 className="font-serif text-2xl text-foreground mb-2">
-                      No People Available
-                    </h2>
-                    <p className="text-muted-foreground">
-                      There's no people list for this date. Try selecting a different day from the calendar.
-                    </p>
-                  </div>
-                </div>
-              )}
-            </TabsContent>
-            
-            <TabsContent value="places">
-              {places ? (
-                <PlacesCard placesData={places} />
-              ) : (
-                <div className="text-center py-12">
-                  <div className="bg-gradient-card rounded-2xl p-8 shadow-card">
-                    <BookOpen className="w-12 h-12 mx-auto text-muted-foreground mb-4" />
-                    <h2 className="font-serif text-2xl text-foreground mb-2">
-                      No Places Available
-                    </h2>
-                    <p className="text-muted-foreground">
-                      There's no places list for this date. Try selecting a different day from the calendar.
-                    </p>
-                  </div>
-                </div>
-              )}
-            </TabsContent>
-          </Tabs>
+        <div className="max-w-2xl mx-auto space-y-6">
+          {/* Weekly Header with topic, scriptures, people, places */}
+          <WeeklyHeader 
+            week={selectedWeek} 
+            people={people} 
+            places={places} 
+          />
+
+          {/* Day Selector */}
+          <div className="py-4">
+            <DaySelector
+              dates={datesInWeek}
+              selectedDate={selectedDate}
+              onDateChange={setSelectedDate}
+            />
+          </div>
+
+          {/* Daily Content Tabs */}
+          <div className="bg-gradient-card rounded-2xl p-4 md:p-6 shadow-card">
+            <Tabs defaultValue="scripture" className="w-full">
+              <TabsList className="grid w-full grid-cols-4 mb-4">
+                <TabsTrigger value="scripture">Scripture</TabsTrigger>
+                <TabsTrigger value="question">Question</TabsTrigger>
+                <TabsTrigger value="doctrine">Doctrine</TabsTrigger>
+                <TabsTrigger value="word">Word</TabsTrigger>
+              </TabsList>
+              
+              <TabsContent value="scripture" className="mt-0">
+                {scripture ? (
+                  <ScriptureCard scripture={scripture} />
+                ) : (
+                  <EmptyState title="Scripture" />
+                )}
+              </TabsContent>
+              
+              <TabsContent value="question" className="mt-0">
+                {question ? (
+                  <QuizCard key={quizKey} question={question} />
+                ) : (
+                  <EmptyState title="Question" />
+                )}
+              </TabsContent>
+              
+              <TabsContent value="doctrine" className="mt-0">
+                {doctrine ? (
+                  <DoctrineCard doctrine={doctrine} />
+                ) : (
+                  <EmptyState title="Doctrine" />
+                )}
+              </TabsContent>
+              
+              <TabsContent value="word" className="mt-0">
+                {word ? (
+                  <WordCard word={word} />
+                ) : (
+                  <EmptyState title="Word" />
+                )}
+              </TabsContent>
+            </Tabs>
+          </div>
         </div>
       </main>
 

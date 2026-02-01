@@ -7,7 +7,7 @@ interface ScriptureCardProps {
 
 export const ScriptureCard = ({ scripture }: ScriptureCardProps) => {
   return (
-    <div className="bg-gradient-card rounded-2xl p-6 md:p-8 shadow-card">
+    <div>
       {/* Week Title */}
       <div className="text-sm text-primary font-medium mb-2">
         {scripture.weekTitle}
