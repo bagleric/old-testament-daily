@@ -271,16 +271,17 @@ export const scriptures: Scripture[] = [
   {
     id: 5,
     date: "2026-02-02",
-    weekTitle: "Genesis 8–10",
-    reference: "Genesis 9:13",
-    text: "I do set my bow in the cloud, and it shall be for a token of a covenant between me and the earth.",
-    context: "The rainbow became a symbol of God's covenant never to destroy the earth by flood again. It represents God's mercy and His faithfulness to His promises.",
-    historicalBackground: "This covenant with Noah is considered the first covenant made with all humanity. Ancient peoples saw the rainbow as a warrior's bow laid aside, symbolizing peace between heaven and earth.",
+    weekTitle: "Genesis 5; Moses 8",
+    reference: "Genesis 5:24",
+    text: "And Enoch walked with God: and he was not; for God took him.",
+    context: "This brief but profound verse reveals that Enoch's relationship with God was so close that he was translated—taken to heaven without experiencing death. 'Walking with God' implies constant companionship, obedience, and harmony with divine will.",
+    historicalBackground: "Enoch lived 365 years before being translated. His city of Zion was also taken up to heaven. This verse has captivated readers for millennia because of its mysterious and hopeful implication about what is possible through perfect faithfulness.",
     citations: [
-      { title: "Bible Dictionary: Rainbow", url: "https://www.churchofjesuschrist.org/study/scriptures/bd/rainbow?lang=eng" },
-      { title: "JST, Genesis 9:21–25", url: "https://www.churchofjesuschrist.org/study/scriptures/jst/jst-gen/9?lang=eng" }
+      { title: "Bible Dictionary: Enoch", url: "https://www.churchofjesuschrist.org/study/scriptures/bd/enoch?lang=eng" },
+      { title: "Hebrews 11:5", url: "https://www.churchofjesuschrist.org/study/scriptures/nt/heb/11?lang=eng&id=p5#p5" },
+      { title: "Moses 7:69", url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7?lang=eng&id=p69#p69" }
     ],
-    url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/9?lang=eng&id=p13#p13"
+    url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/5?lang=eng&id=p24#p24"
   },
   {
     id: 6,
