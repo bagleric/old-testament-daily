@@ -10,6 +10,11 @@ interface DaySelectorProps {
 }
 
 export function DaySelector({ dates, selectedDate, onDateChange }: DaySelectorProps) {
+  // Guard against empty dates or selectedDate
+  if (!dates.length || !selectedDate) {
+    return null;
+  }
+
   const currentIndex = dates.indexOf(selectedDate);
   const canGoPrev = currentIndex > 0;
   const canGoNext = currentIndex < dates.length - 1;
@@ -21,6 +26,8 @@ export function DaySelector({ dates, selectedDate, onDateChange }: DaySelectorPr
       onDateChange(dates[currentIndex + 1]);
     }
   };
+
+  const selectedDateObj = parseISO(selectedDate);
 
   return (
     <div className="flex flex-col items-center gap-3">
@@ -62,7 +69,7 @@ export function DaySelector({ dates, selectedDate, onDateChange }: DaySelectorPr
           <ChevronLeft className="w-5 h-5" />
         </Button>
         <span className="text-sm font-medium text-muted-foreground">
-          {format(parseISO(selectedDate), "EEEE, MMMM d")}
+          {format(selectedDateObj, "EEEE, MMMM d")}
         </span>
         <Button
           variant="ghost"
