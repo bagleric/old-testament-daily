@@ -53,7 +53,7 @@ export function WeeklyHeader({ week, people, places }: WeeklyHeaderProps) {
       </div>
 
       {/* People and Places Expandable Cards */}
-      <div className="grid md:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 gap-4">
         {/* People Card */}
         <Collapsible open={peopleOpen} onOpenChange={setPeopleOpen}>
           <CollapsibleTrigger asChild>
