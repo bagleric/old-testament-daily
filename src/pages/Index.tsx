@@ -26,8 +26,12 @@ const Index = () => {
   useEffect(() => {
     const dates = getDatesInWeek(selectedWeek);
     setDatesInWeek(dates);
-    // Set to first date of the week
-    if (dates.length > 0) {
+    
+    // Check if today is in this week, otherwise default to first date
+    const today = new Date().toISOString().split('T')[0];
+    if (dates.includes(today)) {
+      setSelectedDate(today);
+    } else if (dates.length > 0) {
       setSelectedDate(dates[0]);
     }
   }, [selectedWeek]);
