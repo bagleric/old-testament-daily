@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { format } from "date-fns";
 import { BookOpen } from "lucide-react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { QuizCard } from "@/components/QuizCard";
@@ -28,7 +29,7 @@ const Index = () => {
     setDatesInWeek(dates);
     
     // Check if today is in this week, otherwise default to first date
-    const today = new Date().toISOString().split('T')[0];
+    const today = format(new Date(), "yyyy-MM-dd");
     if (dates.includes(today)) {
       setSelectedDate(today);
     } else if (dates.length > 0) {
