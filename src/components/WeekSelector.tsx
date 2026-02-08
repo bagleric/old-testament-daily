@@ -4,8 +4,8 @@ import { Calendar } from "@/components/ui/calendar";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 import { Button } from "@/components/ui/button";
 import { CalendarDays, ChevronLeft, ChevronRight } from "lucide-react";
-import { Week, getAvailableWeeks, getWeekForDate } from "@/data/weeks";
-import { cn } from "@/lib/utils";
+import { cn, getWeek, getWeeks } from "@/lib/utils";
+import { Week } from "@/lib/types";
 
 interface WeekSelectorProps {
   selectedWeek: Week;
@@ -14,7 +14,7 @@ interface WeekSelectorProps {
 
 export function WeekSelector({ selectedWeek, onWeekChange }: WeekSelectorProps) {
   const [open, setOpen] = useState(false);
-  const availableWeeks = getAvailableWeeks();
+  const availableWeeks = getWeeks();
 
   const currentIndex = availableWeeks.findIndex(w => w.id === selectedWeek.id);
   const canGoPrev = currentIndex > 0;
@@ -38,8 +38,7 @@ export function WeekSelector({ selectedWeek, onWeekChange }: WeekSelectorProps) 
   const handleCalendarSelect = (date: Date | undefined) => {
     if (!date) return;
     
-    const dateString = format(date, "yyyy-MM-dd");
-    const week = getWeekForDate(dateString);
+    const week = getWeek(date);
     if (week) {
       onWeekChange(week);
       setOpen(false);
@@ -48,8 +47,7 @@ export function WeekSelector({ selectedWeek, onWeekChange }: WeekSelectorProps) 
 
   // Check if a date falls within any available week
   const isDateInAnyWeek = (date: Date) => {
-    const dateString = format(date, "yyyy-MM-dd");
-    return !!getWeekForDate(dateString);
+    return !!getWeek(date);
   };
 
   const formatWeekRange = (week: Week) => {

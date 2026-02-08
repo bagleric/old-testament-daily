@@ -9,16 +9,11 @@ import { ScriptureCard } from "@/components/ScriptureCard";
 import { WeekSelector } from "@/components/WeekSelector";
 import { DaySelector } from "@/components/DaySelector";
 import { WeeklyHeader } from "@/components/WeeklyHeader";
-import { Week, findInitialWeek, getDatesInWeek } from "@/data/weeks";
-import { getQuestionForDate } from "@/data/questions";
-import { getWordForDate } from "@/data/words";
-import { getDoctrineForDate } from "@/data/doctrines";
-import { getScriptureForDate } from "@/data/scriptures";
-import { getPeopleForDate } from "@/data/people";
-import { getPlacesForDate } from "@/data/places";
+import { getDatesInWeek, getDay, getInitialWeek, getWeek } from "@/lib/utils";
+import { Week } from "@/lib/types";
 
 const Index = () => {
-  const [selectedWeek, setSelectedWeek] = useState<Week>(findInitialWeek);
+  const [selectedWeek, setSelectedWeek] = useState<Week>(getWeek(new Date()) || getInitialWeek());
   const [datesInWeek, setDatesInWeek] = useState<string[]>([]);
   const [selectedDate, setSelectedDate] = useState<string>("");
   const [quizKey, setQuizKey] = useState(0);
@@ -42,15 +37,16 @@ const Index = () => {
     setQuizKey(prev => prev + 1);
   }, [selectedDate]);
 
-  // Get data for selected date
-  const question = getQuestionForDate(selectedDate);
-  const word = getWordForDate(selectedDate);
-  const doctrine = getDoctrineForDate(selectedDate);
-  const scripture = getScriptureForDate(selectedDate);
+  // Get nested day data for selected date (preferred)
+  const day = getDay(new Date(selectedDate));
+  const question = day?.questions?.[0];
+  const doctrine = day?.doctrine || null;
+  const scripture = day?.scripturePassage || null;
+  const word = day?.word;
   
-  // Get weekly data (same for all days in the week)
-  const people = getPeopleForDate(selectedDate);
-  const places = getPlacesForDate(selectedDate);
+  // Weekly people/places are now nested on the `selectedWeek` object
+  const people = selectedWeek.people || [];
+  const places = selectedWeek.places || [];
 
   const EmptyState = ({ title }: { title: string }) => (
     <div className="text-center py-8">

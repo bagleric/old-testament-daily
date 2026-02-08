@@ -1,4 +1,4 @@
-import { Doctrine } from "@/data/doctrines";
+import type { Doctrine } from "@/lib/types";
 import { BookHeart, ExternalLink } from "lucide-react";
 
 interface DoctrineCardProps {
@@ -8,13 +8,6 @@ interface DoctrineCardProps {
 export const DoctrineCard = ({ doctrine }: DoctrineCardProps) => {
   return (
     <div>
-      {/* Week Title */}
-      <div className="text-center mb-6">
-        <span className="inline-block px-3 py-1 bg-primary/10 text-primary text-sm font-medium rounded-full">
-          {doctrine.weekTitle}
-        </span>
-      </div>
-
       {/* Doctrine Title */}
       <div className="text-center mb-6">
         <div className="inline-flex items-center gap-2 mb-2">
@@ -59,7 +52,7 @@ export const DoctrineCard = ({ doctrine }: DoctrineCardProps) => {
               className="flex items-center justify-between p-3 bg-background/50 hover:bg-primary/5 rounded-lg transition-colors group"
             >
               <span className="text-foreground group-hover:text-primary transition-colors">
-                {ref.reference}
+                {ref.display}
               </span>
               <ExternalLink className="w-4 h-4 text-muted-foreground group-hover:text-primary transition-colors" />
             </a>

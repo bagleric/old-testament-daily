@@ -1,16 +1,14 @@
 import { useState } from "react";
 import { ExternalLink, BookOpen, Users, MapPin, ChevronDown, ChevronUp } from "lucide-react";
-import { Week } from "@/data/weeks";
-import { PeopleOfTheDay } from "@/data/people";
-import { PlacesOfTheDay } from "@/data/places";
+import type { Person, Week,Place  } from "@/lib/types";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
 
 interface WeeklyHeaderProps {
   week: Week;
-  people: PeopleOfTheDay | null;
-  places: PlacesOfTheDay | null;
+  people: Person[] | null;
+  places: Place[] | null;
 }
 
 export function WeeklyHeader({ week, people, places }: WeeklyHeaderProps) {
@@ -66,7 +64,7 @@ export function WeeklyHeader({ week, people, places }: WeeklyHeaderProps) {
                 <span className="font-medium">People of the Week</span>
                 {people && (
                   <Badge variant="secondary" className="text-xs">
-                    {people.people.length}
+                    {people.length}
                   </Badge>
                 )}
               </div>
@@ -80,7 +78,7 @@ export function WeeklyHeader({ week, people, places }: WeeklyHeaderProps) {
           <CollapsibleContent className="mt-3">
             {people ? (
               <div className="space-y-4 p-4 bg-muted/50 rounded-lg">
-                {people.people.map((person, index) => (
+                {people.map((person, index) => (
                   <div key={index} className="border-l-2 border-primary/30 pl-3">
                     <div className="flex items-center gap-2 mb-1">
                       <h4 className="font-serif text-sm text-foreground">{person.name}</h4>
@@ -97,14 +95,14 @@ export function WeeklyHeader({ week, people, places }: WeeklyHeaderProps) {
                           key={refIndex}
                           className="text-xs bg-background px-1.5 py-0.5 rounded text-muted-foreground"
                         >
-                          {ref}
+                          {ref.reference}
                         </span>
                       ))}
                     </div>
                   </div>
                 ))}
                 <a
-                  href={people.url}
+                  href={week.lessonUrl}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1 text-xs text-primary hover:underline"
@@ -133,7 +131,7 @@ export function WeeklyHeader({ week, people, places }: WeeklyHeaderProps) {
                 <span className="font-medium">Places of the Week</span>
                 {places && (
                   <Badge variant="secondary" className="text-xs">
-                    {places.places.length}
+                    {places.length}
                   </Badge>
                 )}
               </div>
@@ -147,7 +145,7 @@ export function WeeklyHeader({ week, people, places }: WeeklyHeaderProps) {
           <CollapsibleContent className="mt-3">
             {places ? (
               <div className="space-y-4 p-4 bg-muted/50 rounded-lg">
-                {places.places.map((place, index) => (
+                {places.map((place, index) => (
                   <div key={index} className="border-l-2 border-primary/30 pl-3">
                     <div className="flex items-center gap-2 mb-1">
                       <h4 className="font-serif text-sm text-foreground">{place.name}</h4>
@@ -172,7 +170,7 @@ export function WeeklyHeader({ week, people, places }: WeeklyHeaderProps) {
                   </div>
                 ))}
                 <a
-                  href={places.url}
+                  href={week.lessonUrl}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1 text-xs text-primary hover:underline"

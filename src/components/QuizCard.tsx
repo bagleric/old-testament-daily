@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Question } from "@/data/questions";
+import type { Question } from "@/lib/types";
 import { cn } from "@/lib/utils";
 import { Check, X, BookOpen, ExternalLink } from "lucide-react";
 
@@ -26,12 +26,17 @@ export const QuizCard = ({ question, onAnswerSelected }: QuizCardProps) => {
     <div className="w-full animate-fade-in">
       {/* Header */}
       <div className="text-center mb-6">
-        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-secondary/50 text-sm text-muted-foreground mb-4">
-          <BookOpen className="w-4 h-4" />
-          <span>{question.weekTitle}</span>
-        </div>
         <p className="scripture-reference text-lg">
-          {question.scriptureReference}
+          <a
+        href={question.scriptureReference.url}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="mt-6 inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-primary/10 text-primary hover:bg-primary/20 transition-colors text-sm font-medium"
+        >
+        <BookOpen className="w-4 h-4" />
+        {question.scriptureReference.reference}
+        <ExternalLink className="w-3 h-3" />
+      </a>
         </p>
       </div>
 

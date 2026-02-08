@@ -1,21 +1,16 @@
 import { ExternalLink, BookOpen, History, BookMarked } from "lucide-react";
-import { Scripture } from "@/data/scriptures";
+import type { ScripturePassage } from "@/lib/types";
 
 interface ScriptureCardProps {
-  scripture: Scripture;
+  scripture: ScripturePassage;
 }
 
 export const ScriptureCard = ({ scripture }: ScriptureCardProps) => {
   return (
     <div>
-      {/* Week Title */}
-      <div className="text-sm text-primary font-medium mb-2">
-        {scripture.weekTitle}
-      </div>
-
       {/* Scripture Reference */}
       <h2 className="font-serif text-2xl md:text-3xl text-foreground mb-4">
-        {scripture.reference}
+        {scripture.reference.reference}
       </h2>
 
       {/* Scripture Text */}
@@ -63,7 +58,7 @@ export const ScriptureCard = ({ scripture }: ScriptureCardProps) => {
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-primary hover:text-primary/80 transition-colors text-sm"
                 >
-                  <span>{citation.title}</span>
+                  <span>{citation.display}</span>
                   <ExternalLink className="w-3 h-3" />
                 </a>
               </li>
@@ -74,7 +69,7 @@ export const ScriptureCard = ({ scripture }: ScriptureCardProps) => {
 
       {/* Scripture Link */}
       <a
-        href={scripture.url}
+        href={scripture.reference.url}
         target="_blank"
         rel="noopener noreferrer"
         className="inline-flex items-center gap-2 text-primary hover:text-primary/80 transition-colors font-medium"
