@@ -5,9928 +5,1227 @@ import { Week } from "@/lib/types";
 
 export const weeksNested: Week[] = [
   {
-    "id": "week-2026-01",
-    "startDate": "2025-12-29",
-    "endDate": "2026-01-04",
-    "title": "Introduction to the Old Testament",
-    "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/01?lang=eng",
-    "scriptures": [
+    id: "week-06",
+    startDate: "2026-02-02",
+    endDate: "2026-02-08",
+    title: "Moses 7: The Lord Called His People Zion",
+    lessonUrl:
+      "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/06",
+    scriptures: [
       {
-        "reference": "Introduction",
-        "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/01?lang=eng"
-      }
+        reference: "Moses 7",
+        url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7",
+      },
     ],
-    "days": [
+    days: [
       {
-        "id": "day-2025-12-29",
-        "date": "2025-12-29",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2025-12-30",
-        "date": "2025-12-30",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2025-12-31",
-        "date": "2025-12-31",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-01-01",
-        "date": "2026-01-01",
-        "doctrine": {
-          "doctrine": "We are children of God",
-          "summary": "Every person is a literal spirit child of Heavenly Father, with divine potential and eternal worth.",
-          "explanation": "God declared to Moses, 'Thou art my son.' This teaches us that our relationship to God is not figurative but literal—we are His spirit children. This divine parentage gives us infinite worth and the potential to become like Him.",
-          "references": [
+        id: "week-06-day-1",
+        date: "2026-02-02",
+        doctrine: {
+          doctrine: "The Lord Strengthens Those He Calls",
+          summary:
+            "Enoch felt inadequate, but the Lord empowered him to fulfill his calling.",
+          explanation:
+            "Moses 7 shows that Enoch, once slow of speech and unsure of himself, became a mighty prophet because the Lord strengthened him. God often calls the humble and enables them to do His work.",
+          references: [],
+          scriptures: [
             {
-              "display": "Moses 1:4",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/1?lang=eng&id=p4#p4"
+              reference: "Moses 7:13",
+              url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7.13",
             },
-            {
-              "display": "Romans 8:16-17",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/rom/8?lang=eng&id=p16-p17#p16"
-            },
-            {
-              "display": "The Family: A Proclamation to the World",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/the-family-a-proclamation-to-the-world/the-family-a-proclamation-to-the-world?lang=eng"
-            }
           ],
-          "scriptures": []
         },
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Moses 1",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/01?lang=eng",
-            "question": "In Moses 1, what did God tell Moses about his divine identity?",
-            "options": [
-              "Moses was a servant of God",
-              "Moses was a son of God, in the similitude of the Only Begotten",
-              "Moses was a prophet chosen from birth",
-              "Moses was greater than all other men"
-            ],
-            "correctAnswer": 1,
-            "explanation": "God told Moses, 'Behold, thou art my son' and that he was 'in the similitude of mine Only Begotten' (Moses 1:4, 6).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-01-02",
-        "date": "2026-01-02",
-        "doctrine": {
-          "doctrine": "God's work is to bring to pass our immortality and eternal life",
-          "summary": "The entire purpose of God's plan is to help His children return to live with Him forever.",
-          "explanation": "Moses learned that God's 'work and glory' is focused entirely on us. Everything He does—creation, commandments, covenants, the Atonement—serves this single purpose: bringing His children back to Him with immortal, glorified bodies to live eternally.",
-          "references": [
+        scripturePassage: {
+          reference: {
+            reference: "Moses 7:13",
+            url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7.13",
+          },
+          text: "A summary of Enoch’s God-given power, including moving mountains and defeating enemies through the Lord’s strength.",
+          context:
+            "Enoch’s transformation demonstrates that God magnifies those He calls.",
+          historicalBackground:
+            "Ancient traditions often portrayed prophets as empowered by divine authority; Moses 7 emphasizes this theme strongly.",
+          citations: [],
+        },
+        word: {
+          id: "week-06-day-1-word",
+          date: "2026-02-02",
+          weekTitle: "The Lord Called His People Zion",
+          word: "Endow",
+          definition: "To provide with power or capacity from God.",
+          context:
+            "Enoch was endowed with divine power to fulfill his calling.",
+          scriptures: [
             {
-              "display": "Moses 1:39",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/1?lang=eng&id=p39#p39"
+              reference: "Moses 7:13",
+              url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7.13",
             },
-            {
-              "display": "2 Nephi 26:24",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/26?lang=eng&id=p24#p24"
-            },
-            {
-              "display": "John 3:16",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/john/3?lang=eng&id=p16#p16"
-            }
           ],
-          "scriptures": []
         },
-        "questions": [
+        questions: [
           {
-            "scriptureReference": {
-              "reference": "Moses 1",
-              "url": ""
+            scriptureReference: {
+              reference: "Moses 7:13",
+              url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7.13",
             },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/01?lang=eng",
-            "question": "After Satan departed from Moses, what did Moses realize about man compared to God?",
-            "options": [
-              "Man is powerful like God",
-              "Man is nothing, which Moses had never supposed",
-              "Man is equal to angels",
-              "Man is destined to become a god"
+            lessonUrl:
+              "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/06",
+            question:
+              "What does Enoch’s experience teach about God’s pattern in calling His servants?",
+            options: [
+              "He strengthens the humble to accomplish His work.",
+              "He only calls those who are already powerful.",
+              "He avoids calling those who feel inadequate.",
+              "He expects people to succeed without His help.",
             ],
-            "correctAnswer": 1,
-            "explanation": "Moses exclaimed, 'Now, for this cause I know that man is nothing, which thing I never had supposed' (Moses 1:10).",
-            "references": []
-          }
+            correctAnswer: 0,
+            explanation:
+              "Enoch’s story shows that God empowers those He calls, regardless of their natural abilities.",
+            references: [],
+          },
         ],
-        "scripturePassages": []
       },
+
       {
-        "id": "day-2026-01-03",
-        "date": "2026-01-03",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Moses 1",
-              "url": ""
+        id: "week-06-day-2",
+        date: "2026-02-03",
+        doctrine: {
+          doctrine: "The Lord Knows His People",
+          summary:
+            "God sees all nations and is aware of their righteousness and wickedness.",
+          explanation:
+            "Moses 7 describes Enoch’s panoramic vision of the world. The Lord shows that He is aware of every people and every land, and His work extends to all His children.",
+          references: [],
+          scriptures: [
+            {
+              reference: "Moses 7:21–23",
+              url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7.21-23",
             },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/01?lang=eng",
-            "question": "How did Moses resist Satan's temptations?",
-            "options": [
-              "He ran away and hid",
-              "He called upon God and commanded Satan to depart in the name of the Only Begotten",
-              "He argued with Satan using logic",
-              "He ignored Satan until he left"
+          ],
+        },
+        scripturePassage: {
+          reference: {
+            reference: "Moses 7:21–23",
+            url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7.21-23",
+          },
+          text: "A summary of Enoch seeing the land of Zion lifted up and the Lord’s awareness of all nations.",
+          context:
+            "Enoch’s vision reveals God’s omniscience and care for His covenant people.",
+          historicalBackground:
+            "Prophetic visions of the world were common in ancient writings, symbolizing divine perspective.",
+          citations: [],
+        },
+        word: {
+          id: "week-06-day-2-word",
+          date: "2026-02-03",
+          weekTitle: "The Lord Called His People Zion",
+          word: "Omniscient",
+          definition:
+            "All-knowing; aware of all things past, present, and future.",
+          context: "God shows Enoch that He knows all nations and peoples.",
+          scriptures: [
+            {
+              reference: "Moses 7:23",
+              url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7.23",
+            },
+          ],
+        },
+        questions: [
+          {
+            scriptureReference: {
+              reference: "Moses 7:21–23",
+              url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7.21-23",
+            },
+            lessonUrl:
+              "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/06",
+            question:
+              "What does Enoch’s vision teach about God’s relationship with His children?",
+            options: [
+              "He knows all nations and cares for all His children.",
+              "He is only aware of a few chosen people.",
+              "He is distant and uninvolved.",
+              "He only watches the righteous.",
             ],
-            "correctAnswer": 1,
-            "explanation": "Moses called upon God and said, 'In the name of the Only Begotten, depart hence, Satan' (Moses 1:21).",
-            "references": []
-          }
+            correctAnswer: 0,
+            explanation:
+              "The vision shows God’s awareness of all peoples and His involvement in their lives.",
+            references: [],
+          },
         ],
-        "scripturePassages": []
       },
+
       {
-        "id": "day-2026-01-04",
-        "date": "2026-01-04",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Moses 1",
-              "url": ""
+        id: "week-06-day-3",
+        date: "2026-02-04",
+        doctrine: {
+          doctrine: "Zion Is a People of One Heart and One Mind",
+          summary:
+            "The people of Enoch became Zion because they were unified in righteousness.",
+          explanation:
+            "Moses 7 teaches that Zion is not just a place but a condition of the heart. Enoch’s people were of ‘one heart and one mind,’ dwelling in righteousness with no poor among them.",
+          references: [],
+          scriptures: [
+            {
+              reference: "Moses 7:18",
+              url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7.18",
             },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/01?lang=eng",
-            "question": "What is God's work and glory according to Moses 1:39?",
-            "options": [
-              "To create worlds without number",
-              "To bring to pass the immortality and eternal life of man",
-              "To test mankind's obedience",
-              "To defeat Satan and his followers"
+          ],
+        },
+        scripturePassage: {
+          reference: {
+            reference: "Moses 7:18",
+            url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7.18",
+          },
+          text: "A summary of the characteristics of Zion: unity, righteousness, and care for the poor.",
+          context:
+            "This verse is central to understanding the Lord’s pattern for building Zion.",
+          historicalBackground:
+            "Ancient Israelite ideals of community emphasized justice, unity, and care for the vulnerable.",
+          citations: [],
+        },
+        word: {
+          id: "week-06-day-3-word",
+          date: "2026-02-04",
+          weekTitle: "The Lord Called His People Zion",
+          word: "Zion",
+          definition:
+            "A people who are pure in heart, unified, and living God’s laws.",
+          context:
+            "Enoch’s people became Zion through righteousness and unity.",
+          scriptures: [
+            {
+              reference: "Moses 7:18",
+              url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7.18",
+            },
+          ],
+        },
+        questions: [
+          {
+            scriptureReference: {
+              reference: "Moses 7:18",
+              url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7.18",
+            },
+            lessonUrl:
+              "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/06",
+            question:
+              "What key characteristic made Enoch’s people a Zion people?",
+            options: [
+              "They were of one heart and one mind.",
+              "They were wealthy and powerful.",
+              "They lived far away from other nations.",
+              "They had no trials.",
             ],
-            "correctAnswer": 1,
-            "explanation": "'For behold, this is my work and my glory—to bring to pass the immortality and eternal life of man' (Moses 1:39).",
-            "references": []
-          }
+            correctAnswer: 0,
+            explanation:
+              "Unity in righteousness is the defining feature of Zion.",
+            references: [],
+          },
         ],
-        "scripturePassages": []
-      }
+      },
+
+      {
+        id: "week-06-day-4",
+        date: "2026-02-05",
+        doctrine: {
+          doctrine: "The Lord Weeps for His Children",
+          summary: "God feels sorrow when His children choose wickedness.",
+          explanation:
+            "In Moses 7, Enoch is surprised to see God weep. The Lord explains that His sorrow comes from the suffering His children bring upon themselves through sin.",
+          references: [],
+          scriptures: [
+            {
+              reference: "Moses 7:28–33",
+              url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7.28-33",
+            },
+          ],
+        },
+        scripturePassage: {
+          reference: {
+            reference: "Moses 7:28–33",
+            url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7.28-33",
+          },
+          text: "A summary of Enoch witnessing God weep over the wickedness and suffering of His children.",
+          context:
+            "This passage reveals God’s deep compassion and emotional investment in His children.",
+          historicalBackground:
+            "Depictions of divine emotion were rare in ancient texts; Moses 7 uniquely portrays God’s empathy.",
+          citations: [],
+        },
+        word: {
+          id: "week-06-day-4-word",
+          date: "2026-02-05",
+          weekTitle: "The Lord Called His People Zion",
+          word: "Compassion",
+          definition: "Deep sympathy and concern for the suffering of others.",
+          context: "God weeps because of His compassion for His children.",
+          scriptures: [
+            {
+              reference: "Moses 7:28",
+              url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7.28",
+            },
+          ],
+        },
+        questions: [
+          {
+            scriptureReference: {
+              reference: "Moses 7:28–33",
+              url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7.28-33",
+            },
+            lessonUrl:
+              "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/06",
+            question: "Why does God weep in Moses 7?",
+            options: [
+              "Because His children suffer due to their choices.",
+              "Because He lacks power to help.",
+              "Because He is surprised by wickedness.",
+              "Because He is distant from humanity.",
+            ],
+            correctAnswer: 0,
+            explanation:
+              "God’s sorrow reflects His love and compassion for His children.",
+            references: [],
+          },
+        ],
+      },
+
+      {
+        id: "week-06-day-5",
+        date: "2026-02-06",
+        doctrine: {
+          doctrine: "The Lord Will Ultimately Triumph Over Evil",
+          summary:
+            "Enoch sees the eventual victory of righteousness over wickedness.",
+          explanation:
+            "Moses 7 includes visions of future events, showing that despite periods of great wickedness, God’s plan will prevail and Zion will return.",
+          references: [],
+          scriptures: [
+            {
+              reference: "Moses 7:44–47",
+              url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7.44-47",
+            },
+          ],
+        },
+        scripturePassage: {
+          reference: {
+            reference: "Moses 7:44–47",
+            url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7.44-47",
+          },
+          text: "A summary of Enoch seeing the Savior’s mortal ministry and the triumph of righteousness.",
+          context: "Enoch’s vision spans from his day to the coming of Christ.",
+          historicalBackground:
+            "Prophetic visions often connected past, present, and future to show God’s overarching plan.",
+          citations: [],
+        },
+        word: {
+          id: "week-06-day-5-word",
+          date: "2026-02-06",
+          weekTitle: "The Lord Called His People Zion",
+          word: "Redeemer",
+          definition: "One who delivers or saves; a title for Jesus Christ.",
+          context: "Enoch sees the Redeemer and rejoices.",
+          scriptures: [
+            {
+              reference: "Moses 7:47",
+              url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7.47",
+            },
+          ],
+        },
+        questions: [
+          {
+            scriptureReference: {
+              reference: "Moses 7:44–47",
+              url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7.44-47",
+            },
+            lessonUrl:
+              "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/06",
+            question: "What does Enoch’s vision teach about the Savior?",
+            options: [
+              "He will redeem and comfort God’s children.",
+              "He will only save a select few.",
+              "He is uninvolved in human suffering.",
+              "He will not triumph over evil.",
+            ],
+            correctAnswer: 0,
+            explanation:
+              "Enoch rejoices in seeing the Redeemer’s mission and ultimate victory.",
+            references: [],
+          },
+        ],
+      },
+
+      {
+        id: "week-06-day-6",
+        date: "2026-02-07",
+        doctrine: {
+          doctrine: "Zion Will Return in the Last Days",
+          summary:
+            "Enoch sees that his city will return and join with the righteous on earth.",
+          explanation:
+            "Moses 7 teaches that the City of Enoch will return during the Millennium, joining with a latter-day Zion prepared by the Saints.",
+          references: [],
+          scriptures: [
+            {
+              reference: "Moses 7:62–64",
+              url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7.62-64",
+            },
+          ],
+        },
+        scripturePassage: {
+          reference: {
+            reference: "Moses 7:62–64",
+            url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7.62-64",
+          },
+          text: "A summary of the prophecy that Zion will return and righteousness will prevail in the last days.",
+          context:
+            "The Lord promises a great latter-day gathering and unity between heaven and earth.",
+          historicalBackground:
+            "Restoration teachings emphasize the return of Zion as part of the Millennium.",
+          citations: [],
+        },
+        word: {
+          id: "week-06-day-6-word",
+          date: "2026-02-07",
+          weekTitle: "The Lord Called His People Zion",
+          word: "Millennium",
+          definition:
+            "A thousand-year period of peace when Christ will reign personally on the earth.",
+          context: "Zion’s return is associated with the Millennium.",
+          scriptures: [
+            {
+              reference: "Moses 7:64",
+              url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7.64",
+            },
+          ],
+        },
+        questions: [
+          {
+            scriptureReference: {
+              reference: "Moses 7:62–64",
+              url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7.62-64",
+            },
+            lessonUrl:
+              "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/06",
+            question: "What future event does the Lord promise in Moses 7?",
+            options: [
+              "The return of Zion and a great gathering of the righteous.",
+              "The end of all covenants.",
+              "The destruction of all nations.",
+              "The disappearance of the earth.",
+            ],
+            correctAnswer: 0,
+            explanation:
+              "The Lord promises that Zion will return and unite with a latter-day Zion.",
+            references: [],
+          },
+        ],
+      },
+
+      {
+        id: "week-06-day-7",
+        date: "2026-02-08",
+        doctrine: {
+          doctrine: "The Lord Will Dwell with His People",
+          summary:
+            "The City of Enoch was taken up because the people lived in perfect harmony with God.",
+          explanation:
+            "Moses 7 concludes with the Lord receiving Zion into His own bosom. This teaches that when a people fully embrace righteousness, unity, and charity, they become prepared to dwell in the presence of God.",
+          references: [],
+          scriptures: [
+            {
+              reference: "Moses 7:69",
+              url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7.69",
+            },
+          ],
+        },
+        scripturePassage: {
+          reference: {
+            reference: "Moses 7:69",
+            url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7.69",
+          },
+          text: "A summary of Zion being taken up into heaven because of their righteousness and unity.",
+          context:
+            "This verse marks the culmination of Enoch’s ministry and the transformation of his people into a celestial society.",
+          historicalBackground:
+            "Ancient traditions about Enoch often portray him as ascending to heaven; the Pearl of Great Price uniquely describes an entire city being translated.",
+          citations: [],
+        },
+        word: {
+          id: "week-06-day-7-word",
+          date: "2026-02-08",
+          weekTitle: "The Lord Called His People Zion",
+          word: "Translate",
+          definition:
+            "To be changed so as not to experience death, remaining in a state of immortality until the resurrection.",
+          context:
+            "The City of Enoch was translated because of their righteousness.",
+          scriptures: [
+            {
+              reference: "Moses 7:69",
+              url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7.69",
+            },
+          ],
+        },
+        questions: [
+          {
+            scriptureReference: {
+              reference: "Moses 7:69",
+              url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7.69",
+            },
+            lessonUrl:
+              "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/06",
+            question: "Why was the City of Enoch taken up into heaven?",
+            options: [
+              "Because the people lived in perfect unity and righteousness.",
+              "Because they were the wealthiest people on earth.",
+              "Because they fled from their enemies.",
+              "Because they wished to avoid responsibility.",
+            ],
+            correctAnswer: 0,
+            explanation:
+              "The people of Enoch became Zion—pure in heart, unified, and living God’s laws—making them prepared to dwell with the Lord.",
+            references: [],
+          },
+        ],
+      },
     ],
-    "places": [],
-    "people": []
+    places: [
+      {
+        name: "Zion",
+        modernLocation: "Unknown; described as being taken up into heaven",
+        locationType: "symbolic",
+        description:
+          "The city of Enoch, whose people were of one heart and one mind and dwelt in righteousness. Because of their holiness, the entire city was translated.",
+        scriptureReferences: [
+          {
+            reference: "Moses 7:18–21",
+            url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7.18-21",
+          },
+        ],
+        citations: [],
+      },
+      {
+        name: "Mount Simeon",
+        modernLocation: "Uncertain",
+        locationType: "uncertain",
+        description:
+          "A location mentioned in Enoch’s ministry where he stood and preached repentance to the people.",
+        scriptureReferences: [
+          {
+            reference: "Moses 7:2",
+            url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7.2",
+          },
+        ],
+        citations: [],
+      },
+      {
+        name: "The Bosom of the Father",
+        modernLocation: "Symbolic",
+        locationType: "symbolic",
+        description:
+          "A symbolic expression representing the presence, protection, and glory of God. Zion was received into the bosom of the Father.",
+        scriptureReferences: [
+          {
+            reference: "Moses 7:69",
+            url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7.69",
+          },
+        ],
+        citations: [],
+      },
+      {
+        name: "The Earth (in vision)",
+        modernLocation: "Global",
+        locationType: "symbolic",
+        description:
+          "Enoch sees the earth in vision, including its wickedness, suffering, and future redemption. The earth itself weeps in sorrow.",
+        scriptureReferences: [
+          {
+            reference: "Moses 7:48–49",
+            url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7.48-49",
+          },
+        ],
+        citations: [],
+      },
+    ],
+    people: [
+      {
+        name: "Enoch",
+        role: "Prophet and leader of Zion",
+        description:
+          "A prophet called by God to preach repentance, perform miracles, receive visions of past and future, and lead a people who became so righteous they were taken into heaven.",
+        scriptureReferences: [
+          {
+            reference: "Moses 7",
+            url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7",
+          },
+        ],
+        citations: [],
+      },
+      {
+        name: "The People of Zion",
+        role: "Covenant community",
+        description:
+          "A society led by Enoch that became unified, righteous, and without poor among them. Because of their holiness, they were taken up into heaven.",
+        scriptureReferences: [
+          {
+            reference: "Moses 7:18–21",
+            url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7.18-21",
+          },
+        ],
+        citations: [],
+      },
+      {
+        name: "The Lord",
+        role: "God; the Eternal Father",
+        description:
+          "Reveals visions to Enoch, expresses compassion for His children, establishes covenants, and promises the eventual triumph of righteousness.",
+        scriptureReferences: [
+          {
+            reference: "Moses 7:28–33",
+            url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7.28-33",
+          },
+        ],
+        citations: [],
+      },
+      {
+        name: "The Son of Man (Jesus Christ)",
+        role: "Redeemer",
+        description:
+          "Shown to Enoch in vision, weeping for the wicked and later triumphing over death and sin. His mission is central to God’s plan.",
+        scriptureReferences: [
+          {
+            reference: "Moses 7:47",
+            url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7.47",
+          },
+        ],
+        citations: [],
+      },
+    ],
   },
   {
-    "id": "week-2026-02",
-    "startDate": "2026-01-05",
-    "endDate": "2026-01-11",
-    "title": "Moses 1; Abraham 3",
-    "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/02?lang=eng",
-    "scriptures": [
+    id: "week-07",
+    startDate: "2026-02-09",
+    endDate: "2026-02-15",
+    title: "Genesis 6–11; Moses 8: The Covenant",
+    lessonUrl:
+      "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07",
+    scriptures: [
       {
-        "reference": "Moses 1",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/1?lang=eng"
+        reference: "Genesis 6",
+        url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/6",
       },
       {
-        "reference": "Abraham 3",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/3?lang=eng"
-      }
+        reference: "Genesis 7",
+        url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/7",
+      },
+      {
+        reference: "Genesis 8",
+        url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/8",
+      },
+      {
+        reference: "Genesis 9",
+        url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/9",
+      },
+      {
+        reference: "Genesis 10",
+        url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/10",
+      },
+      {
+        reference: "Genesis 11",
+        url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/11",
+      },
+      {
+        reference: "Moses 8",
+        url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/8",
+      },
     ],
-    "days": [
+    days: [
       {
-        "id": "day-2026-01-05",
-        "date": "2026-01-05",
-        "doctrine": {
-          "doctrine": "We lived with God before this life",
-          "summary": "All people existed as spirit children of God before being born on earth.",
-          "explanation": "Abraham saw the 'intelligences that were organized before the world was.' We existed as spirits, learned, grew, and made choices in God's presence before coming to earth. This premortal life explains our purpose here and our divine nature.",
-          "references": [
+        id: "week-07-day-1",
+        date: "2026-02-09",
+        doctrine: {
+          doctrine: "God Calls the Righteous to Warn the World",
+          summary:
+            "Noah was called to preach repentance in a time of great wickedness.",
+          explanation:
+            "Moses 8 and Genesis 6 show that before the Flood, the Lord called Noah as a prophet to warn the people. His example teaches that God always sends prophets before judgments and that disciples are invited to stand as witnesses even when few listen.",
+          references: [
             {
-              "display": "Abraham 3:22-23",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/3?lang=eng&id=p22-p23#p22"
+              display: "Moses 8:19–24",
+              url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/8.19-24",
             },
-            {
-              "display": "Jeremiah 1:5",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/1?lang=eng&id=p5#p5"
-            },
-            {
-              "display": "D&C 138:55-56",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/138?lang=eng&id=p55-p56#p55"
-            }
           ],
-          "scriptures": []
-        },
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Abraham 3",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/02?lang=eng",
-            "question": "What did the Lord show Abraham through the Urim and Thummim?",
-            "options": [
-              "The future of his descendants",
-              "The stars and their order",
-              "The location of the promised land",
-              "The faces of his enemies"
-            ],
-            "correctAnswer": 1,
-            "explanation": "The Lord showed Abraham 'the stars, that they were very great' and taught him about their order and governance (Abraham 3:2-3).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-01-06",
-        "date": "2026-01-06",
-        "doctrine": {
-          "doctrine": "Earth life is a test",
-          "summary": "Mortality is a time of probation where we are tested and given the opportunity to prove ourselves.",
-          "explanation": "God said He would 'prove them herewith, to see if they will do all things whatsoever the Lord their God shall command them.' Earth life is not random—it is a purposeful test where we learn to walk by faith, keep commandments, and choose to follow Christ.",
-          "references": [
+          scriptures: [
             {
-              "display": "Abraham 3:25",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/3?lang=eng&id=p25#p25"
+              reference: "Genesis 6:5–9",
+              url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/6.5-9",
             },
-            {
-              "display": "Alma 34:32",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/34?lang=eng&id=p32#p32"
-            },
-            {
-              "display": "2 Nephi 2:21",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/2?lang=eng&id=p21#p21"
-            }
           ],
-          "scriptures": []
         },
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Abraham 3",
-              "url": ""
+        scripturePassage: {
+          reference: {
+            reference: "Moses 8:19–24",
+            url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/8.19-24",
+          },
+          text: "A summary of Noah’s preaching of repentance and the people’s rejection of his message.",
+          context:
+            "Noah is described as a just man who walked with God and was commanded to cry repentance to a corrupt generation.",
+          historicalBackground:
+            "In ancient tradition, righteous patriarchs were seen as mediators between God and their communities, responsible to warn and teach.",
+          citations: [],
+        },
+        word: {
+          id: "week-07-day-1-word",
+          date: "2026-02-09",
+          weekTitle: "The Covenant",
+          word: "Preach",
+          definition: "To declare or proclaim God’s word by commandment.",
+          context:
+            "Noah was commanded to preach repentance to the people before the Flood.",
+          scriptures: [
+            {
+              reference: "Moses 8:19",
+              url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/8.19",
             },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/02?lang=eng",
-            "question": "What is the name of the great star nearest to God's throne?",
-            "options": [
-              "Shinehah",
-              "Kolob",
-              "Olea",
-              "Kokaubeam"
+          ],
+        },
+        questions: [
+          {
+            scriptureReference: {
+              reference: "Moses 8:19–24",
+              url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/8.19-24",
+            },
+            lessonUrl:
+              "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07",
+            question:
+              "What does Noah’s example teach about our responsibility when we know God’s will?",
+            options: [
+              "We should warn and invite others, even if few listen.",
+              "We should keep spiritual things private.",
+              "We are only responsible for ourselves.",
+              "We should wait until others ask us first.",
             ],
-            "correctAnswer": 1,
-            "explanation": "Kolob is the great star 'nearest unto the throne of God' (Abraham 3:2-3).",
-            "references": []
-          }
+            correctAnswer: 0,
+            explanation:
+              "Noah’s ministry shows that disciples are called to testify and invite, regardless of how many accept the message.",
+            references: [],
+          },
         ],
-        "scripturePassages": []
       },
       {
-        "id": "day-2026-01-07",
-        "date": "2026-01-07",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Abraham 3",
-              "url": ""
+        id: "week-07-day-2",
+        date: "2026-02-10",
+        doctrine: {
+          doctrine: "God Commands Us to Build Spiritual Arks",
+          summary:
+            "Noah’s ark symbolizes preparation and obedience in times of spiritual danger.",
+          explanation:
+            "Genesis 6 records that God commanded Noah to build an ark as protection from the coming Flood. Today, we build spiritual ‘arks’ through covenants, obedience, and daily discipleship that protect us from spiritual storms.",
+          references: [],
+          scriptures: [
+            {
+              reference: "Genesis 6:13–22",
+              url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/6.13-22",
             },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/02?lang=eng",
-            "question": "According to Abraham 3, what existed before the world was created?",
-            "options": [
-              "Only darkness and void",
-              "Angels singing praises",
-              "Intelligences or spirits",
-              "The elements of earth"
+          ],
+        },
+        scripturePassage: {
+          reference: {
+            reference: "Genesis 6:13–22",
+            url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/6.13-22",
+          },
+          text: "A summary of God’s command to Noah to build an ark and Noah’s exact obedience.",
+          context:
+            "Noah follows detailed instructions from the Lord to prepare for the Flood.",
+          historicalBackground:
+            "Ancient flood narratives exist in several cultures, but Genesis emphasizes obedience to the one true God rather than conflict among gods.",
+          citations: [],
+        },
+        word: {
+          id: "week-07-day-2-word",
+          date: "2026-02-10",
+          weekTitle: "The Covenant",
+          word: "Ark",
+          definition:
+            "A vessel of preservation; a place of safety prepared by God’s command.",
+          context:
+            "Noah’s ark preserved life during the Flood and symbolizes spiritual refuge.",
+          scriptures: [
+            {
+              reference: "Genesis 6:14",
+              url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/6.14",
+            },
+          ],
+        },
+        questions: [
+          {
+            scriptureReference: {
+              reference: "Genesis 6:13–22",
+              url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/6.13-22",
+            },
+            lessonUrl:
+              "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07",
+            question:
+              "How did Noah respond to the Lord’s command to build the ark?",
+            options: [
+              "He did according to all that God commanded him.",
+              "He delayed until the rain began.",
+              "He asked for a different assignment.",
+              "He refused because it seemed unreasonable.",
             ],
-            "correctAnswer": 2,
-            "explanation": "Abraham learned that 'intelligences' were organized before the world was (Abraham 3:22).",
-            "references": []
-          }
+            correctAnswer: 0,
+            explanation:
+              "Noah’s exact obedience is emphasized as a model of faith and trust in God.",
+            references: [],
+          },
         ],
-        "scripturePassages": []
       },
       {
-        "id": "day-2026-01-08",
-        "date": "2026-01-08",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Abraham 3",
-              "url": ""
+        id: "week-07-day-3",
+        date: "2026-02-11",
+        doctrine: {
+          doctrine: "The Lord Remembers His Covenants in Times of Trial",
+          summary:
+            "During the Flood, God remembered Noah and all that were with him in the ark.",
+          explanation:
+            "Genesis 7–8 shows that even amid destruction and uncertainty, the Lord remembered Noah. This teaches that God does not forget those who have entered into covenants with Him, even when circumstances feel overwhelming.",
+          references: [],
+          scriptures: [
+            {
+              reference: "Genesis 7:17–24",
+              url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/7.17-24",
             },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/02?lang=eng",
-            "question": "Who was 'like unto God' among the noble and great spirits?",
-            "options": [
-              "Abraham",
-              "Moses",
-              "One like unto the Son of God (Jesus Christ)",
-              "Michael"
+            {
+              reference: "Genesis 8:1",
+              url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/8.1",
+            },
+          ],
+        },
+        scripturePassage: {
+          reference: {
+            reference: "Genesis 8:1–12",
+            url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/8.1-12",
+          },
+          text: "A summary of the waters receding, the ark resting, and Noah sending out birds to see if the earth was dry.",
+          context:
+            "After many days on the ark, Noah seeks to know when it is safe to leave.",
+          historicalBackground:
+            "Doves and ravens were common symbols in ancient Near Eastern literature; here they serve as practical signs of changing conditions.",
+          citations: [],
+        },
+        word: {
+          id: "week-07-day-3-word",
+          date: "2026-02-11",
+          weekTitle: "The Covenant",
+          word: "Remember",
+          definition:
+            "In scripture, to remember often means to act in faithfulness to a covenant.",
+          context:
+            "God ‘remembered’ Noah, meaning He acted to fulfill His promises.",
+          scriptures: [
+            {
+              reference: "Genesis 8:1",
+              url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/8.1",
+            },
+          ],
+        },
+        questions: [
+          {
+            scriptureReference: {
+              reference: "Genesis 8:1–12",
+              url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/8.1-12",
+            },
+            lessonUrl:
+              "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07",
+            question: "What does it mean that ‘God remembered Noah’?",
+            options: [
+              "God acted to fulfill His covenant with Noah.",
+              "God had forgotten Noah for a time.",
+              "God was surprised by the Flood.",
+              "God changed His plan midway.",
             ],
-            "correctAnswer": 2,
-            "explanation": "Abraham saw 'one among them that was like unto God' who would be sent to earth (Abraham 3:24).",
-            "references": []
-          }
+            correctAnswer: 0,
+            explanation:
+              "In scripture, God ‘remembering’ often means He is actively keeping His covenant promises.",
+            references: [],
+          },
         ],
-        "scripturePassages": []
       },
       {
-        "id": "day-2026-01-09",
-        "date": "2026-01-09",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Abraham 3",
-              "url": ""
+        id: "week-07-day-4",
+        date: "2026-02-12",
+        doctrine: {
+          doctrine: "God Establishes Covenants with His Children",
+          summary:
+            "After the Flood, God made a covenant with Noah and his posterity.",
+          explanation:
+            "Genesis 9 describes God’s covenant with Noah, including promises of preservation and the sign of the rainbow. This covenant points to God’s desire to bind Himself to His children through sacred promises.",
+          references: [],
+          scriptures: [
+            {
+              reference: "Genesis 9:8–17",
+              url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/9.8-17",
             },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/02?lang=eng",
-            "question": "What was the purpose of earth life according to Abraham 3:25?",
-            "options": [
-              "To punish the wicked",
-              "To prove us and see if we will do all things commanded",
-              "To allow spirits to experience joy",
-              "To separate the righteous from the wicked"
+          ],
+        },
+        scripturePassage: {
+          reference: {
+            reference: "Genesis 9:8–17",
+            url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/9.8-17",
+          },
+          text: "A summary of God’s covenant with Noah and the sign of the rainbow.",
+          context:
+            "God promises never again to destroy all flesh with a flood and sets the bow in the cloud as a token.",
+          historicalBackground:
+            "Rainbows were seen in many cultures as divine signs; in Genesis, the rainbow is explicitly tied to God’s covenant mercy.",
+          citations: [],
+        },
+        word: {
+          id: "week-07-day-4-word",
+          date: "2026-02-12",
+          weekTitle: "The Covenant",
+          word: "Token",
+          definition: "A sign or symbol that represents a covenant or promise.",
+          context:
+            "The rainbow is called a token of the covenant between God and the earth.",
+          scriptures: [
+            {
+              reference: "Genesis 9:13",
+              url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/9.13",
+            },
+          ],
+        },
+        questions: [
+          {
+            scriptureReference: {
+              reference: "Genesis 9:8–17",
+              url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/9.8-17",
+            },
+            lessonUrl:
+              "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07",
+            question:
+              "What does the rainbow represent in God’s covenant with Noah?",
+            options: [
+              "A token of God’s promise of mercy.",
+              "A sign that storms will never come again.",
+              "A symbol of human power.",
+              "A reminder that covenants are temporary.",
             ],
-            "correctAnswer": 1,
-            "explanation": "'We will prove them herewith, to see if they will do all things whatsoever the Lord their God shall command them' (Abraham 3:25).",
-            "references": []
-          }
+            correctAnswer: 0,
+            explanation:
+              "The rainbow is a visible reminder of God’s covenant and His mercy toward His creations.",
+            references: [],
+          },
         ],
-        "scripturePassages": []
       },
       {
-        "id": "day-2026-01-10",
-        "date": "2026-01-10",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Moses 1",
-              "url": ""
+        id: "week-07-day-5",
+        date: "2026-02-13",
+        doctrine: {
+          doctrine: "We Are All Part of God’s Family",
+          summary:
+            "The table of nations shows that all peoples trace back to God’s children after the Flood.",
+          explanation:
+            "Genesis 10 lists the descendants of Noah’s sons, emphasizing that the nations of the earth share a common origin. This supports the doctrine that all are alike unto God and that He is the Father of all spirits.",
+          references: [],
+          scriptures: [
+            {
+              reference: "Genesis 10",
+              url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/10",
             },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/02?lang=eng",
-            "question": "What did Satan want Moses to do that would have been contrary to God's commandment?",
-            "options": [
-              "Curse God",
-              "Worship Satan",
-              "Deny the existence of God",
-              "Leave the mountain"
+          ],
+        },
+        scripturePassage: {
+          reference: {
+            reference: "Genesis 10:1–5",
+            url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/10.1-5",
+          },
+          text: "A summary of the generations of Noah’s sons and the spreading of nations.",
+          context:
+            "These genealogies connect the story of the Flood to the broader human family.",
+          historicalBackground:
+            "Genealogies in the ancient world established identity, inheritance, and covenant lineage.",
+          citations: [],
+        },
+        word: {
+          id: "week-07-day-5-word",
+          date: "2026-02-13",
+          weekTitle: "The Covenant",
+          word: "Generation",
+          definition:
+            "A group of people born and living around the same time; in scripture, often used to trace lineage.",
+          context: "Genesis 10 traces the generations of Noah’s sons.",
+          scriptures: [
+            {
+              reference: "Genesis 10:1",
+              url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/10.1",
+            },
+          ],
+        },
+        questions: [
+          {
+            scriptureReference: {
+              reference: "Genesis 10:1–5",
+              url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/10.1-5",
+            },
+            lessonUrl:
+              "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07",
+            question:
+              "What truth is reinforced by the genealogies after the Flood?",
+            options: [
+              "All people are part of one human family under God.",
+              "Some lineages are less valuable to God.",
+              "Genealogy has no spiritual meaning.",
+              "Only one nation matters to God.",
             ],
-            "correctAnswer": 1,
-            "explanation": "Satan commanded Moses, 'Worship me' (Moses 1:12), which Moses refused.",
-            "references": []
-          }
+            correctAnswer: 0,
+            explanation:
+              "The record of nations descending from Noah emphasizes our shared divine origin.",
+            references: [],
+          },
         ],
-        "scripturePassages": []
       },
       {
-        "id": "day-2026-01-11",
-        "date": "2026-01-11",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Abraham 3",
-              "url": ""
+        id: "week-07-day-6",
+        date: "2026-02-14",
+        doctrine: {
+          doctrine: "Pride Leads to Confusion and Division",
+          summary:
+            "The Tower of Babel shows the consequences of seeking self-glory instead of God’s will.",
+          explanation:
+            "In Genesis 11, people unite to build a tower to ‘make a name’ for themselves. God confounds their language, illustrating that pride and rebellion lead to spiritual and social fragmentation.",
+          references: [],
+          scriptures: [
+            {
+              reference: "Genesis 11:1–9",
+              url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/11.1-9",
             },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/02?lang=eng",
-            "question": "Abraham was told he was chosen before he was born. What does this teach about premortal life?",
-            "options": [
-              "Only prophets existed before birth",
-              "Spirits were organized and some were noble and great",
-              "All spirits were equal in the premortal life",
-              "Spirits had no agency before birth"
+          ],
+        },
+        scripturePassage: {
+          reference: {
+            reference: "Genesis 11:1–9",
+            url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/11.1-9",
+          },
+          text: "A summary of the people’s attempt to build the Tower of Babel and the Lord confounding their language.",
+          context:
+            "The people seek to build a city and tower to avoid being scattered and to glorify themselves.",
+          historicalBackground:
+            "Ziggurats—stepped temple towers—were common in Mesopotamia and may be reflected in the Babel story.",
+          citations: [],
+        },
+        word: {
+          id: "week-07-day-6-word",
+          date: "2026-02-14",
+          weekTitle: "The Covenant",
+          word: "Confound",
+          definition: "To mix up, confuse, or frustrate plans.",
+          context: "God confounded the language of the people at Babel.",
+          scriptures: [
+            {
+              reference: "Genesis 11:7",
+              url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/11.7",
+            },
+          ],
+        },
+        questions: [
+          {
+            scriptureReference: {
+              reference: "Genesis 11:1–9",
+              url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/11.1-9",
+            },
+            lessonUrl:
+              "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07",
+            question:
+              "What was the main problem with the people’s desire to build the Tower of Babel?",
+            options: [
+              "They sought their own glory instead of God’s.",
+              "They wanted to live together in unity.",
+              "They were trying to worship God.",
+              "They needed shelter from storms.",
             ],
-            "correctAnswer": 1,
-            "explanation": "Abraham saw 'the intelligences that were organized before the world was' and that some were 'noble and great ones' (Abraham 3:22).",
-            "references": []
-          }
+            correctAnswer: 0,
+            explanation:
+              "Their project was driven by pride and a desire to ‘make a name’ for themselves, not to honor God.",
+            references: [],
+          },
         ],
-        "scripturePassages": []
-      }
+      },
+      {
+        id: "week-07-day-7",
+        date: "2026-02-15",
+        doctrine: {
+          doctrine: "God’s Covenant Continues Through Chosen Lineages",
+          summary:
+            "The genealogy from Shem to Abram prepares the way for the Abrahamic covenant.",
+          explanation:
+            "Genesis 11 concludes with the line of Shem leading to Abram. This shows that God’s covenant purposes continue through specific families, ultimately pointing to Jesus Christ and the blessings promised to all nations.",
+          references: [],
+          scriptures: [
+            {
+              reference: "Genesis 11:10–32",
+              url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/11.10-32",
+            },
+          ],
+        },
+        scripturePassage: {
+          reference: {
+            reference: "Genesis 11:27–32",
+            url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/11.27-32",
+          },
+          text: "A summary of the family of Terah, including Abram, Sarai, and Lot, and their move toward Canaan.",
+          context:
+            "The narrative transitions from the post-Flood world to the story of Abram, setting the stage for the Abrahamic covenant.",
+          historicalBackground:
+            "Ur and Haran were important cities in the ancient Near East; movement between them reflects trade and migration patterns of the time.",
+          citations: [],
+        },
+        word: {
+          id: "week-07-day-7-word",
+          date: "2026-02-15",
+          weekTitle: "The Covenant",
+          word: "Lineage",
+          definition:
+            "A line of descent from an ancestor; in scripture, often tied to covenant responsibilities and blessings.",
+          context:
+            "The lineage from Shem to Abram prepares for the Abrahamic covenant.",
+          scriptures: [
+            {
+              reference: "Genesis 11:27",
+              url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/11.27",
+            },
+          ],
+        },
+        questions: [
+          {
+            scriptureReference: {
+              reference: "Genesis 11:27–32",
+              url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/11.27-32",
+            },
+            lessonUrl:
+              "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07",
+            question:
+              "Why is the genealogy from Shem to Abram important in the Old Testament?",
+            options: [
+              "It shows how God’s covenant purposes continue through chosen families.",
+              "It is only a historical curiosity.",
+              "It replaces the need for covenants.",
+              "It shows that God stopped working with mankind.",
+            ],
+            correctAnswer: 0,
+            explanation:
+              "These verses connect the story of the Flood to Abram, through whom God will establish the Abrahamic covenant.",
+            references: [],
+          },
+        ],
+      },
     ],
-    "places": [],
-    "people": []
+    people: [
+      {
+        name: "Noah",
+        role: "Prophet and patriarch",
+        description:
+          "A just man who walked with God, preached repentance, built the ark, and received a covenant from the Lord after the Flood.",
+        scriptureReferences: [
+          {
+            reference: "Genesis 6–9",
+            url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/6",
+          },
+          {
+            reference: "Moses 8",
+            url: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/8",
+          },
+        ],
+        citations: [],
+      },
+      {
+        name: "Shem",
+        role: "Patriarchal ancestor",
+        description:
+          "One of Noah’s sons whose lineage leads to Abram and the covenant people.",
+        scriptureReferences: [
+          {
+            reference: "Genesis 10:21–32",
+            url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/10.21-32",
+          },
+          {
+            reference: "Genesis 11:10–11",
+            url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/11.10-11",
+          },
+        ],
+        citations: [],
+      },
+      {
+        name: "Hamitic and Japhethic Descendants",
+        role: "Nations and families",
+        description:
+          "The descendants of Ham and Japheth represent many nations of the earth, showing the breadth of God’s family.",
+        scriptureReferences: [
+          {
+            reference: "Genesis 10",
+            url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/10",
+          },
+        ],
+        citations: [],
+      },
+      {
+        name: "Builders of Babel",
+        role: "Symbolic group",
+        description:
+          "A group united in prideful ambition to build a tower to heaven, whose language was confounded by the Lord.",
+        scriptureReferences: [
+          {
+            reference: "Genesis 11:1–9",
+            url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/11.1-9",
+          },
+        ],
+        citations: [],
+      },
+    ],
+    places: [
+      {
+        name: "Ararat",
+        modernLocation:
+          "Region traditionally associated with the mountains of eastern Turkey or nearby Armenia",
+        locationType: "probable",
+        description: "The region where the ark came to rest after the Flood.",
+        scriptureReferences: [
+          {
+            reference: "Genesis 8:4",
+            url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/8.4",
+          },
+        ],
+        citations: [],
+      },
+      {
+        name: "Babel",
+        modernLocation:
+          "Often associated with ancient Babylon in Mesopotamia (modern Iraq)",
+        locationType: "probable",
+        description:
+          "The city where people attempted to build a tower to heaven and where the Lord confounded their language.",
+        scriptureReferences: [
+          {
+            reference: "Genesis 11:1–9",
+            url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/11.1-9",
+          },
+        ],
+        citations: [],
+      },
+      {
+        name: "Ur of the Chaldees",
+        modernLocation:
+          "Generally identified with a city in southern Mesopotamia (modern southern Iraq)",
+        locationType: "probable",
+        description:
+          "The homeland of Abram’s family mentioned at the end of Genesis 11, preparing for the Abrahamic story.",
+        scriptureReferences: [
+          {
+            reference: "Genesis 11:28–31",
+            url: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/11.28-31",
+          },
+        ],
+        citations: [],
+      },
+    ],
   },
-  {
-    "id": "week-2026-03",
-    "startDate": "2026-01-12",
-    "endDate": "2026-01-18",
-    "title": "Genesis 1–2; Moses 2–3; Abraham 4–5",
-    "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/03?lang=eng",
-    "scriptures": [
-      {
-        "reference": "Genesis 1–2",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/1?lang=eng"
-      },
-      {
-        "reference": "Moses 2–3",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/2?lang=eng"
-      },
-      {
-        "reference": "Abraham 4–5",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/4?lang=eng"
-      }
-    ],
-    "days": [
-      {
-        "id": "day-2026-01-12",
-        "date": "2026-01-12",
-        "doctrine": {
-          "doctrine": "God created the earth for us",
-          "summary": "The earth was created as a place for God's children to receive physical bodies and be tested.",
-          "explanation": "The Creation was not accidental but purposeful. God organized the earth specifically to provide a place for His spirit children to receive mortal bodies, gain experience, and prove themselves worthy to return to His presence.",
-          "references": [
-            {
-              "display": "Genesis 1:1",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/1?lang=eng&id=p1#p1"
-            },
-            {
-              "display": "Abraham 4:1",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/4?lang=eng&id=p1#p1"
-            },
-            {
-              "display": "1 Nephi 17:36",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/17?lang=eng&id=p36#p36"
-            }
-          ],
-          "scriptures": []
-        },
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 1",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/03?lang=eng",
-            "question": "What did God create on the first day according to Genesis 1?",
-            "options": [
-              "The sun and moon",
-              "Light",
-              "Land and sea",
-              "Animals"
-            ],
-            "correctAnswer": 1,
-            "explanation": "God said, 'Let there be light: and there was light' (Genesis 1:3).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-01-13",
-        "date": "2026-01-13",
-        "doctrine": {
-          "doctrine": "We are created in God's image",
-          "summary": "Human beings are created in the physical and spiritual likeness of God.",
-          "explanation": "The declaration that we are made 'in the image of God' teaches that our Heavenly Father has a tangible body of flesh and bones. We are not random creations but intentional reflections of our divine Parent, made to become like Him.",
-          "references": [
-            {
-              "display": "Genesis 1:26-27",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/1?lang=eng&id=p26-p27#p26"
-            },
-            {
-              "display": "D&C 130:22",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/130?lang=eng&id=p22#p22"
-            },
-            {
-              "display": "Moses 6:9",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/6?lang=eng&id=p9#p9"
-            }
-          ],
-          "scriptures": []
-        },
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 1",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/03?lang=eng",
-            "question": "On which day were humans created?",
-            "options": [
-              "Fourth day",
-              "Fifth day",
-              "Sixth day",
-              "Seventh day"
-            ],
-            "correctAnswer": 2,
-            "explanation": "On the sixth day, 'God created man in his own image' (Genesis 1:27).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-01-14",
-        "date": "2026-01-14",
-        "doctrine": {
-          "doctrine": "The Sabbath is a day of rest and renewal",
-          "summary": "God set apart the seventh day as holy, establishing a pattern of rest and worship.",
-          "explanation": "After the Creation, God rested on the seventh day—not from fatigue, but to establish a sacred pattern. The Sabbath invites us to pause from worldly pursuits, remember our Creator, and renew our covenants.",
-          "references": [
-            {
-              "display": "Genesis 2:2-3",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/2?lang=eng&id=p2-p3#p2"
-            },
-            {
-              "display": "Exodus 20:8-11",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/ex/20?lang=eng&id=p8-p11#p8"
-            },
-            {
-              "display": "Isaiah 58:13-14",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/58?lang=eng&id=p13-p14#p13"
-            }
-          ],
-          "scriptures": []
-        },
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 2",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/03?lang=eng",
-            "question": "What did God do on the seventh day?",
-            "options": [
-              "Created more animals",
-              "Rested and sanctified the day",
-              "Created the Garden of Eden",
-              "Spoke with Adam"
-            ],
-            "correctAnswer": 1,
-            "explanation": "On the seventh day God 'rested' and 'blessed the seventh day, and sanctified it' (Genesis 2:2-3).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-01-15",
-        "date": "2026-01-15",
-        "doctrine": {
-          "doctrine": "Marriage between man and woman is ordained of God",
-          "summary": "God established marriage as the foundation of society and eternal families.",
-          "explanation": "The Lord said it was not good for man to be alone and created Eve as Adam's companion. Marriage between a man and woman is central to God's plan, enabling the creation of eternal families.",
-          "references": [
-            {
-              "display": "Genesis 2:24",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/2?lang=eng&id=p24#p24"
-            },
-            {
-              "display": "The Family: A Proclamation to the World",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/the-family-a-proclamation-to-the-world/the-family-a-proclamation-to-the-world?lang=eng"
-            },
-            {
-              "display": "D&C 49:15-17",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/49?lang=eng&id=p15-p17#p15"
-            }
-          ],
-          "scriptures": []
-        },
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Moses 3",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/03?lang=eng",
-            "question": "According to Moses 3, what was created spiritually before it was naturally upon the earth?",
-            "options": [
-              "Only humans",
-              "Only animals",
-              "Every plant and herb of the field",
-              "Only the trees"
-            ],
-            "correctAnswer": 2,
-            "explanation": "'I, the Lord God, created all things... spiritually, before they were naturally upon the face of the earth' (Moses 3:5).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-01-16",
-        "date": "2026-01-16",
-        "doctrine": {
-          "doctrine": "Physical bodies are a blessing",
-          "summary": "Receiving a physical body is essential for eternal progression and a gift from God.",
-          "explanation": "Creation of our bodies was a purposeful act of love. Having a body allows us to experience mortality, learn to control physical appetites, and eventually receive a glorified, resurrected body.",
-          "references": [
-            {
-              "display": "Genesis 2:7",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/2?lang=eng&id=p7#p7"
-            },
-            {
-              "display": "D&C 93:33-34",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/93?lang=eng&id=p33-p34#p33"
-            },
-            {
-              "display": "1 Corinthians 6:19-20",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/1-cor/6?lang=eng&id=p19-p20#p19"
-            }
-          ],
-          "scriptures": []
-        },
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 2",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/03?lang=eng",
-            "question": "From what did God form Adam?",
-            "options": [
-              "Water",
-              "Fire",
-              "Dust of the ground",
-              "Clay from the river"
-            ],
-            "correctAnswer": 2,
-            "explanation": "'The Lord God formed man of the dust of the ground, and breathed into his nostrils the breath of life' (Genesis 2:7).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-01-17",
-        "date": "2026-01-17",
-        "doctrine": {
-          "doctrine": "We are stewards over the earth",
-          "summary": "God has entrusted humanity with the care and responsible use of the earth and its resources.",
-          "explanation": "Adam was placed in the garden to 'dress it and to keep it.' We are not owners but stewards, accountable to God for how we use and care for His creations.",
-          "references": [
-            {
-              "display": "Genesis 2:15",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/2?lang=eng&id=p15#p15"
-            },
-            {
-              "display": "D&C 104:13-15",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/104?lang=eng&id=p13-p15#p13"
-            },
-            {
-              "display": "Moses 3:15",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/3?lang=eng&id=p15#p15"
-            }
-          ],
-          "scriptures": []
-        },
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Abraham 4",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/03?lang=eng",
-            "question": "In Abraham's account, who participated in the creation?",
-            "options": [
-              "God alone",
-              "The Gods (plural)",
-              "Angels",
-              "Adam and Eve"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Abraham's account uses 'the Gods' throughout, indicating multiple beings participated in creation (Abraham 4:1).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-01-18",
-        "date": "2026-01-18",
-        "doctrine": {
-          "doctrine": "God's creations testify of Him",
-          "summary": "The order and beauty of creation witness of God's existence, power, and love.",
-          "explanation": "Every aspect of creation—from the stars to living creatures—testifies of a divine Creator. We can come to know God through studying and appreciating His works.",
-          "references": [
-            {
-              "display": "Alma 30:44",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/30?lang=eng&id=p44#p44"
-            },
-            {
-              "display": "Romans 1:20",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/rom/1?lang=eng&id=p20#p20"
-            },
-            {
-              "display": "Moses 6:63",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/6?lang=eng&id=p63#p63"
-            }
-          ],
-          "scriptures": []
-        },
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 2",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/03?lang=eng",
-            "question": "What was the one tree Adam was commanded not to eat from?",
-            "options": [
-              "The tree of life",
-              "The tree of knowledge of good and evil",
-              "The olive tree",
-              "The fig tree"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'Of the tree of the knowledge of good and evil, thou shalt not eat of it' (Genesis 2:17).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      }
-    ],
-    "places": [
-      {
-        "name": "Garden of Eden",
-        "modernLocation": "According to Latter-day Saint revelation, located in Jackson County, Missouri, United States. Traditional biblical scholarship places it in Mesopotamia near the Tigris and Euphrates rivers.",
-        "locationType": "confirmed",
-        "description": "The paradisiacal garden where God placed Adam and Eve after their creation. Through modern revelation, Joseph Smith taught that the Garden of Eden was located in what is now Jackson County, Missouri. Brigham Young confirmed this teaching, noting that Adam dwelt in this area before and after the Fall.",
-        "scriptureReferences": [
-          {
-            "reference": "Genesis 2:8-15",
-            "url": ""
-          },
-          {
-            "reference": "Moses 3:8-15",
-            "url": ""
-          },
-          {
-            "reference": "Abraham 5:8-11",
-            "url": ""
-          },
-          {
-            "reference": "D&C 116:1",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Land of Eden",
-        "modernLocation": "The region surrounding Jackson County, Missouri, extending into Daviess County",
-        "locationType": "confirmed",
-        "description": "The broader region in which the Garden of Eden was located. According to Latter-day Saint teaching, this encompasses the area of western Missouri. Eden means 'delight' or 'pleasure' in Hebrew, suggesting a place of divine blessing and abundance.",
-        "scriptureReferences": [
-          {
-            "reference": "Genesis 2:8",
-            "url": ""
-          },
-          {
-            "reference": "Moses 3:8",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Council in Heaven",
-        "modernLocation": "Spiritual/celestial realm; in the presence of God before the creation of the earth",
-        "locationType": "symbolic",
-        "description": "The place where the spirits of all mankind were present when God presented His plan of salvation. Abraham saw this in vision, witnessing the noble and great ones and the choosing of the Savior.",
-        "scriptureReferences": [
-          {
-            "reference": "Abraham 3:22-28",
-            "url": ""
-          },
-          {
-            "reference": "Moses 4:1-4",
-            "url": ""
-          },
-          {
-            "reference": "D&C 29:36-38",
-            "url": ""
-          },
-          {
-            "reference": "Job 38:4-7",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Kolob",
-        "modernLocation": "Celestial; described as the star nearest to God's throne",
-        "locationType": "symbolic",
-        "description": "In the Book of Abraham, Kolob is described as the great governing star nearest to the throne of God. One day on Kolob equals one thousand years according to earth's reckoning. This revelation gives insight into God's relationship to time and the cosmos.",
-        "scriptureReferences": [
-          {
-            "reference": "Abraham 3:2-4",
-            "url": ""
-          },
-          {
-            "reference": "Abraham 3:9",
-            "url": ""
-          },
-          {
-            "reference": "Abraham 3:16",
-            "url": ""
-          },
-          {
-            "reference": "Abraham Facsimile 2",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "The Heavens",
-        "modernLocation": "Symbolic/spiritual realm; the dwelling place of God",
-        "locationType": "symbolic",
-        "description": "In the creation account, 'the heavens' refers to both the physical sky and the celestial realm where God dwells. The Book of Abraham provides additional insight into the organization of the heavens and the intelligences that existed before the world was formed.",
-        "scriptureReferences": [
-          {
-            "reference": "Genesis 1:1",
-            "url": ""
-          },
-          {
-            "reference": "Moses 2:1",
-            "url": ""
-          },
-          {
-            "reference": "Abraham 4:1",
-            "url": ""
-          },
-          {
-            "reference": "Abraham 3:22-23",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Pison River",
-        "modernLocation": "According to traditional scholarship: possibly the Karun River in Iran. Note: The geography of these rivers may have changed dramatically after the Flood.",
-        "locationType": "uncertain",
-        "description": "One of four rivers described as flowing from Eden. It is said to compass the land of Havilah, where there was gold, bdellium, and onyx stone. Latter-day Saint scholars suggest the antediluvian geography was significantly altered by the Flood.",
-        "scriptureReferences": [
-          {
-            "reference": "Genesis 2:11-12",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Gihon River",
-        "modernLocation": "Pre-Flood geography unknown; traditional scholarship suggests the Nile River or Diyala River",
-        "locationType": "uncertain",
-        "description": "One of the four rivers of Eden, said to compass the whole land of Ethiopia (Cush). The dramatic changes from the Flood make identification of pre-Flood rivers difficult.",
-        "scriptureReferences": [
-          {
-            "reference": "Genesis 2:13",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Hiddekel (Tigris) River",
-        "modernLocation": "Modern Tigris River flows through Turkey, Syria, and Iraq. May not correspond to the pre-Flood river of the same name.",
-        "locationType": "uncertain",
-        "description": "One of the four rivers of Eden. While a river by this name exists today, Latter-day Saint scholars note that the Flood dramatically reshaped earth's geography, so modern rivers may not correspond to their antediluvian namesakes.",
-        "scriptureReferences": [
-          {
-            "reference": "Genesis 2:14",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Euphrates River",
-        "modernLocation": "Modern Euphrates flows through Turkey, Syria, and Iraq. Pre-Flood location may differ significantly.",
-        "locationType": "uncertain",
-        "description": "The fourth river of Eden. Like the other rivers, the modern Euphrates may bear the same name as the pre-Flood river but occupy a different location due to the cataclysmic changes of the Flood.",
-        "scriptureReferences": [
-          {
-            "reference": "Genesis 2:14",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Land of Havilah",
-        "modernLocation": "Pre-Flood location unknown; post-Flood associations include Arabia or Indus Valley",
-        "locationType": "uncertain",
-        "description": "A land described as being encompassed by the Pison River, known for its gold, bdellium, and onyx stone. The original antediluvian location was likely different from later places bearing this name.",
-        "scriptureReferences": [
-          {
-            "reference": "Genesis 2:11-12",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Land of Cush",
-        "modernLocation": "Post-Flood Cush included parts of modern Sudan and Ethiopia; pre-Flood location unknown",
-        "locationType": "uncertain",
-        "description": "The land encompassed by the Gihon River. The name Cush was later applied to the region south of Egypt, but the original pre-Flood location remains unknown.",
-        "scriptureReferences": [
-          {
-            "reference": "Genesis 2:13",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Adam-ondi-Ahman",
-        "modernLocation": "Daviess County, Missouri, United States (approximately 70 miles north of Jackson County)",
-        "locationType": "confirmed",
-        "description": "According to Latter-day Saint revelation, after leaving the Garden of Eden, Adam and Eve dwelt at Adam-ondi-Ahman. The name is revealed to mean 'the place or land of God where Adam dwelt.' This is where Adam offered sacrifices and where he will return in the last days.",
-        "scriptureReferences": [
-          {
-            "reference": "D&C 107:53-57",
-            "url": ""
-          },
-          {
-            "reference": "D&C 116:1",
-            "url": ""
-          },
-          {
-            "reference": "D&C 117:8",
-            "url": ""
-          }
-        ],
-        "citations": []
-      }
-    ],
-    "people": [
-      {
-        "name": "God the Father (Elohim)",
-        "role": "Creator",
-        "description": "The supreme being who orchestrated the creation of the heavens and the earth. He directed the creation through His Son, Jesus Christ.",
-        "scriptureReferences": [
-          {
-            "reference": "Genesis 1:1",
-            "url": ""
-          },
-          {
-            "reference": "Moses 2:1",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Jesus Christ (Jehovah)",
-        "role": "Creator under the Father's direction",
-        "description": "The premortal Jesus Christ, known as Jehovah, was the active agent in the creation of the earth under the Father's direction.",
-        "scriptureReferences": [
-          {
-            "reference": "John 1:1-3",
-            "url": ""
-          },
-          {
-            "reference": "Moses 1:32-33",
-            "url": ""
-          }
-        ],
-        "citations": []
-      }
-    ]
-  },
-  {
-    "id": "week-2026-04",
-    "startDate": "2026-01-19",
-    "endDate": "2026-01-25",
-    "title": "Genesis 3–4; Moses 4–5",
-    "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/04?lang=eng",
-    "scriptures": [
-      {
-        "reference": "Genesis 3–4",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/3?lang=eng"
-      },
-      {
-        "reference": "Moses 4–5",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/4?lang=eng"
-      }
-    ],
-    "days": [
-      {
-        "id": "day-2026-01-19",
-        "date": "2026-01-19",
-        "doctrine": {
-          "doctrine": "The Fall was necessary for our progression",
-          "summary": "Adam and Eve's transgression was a crucial step in God's plan, enabling mortality and spiritual growth.",
-          "explanation": "Unlike the view that the Fall was a tragedy, restored truth teaches it was essential. Eve recognized that without the Fall, they would never have had children, known joy and misery, or understood redemption. The Fall made mortal life and the Atonement possible.",
-          "references": [
-            {
-              "display": "2 Nephi 2:22-25",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/2?lang=eng&id=p22-p25#p22"
-            },
-            {
-              "display": "Moses 5:10-11",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/5?lang=eng&id=p10-p11#p10"
-            },
-            {
-              "display": "1 Corinthians 15:21-22",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/1-cor/15?lang=eng&id=p21-p22#p21"
-            }
-          ],
-          "scriptures": []
-        },
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 3",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/04?lang=eng",
-            "question": "What animal did Satan use to tempt Eve?",
-            "options": [
-              "A lion",
-              "A serpent",
-              "A raven",
-              "A goat"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'The serpent was more subtil than any beast of the field' and spoke to Eve (Genesis 3:1).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-01-20",
-        "date": "2026-01-20",
-        "doctrine": {
-          "doctrine": "Sacrifice points to Jesus Christ",
-          "summary": "Animal sacrifice was instituted to teach about and point to the Atonement of Jesus Christ.",
-          "explanation": "When Adam asked why he was to offer sacrifice, an angel explained it was 'a similitude of the sacrifice of the Only Begotten.' Every ancient sacrifice taught about Jesus Christ—the only sacrifice that could truly take away sin.",
-          "references": [
-            {
-              "display": "Moses 5:5-8",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/5?lang=eng&id=p5-p8#p5"
-            },
-            {
-              "display": "Alma 34:14",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/34?lang=eng&id=p14#p14"
-            },
-            {
-              "display": "Hebrews 10:1-4",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/heb/10?lang=eng&id=p1-p4#p1"
-            }
-          ],
-          "scriptures": []
-        },
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 3",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/04?lang=eng",
-            "question": "What did Adam and Eve realize after eating the forbidden fruit?",
-            "options": [
-              "They became like gods knowing all things",
-              "They were naked",
-              "They could fly",
-              "They could speak to animals"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'The eyes of them both were opened, and they knew that they were naked' (Genesis 3:7).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-01-21",
-        "date": "2026-01-21",
-        "doctrine": {
-          "doctrine": "Opposition is essential for growth",
-          "summary": "Without opposition, we could not exercise agency, experience joy, or progress eternally.",
-          "explanation": "There must be 'an opposition in all things.' The Fall introduced this opposition, allowing us to choose between good and evil, experience sorrow and joy, and ultimately grow toward godhood.",
-          "references": [
-            {
-              "display": "2 Nephi 2:11-16",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/2?lang=eng&id=p11-p16#p11"
-            },
-            {
-              "display": "Moses 6:55",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/6?lang=eng&id=p55#p55"
-            },
-            {
-              "display": "D&C 29:39",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/29?lang=eng&id=p39#p39"
-            }
-          ],
-          "scriptures": []
-        },
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Moses 4",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/04?lang=eng",
-            "question": "According to Moses 4, why did Satan want to destroy the world?",
-            "options": [
-              "Because he was bored",
-              "Because he sought God's glory and was cast out",
-              "Because he hated humans",
-              "Because he wanted to rule alone"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Satan 'sought to destroy the agency of man' and 'rebelled against me, saying, Give me thine honor' (Moses 4:3).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-01-22",
-        "date": "2026-01-22",
-        "doctrine": {
-          "doctrine": "Satan seeks to deceive and destroy",
-          "summary": "The adversary actively works to lead God's children away from truth and happiness.",
-          "explanation": "Satan, who rebelled in the premortal life, seeks to make all people 'miserable like unto himself.' Understanding his tactics helps us resist temptation and stay on the covenant path.",
-          "references": [
-            {
-              "display": "Moses 4:3-4",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/4?lang=eng&id=p3-p4#p3"
-            },
-            {
-              "display": "2 Nephi 2:27",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/2?lang=eng&id=p27#p27"
-            },
-            {
-              "display": "1 Peter 5:8",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/1-pet/5?lang=eng&id=p8#p8"
-            }
-          ],
-          "scriptures": []
-        },
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 4",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/04?lang=eng",
-            "question": "What was the occupation of Abel?",
-            "options": [
-              "A farmer",
-              "A keeper of sheep",
-              "A builder",
-              "A hunter"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'Abel was a keeper of sheep, but Cain was a tiller of the ground' (Genesis 4:2).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-01-23",
-        "date": "2026-01-23",
-        "doctrine": {
-          "doctrine": "God provides a way for all to hear the gospel",
-          "summary": "The gospel has been taught from the beginning, and God ensures all His children have opportunity to receive it.",
-          "explanation": "Adam and Eve were taught the plan of salvation and the gospel of Jesus Christ. God's plan includes provisions for all people, in all times, to hear and accept His gospel.",
-          "references": [
-            {
-              "display": "Moses 5:58-59",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/5?lang=eng&id=p58-p59#p58"
-            },
-            {
-              "display": "D&C 138:30-35",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/138?lang=eng&id=p30-p35#p30"
-            },
-            {
-              "display": "1 Peter 4:6",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/1-pet/4?lang=eng&id=p6#p6"
-            }
-          ],
-          "scriptures": []
-        },
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 4",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/04?lang=eng",
-            "question": "Why was Cain's offering not accepted by the Lord?",
-            "options": [
-              "It was too small",
-              "He offered it at the wrong time",
-              "He did not offer it in faith and righteousness",
-              "He used the wrong altar"
-            ],
-            "correctAnswer": 2,
-            "explanation": "Moses 5:21 explains Cain 'loved Satan more than God' and did not offer in faith.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-01-24",
-        "date": "2026-01-24",
-        "doctrine": {
-          "doctrine": "We are agents unto ourselves",
-          "summary": "God has given us the power to choose and act for ourselves, not to be acted upon.",
-          "explanation": "Agency is one of God's greatest gifts. We can choose to follow Christ or follow Satan, but we must accept the consequences of our choices. Agency makes repentance and progression possible.",
-          "references": [
-            {
-              "display": "Moses 4:3",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/4?lang=eng&id=p3#p3"
-            },
-            {
-              "display": "2 Nephi 2:26-27",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/2?lang=eng&id=p26-p27#p26"
-            },
-            {
-              "display": "D&C 58:27-28",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/58?lang=eng&id=p27-p28#p27"
-            }
-          ],
-          "scriptures": []
-        },
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Moses 5",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/04?lang=eng",
-            "question": "What was Adam commanded to offer as a sacrifice?",
-            "options": [
-              "Grain and fruit",
-              "The firstlings of his flocks",
-              "Gold and silver",
-              "Incense"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Adam was commanded 'that thou shalt offer the firstlings of thy flocks, for an offering unto the Lord' (Moses 5:5).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-01-25",
-        "date": "2026-01-25",
-        "doctrine": {
-          "doctrine": "The Holy Ghost is given to the faithful",
-          "summary": "Those who exercise faith and are baptized receive the gift of the Holy Ghost.",
-          "explanation": "Adam was taught that after baptism, he would receive the Holy Ghost. This gift provides constant companionship, guidance, comfort, and sanctification to covenant-keepers.",
-          "references": [
-            {
-              "display": "Moses 6:52",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/6?lang=eng&id=p52#p52"
-            },
-            {
-              "display": "Acts 2:38",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/2?lang=eng&id=p38#p38"
-            },
-            {
-              "display": "2 Nephi 31:17",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/31?lang=eng&id=p17#p17"
-            }
-          ],
-          "scriptures": []
-        },
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Moses 5",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/04?lang=eng",
-            "question": "What did the sacrifice of the firstlings symbolize?",
-            "options": [
-              "Man's dominion over animals",
-              "The sacrifice of the Only Begotten of the Father",
-              "The changing of seasons",
-              "Thanksgiving for harvests"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'This thing is a similitude of the sacrifice of the Only Begotten of the Father' (Moses 5:7).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      }
-    ],
-    "places": [
-      {
-        "name": "Garden of Eden",
-        "modernLocation": "Jackson County, Missouri, United States",
-        "locationType": "confirmed",
-        "description": "The setting for the Fall of Adam and Eve. It was here that the serpent (Lucifer) tempted Eve, and both partook of the fruit of the tree of knowledge of good and evil. The Book of Moses provides significant additional dialogue and context not found in Genesis.",
-        "scriptureReferences": [
-          {
-            "reference": "Genesis 3:1-24",
-            "url": ""
-          },
-          {
-            "reference": "Moses 4:1-31",
-            "url": ""
-          },
-          {
-            "reference": "2 Nephi 2:19-25",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Adam-ondi-Ahman",
-        "modernLocation": "Daviess County, Missouri, United States",
-        "locationType": "confirmed",
-        "description": "Where Adam and Eve dwelt after their expulsion from the garden. Here they began their mortal existence, working the ground, bearing children, and offering sacrifices to God. This is the same location where Adam blessed his posterity three years before his death.",
-        "scriptureReferences": [
-          {
-            "reference": "D&C 107:53-57",
-            "url": ""
-          },
-          {
-            "reference": "D&C 116:1",
-            "url": ""
-          },
-          {
-            "reference": "Moses 5:1-12",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Land of Nod",
-        "modernLocation": "Unknown; possibly symbolic. If the Garden was in Missouri, Nod may have been east of that region in pre-Flood geography.",
-        "locationType": "uncertain",
-        "description": "The land where Cain dwelt after being cursed for murdering Abel. The name 'Nod' means 'wandering' in Hebrew. The Book of Moses adds that Cain was 'shut out from the presence of the Lord' and dwelt in this land.",
-        "scriptureReferences": [
-          {
-            "reference": "Genesis 4:16",
-            "url": ""
-          },
-          {
-            "reference": "Moses 5:41",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "City of Enoch (Cain's city)",
-        "modernLocation": "Unknown; built in the land of Nod, east of Adam-ondi-Ahman",
-        "locationType": "uncertain",
-        "description": "The first city mentioned in scripture, built by Cain and named after his son Enoch. This city represented the beginning of Cain's lineage establishing civilization apart from God's covenant people. Not to be confused with the City of Zion built by the righteous Enoch.",
-        "scriptureReferences": [
-          {
-            "reference": "Genesis 4:17",
-            "url": ""
-          },
-          {
-            "reference": "Moses 5:42",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Altar of Sacrifice",
-        "modernLocation": "In the region of Adam-ondi-Ahman, Daviess County, Missouri",
-        "locationType": "confirmed",
-        "description": "The place where Adam built an altar and offered sacrifice after leaving the garden. Here he was taught by an angel about the symbolism of sacrifice pointing to Jesus Christ. Cain and Abel also made their offerings at altars in this region.",
-        "scriptureReferences": [
-          {
-            "reference": "Moses 5:5-8",
-            "url": ""
-          },
-          {
-            "reference": "Genesis 4:3-4",
-            "url": ""
-          },
-          {
-            "reference": "Moses 5:17-21",
-            "url": ""
-          }
-        ],
-        "citations": []
-      }
-    ],
-    "people": [
-      {
-        "name": "God the Father (Elohim)",
-        "role": "Creator",
-        "description": "The supreme being who orchestrated the creation of the heavens and the earth. He directed the creation through His Son, Jesus Christ.",
-        "scriptureReferences": [
-          {
-            "reference": "Genesis 1:1",
-            "url": ""
-          },
-          {
-            "reference": "Moses 2:1",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Jesus Christ (Jehovah)",
-        "role": "Creator under the Father's direction",
-        "description": "The premortal Jesus Christ, known as Jehovah, was the active agent in the creation of the earth under the Father's direction.",
-        "scriptureReferences": [
-          {
-            "reference": "John 1:1-3",
-            "url": ""
-          },
-          {
-            "reference": "Moses 1:32-33",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Adam",
-        "role": "First Man",
-        "description": "The first man created by God, formed from the dust of the ground. He was placed in the Garden of Eden and given dominion over all living things. Adam is also known as Michael in his premortal existence.",
-        "scriptureReferences": [
-          {
-            "reference": "Genesis 2:7",
-            "url": ""
-          },
-          {
-            "reference": "Moses 3:7",
-            "url": ""
-          },
-          {
-            "reference": "Abraham 1:3",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Eve",
-        "role": "First Woman",
-        "description": "The first woman, created from Adam's rib to be his companion and helpmeet. Her choice to partake of the fruit enabled mortality and the opportunity for all mankind to progress.",
-        "scriptureReferences": [
-          {
-            "reference": "Genesis 2:21-23",
-            "url": ""
-          },
-          {
-            "reference": "Moses 4:26",
-            "url": ""
-          },
-          {
-            "reference": "2 Nephi 2:18-20",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Satan (Lucifer)",
-        "role": "Tempter",
-        "description": "A fallen son of the morning who rebelled against God in the premortal existence. He appeared as a serpent in the Garden of Eden and tempted Eve to partake of the forbidden fruit.",
-        "scriptureReferences": [
-          {
-            "reference": "Genesis 3:1-5",
-            "url": ""
-          },
-          {
-            "reference": "Moses 4:1-4",
-            "url": ""
-          },
-          {
-            "reference": "Isaiah 14:12-15",
-            "url": ""
-          }
-        ],
-        "citations": []
-      }
-    ]
-  },
-  {
-    "id": "week-2026-05",
-    "startDate": "2026-01-26",
-    "endDate": "2026-02-01",
-    "title": "Genesis 5; Moses 6",
-    "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/05?lang=eng",
-    "scriptures": [
-      {
-        "reference": "Genesis 5",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/5?lang=eng"
-      },
-      {
-        "reference": "Moses 6",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/6?lang=eng"
-      }
-    ],
-    "days": [
-      {
-        "id": "day-2026-01-26",
-        "date": "2026-01-26",
-        "doctrine": {
-          "doctrine": "Repentance and baptism bring forgiveness",
-          "summary": "Through faith in Christ, repentance, and baptism, we can receive remission of sins.",
-          "explanation": "Enoch was taught the doctrine of Christ: to believe, repent, be baptized, and receive the Holy Ghost. This pattern has been taught since Adam and remains the only way to be cleansed from sin and enter God's kingdom.",
-          "references": [
-            {
-              "display": "Moses 6:52-60",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/6?lang=eng&id=p52-p60#p52"
-            },
-            {
-              "display": "2 Nephi 31:13",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/31?lang=eng&id=p13#p13"
-            },
-            {
-              "display": "Acts 2:38",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/2?lang=eng&id=p38#p38"
-            }
-          ],
-          "scriptures": []
-        },
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Moses 6",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/05?lang=eng",
-            "question": "What book contained the genealogy and records of Adam's descendants?",
-            "options": [
-              "The Book of Life",
-              "The Book of Remembrance",
-              "The Book of the Covenant",
-              "The Book of Generations"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'A book of remembrance was kept' in the language of Adam (Moses 6:5).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-01-27",
-        "date": "2026-01-27",
-        "doctrine": {
-          "doctrine": "Zion is the pure in heart",
-          "summary": "Zion is both a place and a condition—a community of people who are unified and pure before God.",
-          "explanation": "Enoch's city was called Zion because the people were 'of one heart and one mind, and dwelt in righteousness; and there was no poor among them.' We are commanded to build Zion today through unity, righteousness, and caring for one another.",
-          "references": [
-            {
-              "display": "Moses 7:18",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7?lang=eng&id=p18#p18"
-            },
-            {
-              "display": "D&C 97:21",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/97?lang=eng&id=p21#p21"
-            },
-            {
-              "display": "4 Nephi 1:2-3",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/4-ne/1?lang=eng&id=p2-p3#p2"
-            }
-          ],
-          "scriptures": []
-        },
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Moses 6",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/05?lang=eng",
-            "question": "How old was Enoch when he was called to preach?",
-            "options": [
-              "25 years old",
-              "65 years old",
-              "100 years old",
-              "30 years old"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Enoch said, 'I am but a lad, and all the people hate me; for I am slow of speech' when called at 65 years (Moses 6:31).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-01-28",
-        "date": "2026-01-28",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Moses 7",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/05?lang=eng",
-            "question": "What name was given to Enoch's righteous city?",
-            "options": [
-              "Jerusalem",
-              "Zion",
-              "Eden",
-              "Bethel"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'And the Lord called his people Zion, because they were of one heart and one mind' (Moses 7:18).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-01-29",
-        "date": "2026-01-29",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Moses 7",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/05?lang=eng",
-            "question": "What happened to the city of Enoch?",
-            "options": [
-              "It was destroyed by enemies",
-              "It was taken up into heaven",
-              "It sank into the sea",
-              "It became Jerusalem"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'Zion, in process of time, was taken up into heaven' (Moses 7:21).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-01-30",
-        "date": "2026-01-30",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Moses 7",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/05?lang=eng",
-            "question": "What did Enoch see that caused God to weep?",
-            "options": [
-              "The destruction of the temple",
-              "The wickedness of mankind",
-              "The death of Abel",
-              "The tower of Babel"
-            ],
-            "correctAnswer": 1,
-            "explanation": "God wept because of the wickedness of His children and their rejection of the gospel (Moses 7:28-37).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-01-31",
-        "date": "2026-01-31",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Moses 6",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/05?lang=eng",
-            "question": "According to Moses 6:57, how must one enter the kingdom of God?",
-            "options": [
-              "By keeping all the commandments perfectly",
-              "By being born of water and the Spirit",
-              "By offering many sacrifices",
-              "By living a long life"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'Ye must be born again into the kingdom of heaven, of water, and of the Spirit' (Moses 6:59).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-02-01",
-        "date": "2026-02-01",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Moses 7",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/05?lang=eng",
-            "question": "What quality defined the people of Zion according to Moses 7:18?",
-            "options": [
-              "They were wealthy and powerful",
-              "They were of one heart and one mind with no poor among them",
-              "They had many prophets",
-              "They built great temples"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'They were of one heart and one mind, and dwelt in righteousness; and there was no poor among them' (Moses 7:18).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      }
-    ],
-    "places": [
-      {
-        "name": "Land of Cainan",
-        "modernLocation": "Unknown; in the pre-Flood world, likely in the region of Missouri according to Latter-day Saint revelation",
-        "locationType": "uncertain",
-        "description": "The land where Enos, son of Seth, dwelt. The name Cainan appears in the genealogies as one of the early patriarchs. This was part of the inhabited world before the Flood.",
-        "scriptureReferences": [
-          {
-            "reference": "Moses 6:17",
-            "url": ""
-          },
-          {
-            "reference": "Genesis 5:9-14",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Land of Shulon",
-        "modernLocation": "Unknown; pre-Flood geography",
-        "locationType": "uncertain",
-        "description": "Mentioned in the Book of Moses as one of the regions where Enoch traveled and preached. The people who heard Enoch came to stand on a hill called Simeon.",
-        "scriptureReferences": [
-          {
-            "reference": "Moses 6:42",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Hill Simeon",
-        "modernLocation": "Unknown; pre-Flood location",
-        "locationType": "uncertain",
-        "description": "A hill where Enoch stood when he began his prophetic ministry. The people gathered from the lands of Cainan, Sharon, and Enoch to hear him speak.",
-        "scriptureReferences": [
-          {
-            "reference": "Moses 6:42",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Land of Sharon",
-        "modernLocation": "Unknown; pre-Flood location. Post-Flood Sharon is in Israel, but this refers to an antediluvian place.",
-        "locationType": "uncertain",
-        "description": "One of the lands from which people came to hear Enoch preach on the hill Simeon. Not to be confused with the post-Flood Sharon in ancient Israel.",
-        "scriptureReferences": [
-          {
-            "reference": "Moses 6:42",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Land of Enoch",
-        "modernLocation": "Unknown; pre-Flood location",
-        "locationType": "uncertain",
-        "description": "A land named after the patriarch Enoch, from which people came to hear Enoch the prophet preach. This was distinct from the city that Enoch later built.",
-        "scriptureReferences": [
-          {
-            "reference": "Moses 6:42",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "City of Zion (City of Enoch)",
-        "modernLocation": "Taken up to heaven; originally in the pre-Flood world, likely in the Missouri region according to LDS tradition",
-        "locationType": "symbolic",
-        "description": "The holy city established by the prophet Enoch. The inhabitants were 'of one heart and one mind, and dwelt in righteousness; and there was no poor among them.' After 365 years, the entire city was translated and taken up to heaven. This city will return to the earth in the last days.",
-        "scriptureReferences": [
-          {
-            "reference": "Moses 7:18-21",
-            "url": ""
-          },
-          {
-            "reference": "Moses 7:62-69",
-            "url": ""
-          },
-          {
-            "reference": "D&C 45:11-12",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Adam-ondi-Ahman",
-        "modernLocation": "Daviess County, Missouri, United States",
-        "locationType": "confirmed",
-        "description": "The patriarchal gathering place where Adam blessed his righteous posterity three years before his death. Enoch would have known this sacred location as the place where Adam dwelt after leaving the Garden of Eden. The Lord appeared to them, and Adam prophesied concerning his posterity.",
-        "scriptureReferences": [
-          {
-            "reference": "D&C 107:53-57",
-            "url": ""
-          },
-          {
-            "reference": "D&C 116:1",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Waters of Judea",
-        "modernLocation": "Unknown; pre-Flood location",
-        "locationType": "uncertain",
-        "description": "A body of water mentioned in Enoch's vision. Enoch saw that the wicked would be destroyed by the Flood, with waters covering the earth.",
-        "scriptureReferences": [
-          {
-            "reference": "Moses 6:42",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Land of Mahujah",
-        "modernLocation": "Unknown; pre-Flood location",
-        "locationType": "uncertain",
-        "description": "A land mentioned in connection with Enoch's ministry. Mahujah was also the name of a man who questioned Enoch about his prophetic calling.",
-        "scriptureReferences": [
-          {
-            "reference": "Moses 6:40",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Land of Canaan (Antediluvian)",
-        "modernLocation": "Unknown; pre-Flood location (not the same as post-Flood Canaan in the Middle East)",
-        "locationType": "uncertain",
-        "description": "Mentioned in the Book of Moses as one of the lands in the antediluvian world. A land of promise that the Lord cursed with much heat because of the wickedness of the people.",
-        "scriptureReferences": [
-          {
-            "reference": "Moses 7:6-8",
-            "url": ""
-          }
-        ],
-        "citations": []
-      }
-    ],
-    "people": [
-      {
-        "name": "Adam",
-        "role": "First Man",
-        "description": "The first man created by God, formed from the dust of the ground. He was placed in the Garden of Eden and given dominion over all living things. Adam is also known as Michael in his premortal existence.",
-        "scriptureReferences": [
-          {
-            "reference": "Genesis 2:7",
-            "url": ""
-          },
-          {
-            "reference": "Moses 3:7",
-            "url": ""
-          },
-          {
-            "reference": "Abraham 1:3",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Eve",
-        "role": "First Woman",
-        "description": "The first woman, created from Adam's rib to be his companion and helpmeet. Her choice to partake of the fruit enabled mortality and the opportunity for all mankind to progress.",
-        "scriptureReferences": [
-          {
-            "reference": "Genesis 2:21-23",
-            "url": ""
-          },
-          {
-            "reference": "Moses 4:26",
-            "url": ""
-          },
-          {
-            "reference": "2 Nephi 2:18-20",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Satan (Lucifer)",
-        "role": "Tempter",
-        "description": "A fallen son of the morning who rebelled against God in the premortal existence. He appeared as a serpent in the Garden of Eden and tempted Eve to partake of the forbidden fruit.",
-        "scriptureReferences": [
-          {
-            "reference": "Genesis 3:1-5",
-            "url": ""
-          },
-          {
-            "reference": "Moses 4:1-4",
-            "url": ""
-          },
-          {
-            "reference": "Isaiah 14:12-15",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Enoch",
-        "role": "Prophet and Builder of Zion",
-        "description": "A righteous prophet called by God despite feeling inadequate. He preached repentance, saw visions of God's plan, and built a city so righteous that it was taken up to heaven. He is the great-grandfather of Noah.",
-        "scriptureReferences": [
-          {
-            "reference": "Moses 6:26-47",
-            "url": ""
-          },
-          {
-            "reference": "Moses 7:1-69",
-            "url": ""
-          },
-          {
-            "reference": "Genesis 5:21-24",
-            "url": ""
-          },
-          {
-            "reference": "Hebrews 11:5",
-            "url": ""
-          },
-          {
-            "reference": "D&C 107:48-49",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Methuselah",
-        "role": "Patriarch and Longest-Living Man",
-        "description": "Son of Enoch who was not translated with the City of Zion so that the priesthood lineage could continue through him to Noah. He lived 969 years—the longest lifespan recorded in scripture.",
-        "scriptureReferences": [
-          {
-            "reference": "Genesis 5:25-27",
-            "url": ""
-          },
-          {
-            "reference": "Moses 8:1-7",
-            "url": ""
-          },
-          {
-            "reference": "Luke 3:37",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Mahijah",
-        "role": "Questioner of Enoch",
-        "description": "A man who questioned Enoch about his prophetic calling, asking who he was and where he came from. His question prompted Enoch to share his divine commission.",
-        "scriptureReferences": [
-          {
-            "reference": "Moses 6:40",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Seth",
-        "role": "Son of Adam",
-        "description": "The righteous son of Adam who carried on the covenant line. He was 'a perfect man, and his likeness was the express likeness of his father.' He was ordained by Adam at age 69.",
-        "scriptureReferences": [
-          {
-            "reference": "Moses 6:2-3",
-            "url": ""
-          },
-          {
-            "reference": "Moses 6:10-13",
-            "url": ""
-          },
-          {
-            "reference": "D&C 107:42",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Jared",
-        "role": "Father of Enoch",
-        "description": "The father of Enoch. He taught his son in the ways of righteousness. He was the sixth generation from Adam.",
-        "scriptureReferences": [
-          {
-            "reference": "Moses 6:21",
-            "url": ""
-          },
-          {
-            "reference": "Genesis 5:18-20",
-            "url": ""
-          }
-        ],
-        "citations": []
-      }
-    ]
-  },
-  {
-    "id": "week-2026-06",
-    "startDate": "2026-02-02",
-    "endDate": "2026-02-08",
-    "title": "Moses 7",
-    "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/06?lang=eng",
-    "scriptures": [
-      {
-        "reference": "Moses 7",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7?lang=eng"
-      }
-    ],
-    "days": [
-      {
-        "id": "day-2026-02-02",
-        "date": "2026-02-02",
-        "doctrine": {
-          "doctrine": "Priesthood authority has been on the earth since Adam",
-          "summary": "The priesthood was given to Adam and passed down through righteous patriarchs.",
-          "explanation": "From Adam to Noah, the priesthood was held and passed from father to son. This authority to act in God's name has been restored today, allowing ordinances like baptism and temple blessings to be performed with divine approval.",
-          "references": [
-            {
-              "display": "D&C 107:40-42",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/107?lang=eng&id=p40-p42#p40"
-            },
-            {
-              "display": "Moses 6:7",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/6?lang=eng&id=p7#p7"
-            },
-            {
-              "display": "D&C 84:6-17",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/84?lang=eng&id=p6-p17#p6"
-            }
-          ],
-          "scriptures": []
-        },
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Moses 6:67",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/06?lang=eng",
-            "question": "According to the Pearl of Great Price, what did Adam receive when he was baptized?",
-            "options": [
-              "Authority to govern the earth",
-              "The Holy Ghost and a promise of eternal life",
-              "Dominion over all beasts of the field",
-              "A covenant of priesthood authority"
-            ],
-            "correctAnswer": 3,
-            "explanation": "Moses 6:67 teaches that Adam was baptized and received the priesthood. This demonstrates that priesthood authority has been on earth since Adam, with God establishing this sacred ordinance from the beginning of time.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-02-03",
-        "date": "2026-02-03",
-        "doctrine": {
-          "doctrine": "Walking with God brings transformation and righteousness",
-          "summary": "Those who maintain close communion with God are transformed and elevated spiritually.",
-          "explanation": "Enoch 'walked with God' and was taken up to heaven without tasting death. This walking with God means maintaining close spiritual communion, keeping His commandments, and allowing Him to transform us into His image. Such a life brings joy, purpose, and eternal rewards.",
-          "references": [
-            {
-              "display": "Moses 7:69",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7?lang=eng&id=p69#p69"
-            },
-            {
-              "display": "Enos 1:3",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/enos/1?lang=eng&id=p3#p3"
-            },
-            {
-              "display": "D&C 93:28",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/93?lang=eng&id=p28#p28"
-            }
-          ],
-          "scriptures": []
-        },
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 5:24",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/06?lang=eng",
-            "question": "What happened to Enoch as a result of his faithful communion with God?",
-            "options": [
-              "He became wealthy and gathered many possessions",
-              "He was translated and taken up to heaven without tasting death",
-              "He fathered a great multitude of sons and daughters",
-              "He became king over all the people of the earth"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Genesis 5:24 reveals that 'Enoch walked with God: and he was not; for God took him.' Walking with God transformed Enoch so completely that he achieved translation, showing how communion with the divine brings spiritual transformation and extraordinary blessings.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-02-04",
-        "date": "2026-02-04",
-        "doctrine": {
-          "doctrine": "God calls ordinary people to do extraordinary things",
-          "summary": "God does not choose the most powerful or wealthy to accomplish His work, but calls those willing to be obedient.",
-          "explanation": "Noah was called at age 480 and spent 120 years building the ark and preaching repentance. Though rejected by the people, he remained faithful to his calling. God equips those He calls with power and purpose. His invitation to serve comes to all who will hear.",
-          "references": [
-            {
-              "display": "D&C 33:16",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/33?lang=eng&id=p16#p16"
-            },
-            {
-              "display": "1 Corinthians 1:27",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/1-cor/1?lang=eng&id=p27#p27"
-            },
-            {
-              "display": "Hebrews 11:7",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/heb/11?lang=eng&id=p7#p7"
-            }
-          ],
-          "scriptures": []
-        },
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Moses 6:31",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/06?lang=eng",
-            "question": "Before receiving his calling, Enoch was known by what characteristic?",
-            "options": [
-              "He was the mightiest man of great renown",
-              "He was a great warrior and leader",
-              "He was slow of speech and did not desire to preach",
-              "He was well-versed in all the wisdom of Egypt"
-            ],
-            "correctAnswer": 2,
-            "explanation": "Moses 6:31 tells us that Enoch said, 'Why am I thy servant?' expressing reluctance about his calling. Despite being ordinary and uncertain, God called him to be a prophet and he built the city of Zion (Moses 7:19), demonstrating how God calls ordinary people to accomplish extraordinary things.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-02-05",
-        "date": "2026-02-05",
-        "doctrine": {
-          "doctrine": "Repentance and baptism are essential for salvation",
-          "summary": "To follow Jesus Christ, we must turn from sin and be baptized in His name.",
-          "explanation": "Noah preached that people 'believe and repent... and be baptized in the name of Jesus Christ.' Even in the pre-flood world, faith in Christ, repentance from sin, and baptism were required for salvation. These principles remain central to our path back to God today.",
-          "references": [
-            {
-              "display": "Moses 8:24",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/8?lang=eng&id=p24#p24"
-            },
-            {
-              "display": "2 Nephi 31:4-5",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/31?lang=eng&id=p4-p5#p4"
-            },
-            {
-              "display": "Article of Faith 1:4",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/pgp/a-of-f/1?lang=eng&id=p4#p4"
-            }
-          ],
-          "scriptures": []
-        },
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Moses 7:1",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/06?lang=eng",
-            "question": "What did the people in Enoch's city receive that saved them, according to Moses 7?",
-            "options": [
-              "Military strength to defeat their enemies",
-              "Great wealth through righteous commerce",
-              "Baptism and the remission of their sins",
-              "Perfect knowledge of all things written"
-            ],
-            "correctAnswer": 2,
-            "explanation": "Moses 7:1 establishes that the people repented and were baptized. The righteousness of Zion came through repentance and baptism—ordinances that are 'essential' to salvation, as illustrated by the fact that Enoch's city became the only safe place in that age.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-02-06",
-        "date": "2026-02-06",
-        "doctrine": {
-          "doctrine": "Righteousness is preserved through family lineage",
-          "summary": "God perpetuates His work through righteous families who teach and guide their children.",
-          "explanation": "The priesthood and righteous teachings were passed from father to son: Adam to Seth, through Methuselah to Noah. Family is the fundamental unit of God's kingdom. Parents have the sacred duty to teach children truth and virtue, creating an unbroken chain of righteousness across generations.",
-          "references": [
-            {
-              "display": "D&C 107:40-42",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/107?lang=eng&id=p40-p42#p40"
-            },
-            {
-              "display": "1 Nephi 8:12",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/8?lang=eng&id=p12#p12"
-            },
-            {
-              "display": "Proverbs 22:6",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/prov/22?lang=eng&id=p6#p6"
-            }
-          ],
-          "scriptures": []
-        },
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 5",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/06?lang=eng",
-            "question": "Which genealogy demonstrates the preservation of righteousness through family lineage?",
-            "options": [
-              "The line from Cain through his descendants",
-              "The descendants of Noah through his three sons",
-              "The unbroken line from Adam through Enoch to Noah",
-              "The children of Lamech in the land of Nod"
-            ],
-            "correctAnswer": 2,
-            "explanation": "Genesis 5 presents the genealogy from Adam to Noah, with each generation noted as righteous or faithful. This continuous line—including Adam, Enoch, Methuselah, and Noah—shows how righteousness was preserved and transmitted through family lineage, with 'Enoch walked with God' (Genesis 5:24) emphasizing this spiritual inheritance.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-02-07",
-        "date": "2026-02-07",
-        "doctrine": {
-          "doctrine": "God's long-suffering patience demonstrates His love",
-          "summary": "God bears long with us, offering countless opportunities to repent despite our rejection of His word.",
-          "explanation": "Noah offered 120 years of warning before the Flood, but the people hearkened not. Yet God did not destroy them in anger—He gave them abundant time to choose righteousness. This pattern of patient waiting shows God's perfect love. He will not force us to choose right, but He persistently calls us back to Him.",
-          "references": [
-            {
-              "display": "2 Peter 3:9",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/2-pet/3?lang=eng&id=p9#p9"
-            },
-            {
-              "display": "Moses 7:35",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7?lang=eng&id=p35#p35"
-            },
-            {
-              "display": "D&C 76:67",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/76?lang=eng&id=p67#p67"
-            }
-          ],
-          "scriptures": []
-        },
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Moses 7:40-41",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/06?lang=eng",
-            "question": "What did God express to Enoch regarding His feelings toward His children?",
-            "options": [
-              "That He was angry with them and would destroy them",
-              "That His bowels yearn over them and His heart is full of mercy despite their wickedness",
-              "That He was indifferent to their choices",
-              "That He wished to remain distant from mankind"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Moses 7:40-41 contains God's statement: 'My heart is pained all the day long... the wickedness of the children of men... my bowels are full of compassion.' Despite humanity's repeated wickedness, God's long-suffering patience and willingness to endure demonstrates profound love.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-02-08",
-        "date": "2026-02-08",
-        "doctrine": {
-          "doctrine": "Life is a stewardship for which we are accountable",
-          "summary": "The years we are given on earth are not ours to waste; they are a trust from God to be used wisely.",
-          "explanation": "The patriarchs lived hundreds of years, yet their long lives demonstrate that longevity is not an end in itself. What matters is what we do with the time given to us. Whether we live 930 years like Adam or 480 years like Noah-at-calling, we are stewards of our days. We will be accountable for how we used them to serve God and others.",
-          "references": [
-            {
-              "display": "Ecclesiastes 12:1",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/eccl/12?lang=eng&id=p1#p1"
-            },
-            {
-              "display": "D&C 11:4",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/11?lang=eng&id=p4#p4"
-            },
-            {
-              "display": "Psalm 90:12",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/ps/90?lang=eng&id=p12#p12"
-            }
-          ],
-          "scriptures": []
-        },
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Moses 7:46",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/06?lang=eng",
-            "question": "What call did God issue to Enoch that related to his role as a steward?",
-            "options": [
-              "To collect tribute from all surrounding people",
-              "To write all things that should be done upon the earth",
-              "To bury all the treasures of the earth",
-              "To judge all the nations in righteousness"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Moses 7:46 indicates that Enoch wrote/recorded the works of God and people. This reflects life as a stewardship\u2014Enoch was accountable for faithfully fulfilling his sacred responsibilities to record and oversee God's work. His record-keeping demonstrates he understood his life and authority as a sacred trust for which he would answer.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      }
-    ],
-    "places": [
-      {
-        "name": "Adam-ondi-Ahman",
-        "modernLocation": "Daviess County, Missouri, United States",
-        "locationType": "confirmed",
-        "description": "The valley where Adam gathered his righteous posterity three years before his death to bestow blessings upon them. All the patriarchs from Seth to Methuselah were present. The Lord appeared to them. This location is prophesied to be the site of a future gathering in the last days.",
-        "scriptureReferences": [
-          {
-            "reference": "D&C 107:53-57",
-            "url": ""
-          },
-          {
-            "reference": "D&C 116:1",
-            "url": ""
-          },
-          {
-            "reference": "D&C 27:11",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "City of Zion (City of Enoch)",
-        "modernLocation": "Taken up to heaven",
-        "locationType": "symbolic",
-        "description": "By the time of Noah, the City of Zion had been translated (365 years after Enoch began his ministry). Those who remained on earth who were righteous were caught up to Zion, while the wicked remained to face the coming Flood.",
-        "scriptureReferences": [
-          {
-            "reference": "Moses 7:21",
-            "url": ""
-          },
-          {
-            "reference": "Moses 7:27",
-            "url": ""
-          },
-          {
-            "reference": "Moses 7:69",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Land of the Pre-Flood Patriarchs",
-        "modernLocation": "According to LDS tradition, the region surrounding Jackson County and Daviess County, Missouri",
-        "locationType": "confirmed",
-        "description": "The general region where the patriarchs from Adam to Noah lived. The Book of Moses provides a priesthood lineage from Adam through Noah, all dwelling in this general area before the Flood scattered humanity.",
-        "scriptureReferences": [
-          {
-            "reference": "Moses 8:1-12",
-            "url": ""
-          },
-          {
-            "reference": "D&C 84:6-17",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Where Noah Preached",
-        "modernLocation": "Unknown; in the pre-Flood world",
-        "locationType": "uncertain",
-        "description": "Noah preached repentance to the people for 120 years before the Flood. He declared that unless they repented, the floods would come upon them. The people rejected his message, and all except his family perished.",
-        "scriptureReferences": [
-          {
-            "reference": "Moses 8:17-24",
-            "url": ""
-          },
-          {
-            "reference": "Genesis 6:3",
-            "url": ""
-          },
-          {
-            "reference": "2 Peter 2:5",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Mount Ararat Region (Pre-Flood)",
-        "modernLocation": "Unknown original location; post-Flood Mount Ararat is in eastern Turkey",
-        "locationType": "uncertain",
-        "description": "While the Ark came to rest on the mountains of Ararat after the Flood, the pre-Flood geography may have been entirely different. The Flood reshaped the entire earth's surface.",
-        "scriptureReferences": [
-          {
-            "reference": "Genesis 8:4",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Land of Righteousness (Methuselah's Domain)",
-        "modernLocation": "Unknown; pre-Flood location, likely near Adam-ondi-Ahman",
-        "locationType": "uncertain",
-        "description": "The region where Methuselah, the longest-living man in scripture (969 years), dwelt. He was the grandfather of Noah and held the priesthood. Tradition holds that the Flood came in the year of his death.",
-        "scriptureReferences": [
-          {
-            "reference": "Genesis 5:25-27",
-            "url": ""
-          },
-          {
-            "reference": "Moses 8:1-7",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Lands of the Wicked",
-        "modernLocation": "Unknown; pre-Flood geography",
-        "locationType": "uncertain",
-        "description": "The regions where wickedness abounded in the days before the Flood. The scripture records that 'the wickedness of men had become great in the earth; and every man was lifted up in the imagination of the thoughts of his heart, being only evil continually.'",
-        "scriptureReferences": [
-          {
-            "reference": "Moses 8:22",
-            "url": ""
-          },
-          {
-            "reference": "Genesis 6:5",
-            "url": ""
-          },
-          {
-            "reference": "Moses 8:28-30",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Where the Ark Was Built",
-        "modernLocation": "Unknown; pre-Flood location",
-        "locationType": "uncertain",
-        "description": "The location where Noah, following God's commandment, built the ark over many years. The ark was 300 cubits long, 50 cubits wide, and 30 cubits high—a massive vessel capable of preserving life through the Flood.",
-        "scriptureReferences": [
-          {
-            "reference": "Genesis 6:14-22",
-            "url": ""
-          },
-          {
-            "reference": "Moses 8:12",
-            "url": ""
-          }
-        ],
-        "citations": []
-      }
-    ],
-    "people": [
-      {
-        "name": "Enoch",
-        "role": "Prophet and Builder of Zion",
-        "description": "A righteous prophet called by God despite feeling inadequate. He preached repentance, saw visions of God's plan, and built a city so righteous that it was taken up to heaven. He is the great-grandfather of Noah.",
-        "scriptureReferences": [
-          {
-            "reference": "Moses 6:26-47",
-            "url": ""
-          },
-          {
-            "reference": "Moses 7:1-69",
-            "url": ""
-          },
-          {
-            "reference": "Genesis 5:21-24",
-            "url": ""
-          },
-          {
-            "reference": "Hebrews 11:5",
-            "url": ""
-          },
-          {
-            "reference": "D&C 107:48-49",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Methuselah",
-        "role": "Patriarch and Longest-Living Man",
-        "description": "Son of Enoch who was not translated with the City of Zion so that the priesthood lineage could continue through him to Noah. He lived 969 years—the longest lifespan recorded in scripture.",
-        "scriptureReferences": [
-          {
-            "reference": "Genesis 5:25-27",
-            "url": ""
-          },
-          {
-            "reference": "Moses 8:1-7",
-            "url": ""
-          },
-          {
-            "reference": "Luke 3:37",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Mahijah",
-        "role": "Questioner of Enoch",
-        "description": "A man who questioned Enoch about his prophetic calling, asking who he was and where he came from. His question prompted Enoch to share his divine commission.",
-        "scriptureReferences": [
-          {
-            "reference": "Moses 6:40",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Adam",
-        "role": "First Patriarch",
-        "description": "Though many generations had passed, Adam was still alive during Enoch's early ministry. He blessed his righteous posterity at Adam-ondi-Ahman three years before his death.",
-        "scriptureReferences": [
-          {
-            "reference": "Moses 6:1-3",
-            "url": ""
-          },
-          {
-            "reference": "D&C 107:53-57",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Seth",
-        "role": "Son of Adam",
-        "description": "The righteous son of Adam who carried on the covenant line. He was 'a perfect man, and his likeness was the express likeness of his father.' He was ordained by Adam at age 69.",
-        "scriptureReferences": [
-          {
-            "reference": "Moses 6:2-3",
-            "url": ""
-          },
-          {
-            "reference": "Moses 6:10-13",
-            "url": ""
-          },
-          {
-            "reference": "D&C 107:42",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Jared",
-        "role": "Father of Enoch",
-        "description": "The father of Enoch. He taught his son in the ways of righteousness. He was the sixth generation from Adam.",
-        "scriptureReferences": [
-          {
-            "reference": "Moses 6:21",
-            "url": ""
-          },
-          {
-            "reference": "Genesis 5:18-20",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Noah",
-        "role": "Prophet and Ark Builder",
-        "description": "The tenth generation from Adam, called to preach repentance and build an ark to preserve life through the Flood. He was 'a just man and perfect in his generations, and Noah walked with God.' He held the priesthood and was ordained by Methuselah.",
-        "scriptureReferences": [
-          {
-            "reference": "Genesis 6:8-22",
-            "url": ""
-          },
-          {
-            "reference": "Moses 8:12-30",
-            "url": ""
-          },
-          {
-            "reference": "Hebrews 11:7",
-            "url": ""
-          },
-          {
-            "reference": "2 Peter 2:5",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Lamech (Son of Methuselah)",
-        "role": "Father of Noah",
-        "description": "The father of Noah. He prophesied that Noah would bring 'comfort' concerning the toil of the earth. He died before the Flood at age 777.",
-        "scriptureReferences": [
-          {
-            "reference": "Genesis 5:28-31",
-            "url": ""
-          },
-          {
-            "reference": "Moses 8:5-11",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Shem",
-        "role": "Son of Noah",
-        "description": "One of Noah's three sons who entered the ark. Shem became the ancestor of the Semitic peoples, including Abraham and the Israelites. He held the priesthood and is identified in some traditions with Melchizedek.",
-        "scriptureReferences": [
-          {
-            "reference": "Genesis 5:32",
-            "url": ""
-          },
-          {
-            "reference": "Genesis 9:26-27",
-            "url": ""
-          },
-          {
-            "reference": "Moses 8:12",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Ham",
-        "role": "Son of Noah",
-        "description": "One of Noah's three sons who entered the ark. He became the ancestor of the Canaanites, Egyptians, and other peoples. His actions after the Flood led to a curse upon his son Canaan.",
-        "scriptureReferences": [
-          {
-            "reference": "Genesis 5:32",
-            "url": ""
-          },
-          {
-            "reference": "Genesis 9:22-25",
-            "url": ""
-          },
-          {
-            "reference": "Moses 8:12",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Japheth",
-        "role": "Son of Noah",
-        "description": "One of Noah's three sons who entered the ark. He became the ancestor of many peoples including the Greeks and other European and Asian nations. He and Shem acted righteously after the Flood.",
-        "scriptureReferences": [
-          {
-            "reference": "Genesis 5:32",
-            "url": ""
-          },
-          {
-            "reference": "Genesis 9:27",
-            "url": ""
-          },
-          {
-            "reference": "Moses 8:12",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "The Wicked Generation",
-        "role": "Those Who Rejected Noah",
-        "description": "The people who rejected Noah's 120 years of preaching. Their wickedness was so great that 'every imagination of the thoughts of [their] heart was only evil continually.' They perished in the Flood.",
-        "scriptureReferences": [
-          {
-            "reference": "Moses 8:20-30",
-            "url": ""
-          },
-          {
-            "reference": "Genesis 6:5",
-            "url": ""
-          },
-          {
-            "reference": "1 Peter 3:19-20",
-            "url": ""
-          }
-        ],
-        "citations": []
-      }
-    ]
-  },
-  {
-    "id": "week-2026-07",
-    "startDate": "2026-02-09",
-    "endDate": "2026-02-15",
-    "title": "Genesis 6–11; Moses 8",
-    "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
-    "scriptures": [
-      {
-        "reference": "Genesis 6–11",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/6?lang=eng"
-      },
-      {
-        "reference": "Moses 8",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/8?lang=eng"
-      }
-    ],
-    "days": [
-      {
-        "id": "day-2026-02-09",
-        "date": "2026-02-09",
-        "doctrine": {
-          "doctrine": "God warns before destruction",
-          "summary": "God sends prophets to warn people before judgments come, giving them opportunity to repent.",
-          "explanation": "Noah preached repentance for 120 years before the Flood. God does not destroy people without warning—He always sends messengers first. This pattern continues today with living prophets who warn and invite all to come unto Christ.",
-          "references": [
-            {
-              "display": "Moses 8:17",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/8?lang=eng&id=p17#p17"
-            },
-            {
-              "display": "Amos 3:7",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/amos/3?lang=eng&id=p7#p7"
-            },
-            {
-              "display": "2 Peter 2:5",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/2-pet/2?lang=eng&id=p5#p5"
-            }
-          ],
-          "scriptures": []
-        },
-                "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 6",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
-            "question": "Why did God specifically warn Noah about the flood before its arrival?",
-            "options": [
-              "To test Noah's ability to build quickly",
-              "To give humanity an opportunity to repent and change their ways",
-              "To ensure Noah would become famous for his prophetic accuracy",
-              "Because the law of God requires warning all inhabitants equally"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Genesis 6:13 records God saying to Noah, 'I will destroy them with the earth.' God's warning fulfilled the principle that He reveals His will through His servants. This gave people the ability to repent, though only Noah's family heeded the warning (2 Peter 2:5 confirms Noah was a preacher of righteousness).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-02-10",
-        "date": "2026-02-10",
-        "doctrine": {
-          "doctrine": "Obedience to God's commands brings salvation",
-          "summary": "Following God's specific instructions, even when they seem strange or difficult, is the path to safety and eternal life.",
-          "explanation": "God commanded Noah to build an ark of specific dimensions using gopher wood. Though this command must have seemed unusual to Noah, he obeyed completely. His exact obedience prepared him to survive the Flood. In our lives today, rigorous obedience to God's commandments—even when we don't fully understand them—prepares us for spiritual preservation.",
-          "references": [
-            {
-              "display": "Genesis 6:14-22",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/6?lang=eng&id=p14-p22#p14"
-            },
-            {
-              "display": "1 Nephi 3:7",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7"
-            },
-            {
-              "display": "D&C 130:21",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/130?lang=eng&id=p21#p21"
-            }
-          ],
-          "scriptures": []
-        },
-                "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 7",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
-            "question": "What did the Lord command Noah to do before the flood, and what does this teach about salvation?",
-            "options": [
-              "Convince his neighbors to board the ark",
-              "Enter the ark with his family according to God's instructions",
-              "Search for other righteous people to add to the ark",
-              "Spend 40 days fasting to demonstrate worthiness"
-            ],
-            "correctAnswer": 3,
-            "explanation": "Genesis 7:1 states, 'Come into the ark, you and all your household, because I have seen that you are righteous.' Noah's obedience to God's specific command to enter the ark with his family was the means of salvation. This teaches that salvation comes through following God's commands precisely, not through our own ideas of what might work.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-02-11",
-        "date": "2026-02-11",
-        "doctrine": {
-          "doctrine": "God preserves His covenant people through trials",
-          "summary": "The Lord does not abandon the righteous through judgment; He provides a way of escape for those who trust Him.",
-          "explanation": "Noah preserved not only his own family but representatives of all animal creation. God's purpose was not to destroy all life but to preserve it through a righteous servant. The ark became a symbol of salvation. Similarly, God offers us ways of preservation through spiritual captains—living prophets—if we will board the 'ark' He provides through His church and covenants.",
-          "references": [
-            {
-              "display": "Genesis 7:1-5",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/7?lang=eng&id=p1-p5#p1"
-            },
-            {
-              "display": "1 Peter 3:20",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/1-pet/3?lang=eng&id=p20#p20"
-            },
-            {
-              "display": "Alma 37:38-44",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/37?lang=eng&id=p38-p44#p38"
-            }
-          ],
-          "scriptures": []
-        },
-                "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 8",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
-            "question": "How did God preserve Noah and his family through the flood, and what does this show about God's relationship with the covenant people?",
-            "options": [
-              "God temporarily removed them to another planet during the flood",
-              "God remembered Noah and caused a wind to dry the earth, preserving those in the ark",
-              "God's protection was limited to the ark itself, with no involvement after",
-              "The family preserved themselves through superior engineering"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Genesis 8:1 records, 'God remembered Noah...and God made a wind blow over the earth.' Despite the overwhelming judgment destroying all other life, God's covenant people were preserved. This demonstrates that God actively maintains His relationship with His chosen people through trials, providing both protection and the means for renewal.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-02-12",
-        "date": "2026-02-12",
-        "doctrine": {
-          "doctrine": "God's power overcomes all obstacles and opposition",
-          "summary": "No human power, wisdom, or plan can stand against the will of the Almighty.",
-          "explanation": "The Flood came with forty days and nights of rain unlike anything the earth had seen. The fountains of the deep were broken up. All flesh died. Despite humanity's wickedness, their numbers, and their resistance, God's judgment came perfectly. Yet even in judgment, God's power demonstrates His justice and control. His counsel will surely be established.",
-          "references": [
-            {
-              "display": "Genesis 7:11-12",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/7?lang=eng&id=p11-p12#p11"
-            },
-            {
-              "display": "Isaiah 55:11",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/55?lang=eng&id=p11#p11"
-            },
-            {
-              "display": "2 Nephi 27:26",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/27?lang=eng&id=p26#p26"
-            }
-          ],
-          "scriptures": []
-        },
-                "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 9",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
-            "question": "What does God's covenant with Noah after the flood reveal about God's power?",
-            "options": [
-              "God's power depends on humanity's worthiness",
-              "Fire and water cannot be controlled by God",
-              "God's authority extends over all creation, overcoming even the forces of nature itself",
-              "God needed the rainbow to remind Himself of His promises"
-            ],
-            "correctAnswer": 2,
-            "explanation": "Genesis 9:11 records God's covenant: 'I will establish my covenant with you, and never again shall all flesh be cut off by the waters of a flood.' By controlling the waters of the flood and then promising restraint, God demonstrated absolute power over creation. His covenant shows that God's authority supersedes any obstacle or opposition to His purposes.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-02-13",
-        "date": "2026-02-13",
-        "doctrine": {
-          "doctrine": "Wickedness separates us from God and brings judgment",
-          "summary": "When people persistently reject God's word and choose evil, separation and consequence inevitably follow.",
-          "explanation": "'Every imagination of the thoughts of his [man's] heart was only evil continually.' The degree of humanity's wickedness in Noah's day was total—not a single righteous thought. God cannot overlook such rebellion. Yet His judgment came only after detailed warning. There is a point where continued rejection of light brings darkness, chosen one stage at a time.",
-          "references": [
-            {
-              "display": "Genesis 6:5",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/6?lang=eng&id=p5#p5"
-            },
-            {
-              "display": "Alma 12:32-37",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/12?lang=eng&id=p32-p37#p32"
-            },
-            {
-              "display": "D&C 88:32",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/88?lang=eng&id=p32#p32"
-            }
-          ],
-          "scriptures": []
-        },
-                "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 6",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
-            "question": "What condition made the antediluvian world worthy of destruction according to the Genesis account?",
-            "options": [
-              "They built cities that were too advanced",
-              "The wickedness of man was great in the earth, and every intent of the thoughts of his heart was only evil",
-              "They refused to offer animal sacrifices",
-              "They invented tools and weapons"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Genesis 6:5 reveals, 'The Lord saw that the wickedness of man was great in the earth, and that every intent of the thoughts of his heart was only evil.' Genesis 6:11-12 confirms 'the earth was corrupt...filled with violence.' This shows that deliberate, persistent wickedness separates people from God and brings divine judgment. Without repentance, such separation becomes judgment.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-02-14",
-        "date": "2026-02-14",
-        "doctrine": {
-          "doctrine": "Righteousness and walking with God finds grace",
-          "summary": "Those who seek to live uprightly and maintain close communion with God receive His grace and favor.",
-          "explanation": "Scripture declares that 'Noah found grace in the eyes of the Lord' because 'he was a just man and perfect in his generations, and Noah walked with God.' Noah's internal integrity matched his external obedience. Grace is not given arbitrarily—it is found by those who genuinely seek to know and serve God. Our walk of faithfulness positions us to receive His grace.",
-          "references": [
-            {
-              "display": "Genesis 6:8-9",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/6?lang=eng&id=p8-p9#p8"
-            },
-            {
-              "display": "2 Nephi 2:8",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/2?lang=eng&id=p8#p8"
-            },
-            {
-              "display": "Moroni 10:32-33",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/10?lang=eng&id=p32-p33#p32"
-            }
-          ],
-          "scriptures": []
-        },
-                "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 6",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
-            "question": "Why was Noah chosen to be preserved from the flood while others were destroyed?",
-            "options": [
-              "Noah was the strongest builder among all men",
-              "Noah had more sons than other men",
-              "Noah was righteous and walked with God",
-              "Noah had the most animals in his possession"
-            ],
-            "correctAnswer": 2,
-            "explanation": "Genesis 6:9 states, 'Noah was a righteous man, blameless among the people of his time, and he walked faithfully with God.' This righteousness and intimate relationship with God (demonstrated by walking with Him) made Noah the sole person worthy of receiving God's instruction for salvation. This teaches that faithfulness and a living relationship with God bring divine approval and grace.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-02-15",
-        "date": "2026-02-15",
-        "doctrine": {
-          "doctrine": "Covenant obedience brings salvation and deliverance",
-          "summary": "Those who enter into covenants with God and keep them are saved and preserved through any trial.",
-          "explanation": "Only eight souls—those in covenant with God through Noah—were saved. They did not survive because they were lucky or numerous, but because they obeyed the covenant to enter the ark. Every ordinance and covenant we make is an ark offering passage to safety. The door was open to all, but only those who entered were saved. Our salvation depends on our willingness to enter God's covenant and remain faithful within it.",
-          "references": [
-            {
-              "display": "Genesis 7:13",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/7?lang=eng&id=p13#p13"
-            },
-            {
-              "display": "D&C 22:1",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/22?lang=eng&id=p1#p1"
-            },
-            {
-              "display": "1 Peter 3:19-22",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/1-pet/3?lang=eng&id=p19-p22#p19"
-            }
-          ],
-          "scriptures": []
-        },
-                "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 9",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
-            "question": "What did God's covenant with Noah after the flood establish, and what does it show about salvation?",
-            "options": [
-              "That God would never again speak to mankind",
-              "That salvation was only temporary until the next flood",
-              "That God would establish a covenant confirmed by the rainbow as a sign, promising preservation through faithfulness",
-              "That righteous living had no bearing on God's future plans"
-            ],
-            "correctAnswer": 2,
-            "explanation": "Genesis 9:15-16 records, 'I will remember my covenant...The rainbow shall be in the cloud...for an everlasting covenant between God and every living creature.' Noah's obedience to God's covenant commands brought salvation and deliverance, and the covenant sign promises that God will preserve His people. This reveals that covenant obedience results in lasting salvation, not mere temporary escape.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      }
-    ],
-    "places": [],
-    "people": [
-      {
-        "name": "Noah",
-        "role": "Prophet and Ark Builder",
-        "description": "The tenth generation from Adam, called to preach repentance and build an ark to preserve life through the Flood. He was 'a just man and perfect in his generations, and Noah walked with God.' He held the priesthood and was ordained by Methuselah.",
-        "scriptureReferences": [
-          {
-            "reference": "Genesis 6:8-22",
-            "url": ""
-          },
-          {
-            "reference": "Moses 8:12-30",
-            "url": ""
-          },
-          {
-            "reference": "Hebrews 11:7",
-            "url": ""
-          },
-          {
-            "reference": "2 Peter 2:5",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Methuselah",
-        "role": "Patriarch and Grandfather of Noah",
-        "description": "Son of Enoch and grandfather of Noah. He lived 969 years—longer than any other person in scripture. He ordained Noah to the priesthood. Tradition holds that the Flood came the year of his death.",
-        "scriptureReferences": [
-          {
-            "reference": "Genesis 5:25-27",
-            "url": ""
-          },
-          {
-            "reference": "Moses 8:1-7",
-            "url": ""
-          },
-          {
-            "reference": "D&C 107:50-52",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Lamech (Son of Methuselah)",
-        "role": "Father of Noah",
-        "description": "The father of Noah. He prophesied that Noah would bring 'comfort' concerning the toil of the earth. He died before the Flood at age 777.",
-        "scriptureReferences": [
-          {
-            "reference": "Genesis 5:28-31",
-            "url": ""
-          },
-          {
-            "reference": "Moses 8:5-11",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Shem",
-        "role": "Son of Noah",
-        "description": "One of Noah's three sons who entered the ark. Shem became the ancestor of the Semitic peoples, including Abraham and the Israelites. He held the priesthood and is identified in some traditions with Melchizedek.",
-        "scriptureReferences": [
-          {
-            "reference": "Genesis 5:32",
-            "url": ""
-          },
-          {
-            "reference": "Genesis 9:26-27",
-            "url": ""
-          },
-          {
-            "reference": "Moses 8:12",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Ham",
-        "role": "Son of Noah",
-        "description": "One of Noah's three sons who entered the ark. He became the ancestor of the Canaanites, Egyptians, and other peoples. His actions after the Flood led to a curse upon his son Canaan.",
-        "scriptureReferences": [
-          {
-            "reference": "Genesis 5:32",
-            "url": ""
-          },
-          {
-            "reference": "Genesis 9:22-25",
-            "url": ""
-          },
-          {
-            "reference": "Moses 8:12",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "Japheth",
-        "role": "Son of Noah",
-        "description": "One of Noah's three sons who entered the ark. He became the ancestor of many peoples including the Greeks and other European and Asian nations. He and Shem acted righteously after the Flood.",
-        "scriptureReferences": [
-          {
-            "reference": "Genesis 5:32",
-            "url": ""
-          },
-          {
-            "reference": "Genesis 9:27",
-            "url": ""
-          },
-          {
-            "reference": "Moses 8:12",
-            "url": ""
-          }
-        ],
-        "citations": []
-      },
-      {
-        "name": "The Wicked Generation",
-        "role": "Those Who Rejected Noah",
-        "description": "The people who rejected Noah's 120 years of preaching. Their wickedness was so great that 'every imagination of the thoughts of [their] heart was only evil continually.' They perished in the Flood.",
-        "scriptureReferences": [
-          {
-            "reference": "Moses 8:20-30",
-            "url": ""
-          },
-          {
-            "reference": "Genesis 6:5",
-            "url": ""
-          },
-          {
-            "reference": "1 Peter 3:19-20",
-            "url": ""
-          }
-        ],
-        "citations": []
-      }
-    ]
-  },
-  {
-    "id": "week-2026-08",
-    "startDate": "2026-02-16",
-    "endDate": "2026-02-22",
-    "title": "Genesis 12–17; Abraham 1–2",
-    "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/08?lang=eng",
-    "scriptures": [
-      {
-        "reference": "Genesis 12–17",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/12?lang=eng"
-      },
-      {
-        "reference": "Abraham 1–2",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/1?lang=eng"
-      }
-    ],
-    "days": [
-      {
-        "id": "day-2026-02-16",
-        "date": "2026-02-16",
-        "doctrine": {
-          "doctrine": "God keeps His covenants",
-          "summary": "When God makes a promise, He always fulfills it. His covenants are sure and unfailing.",
-          "explanation": "After the Flood, God established a covenant with Noah, setting the rainbow as a token. This demonstrates that God never forgets His promises. Every covenant He makes—including those with us—will be honored perfectly.",
-          "references": [
-            {
-              "display": "Genesis 9:9-16",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/9?lang=eng&id=p9-p16#p9"
-            },
-            {
-              "display": "D&C 82:10",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/82?lang=eng&id=p10#p10"
-            },
-            {
-              "display": "1 Nephi 1:20",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/1?lang=eng&id=p20#p20"
-            }
-          ],
-          "scriptures": []
-        },
-                "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 12",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
-            "question": "Why did God call Abram from his homeland at an advanced age?",
-            "options": [
-              "To punish him for his family's idolatry",
-              "To accomplish His purposes through a leader willing to follow divine direction",
-              "To test whether Abram could survive harsh desert conditions",
-              "Because Abram had completed all his earthly business"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Genesis 12:1-2 records God's call: 'Leave your country, your people and your father's household...I will make you into a great nation.' God called Abram specifically to accomplish His purposes. This demonstrates that God calls leaders not based on their comfort or convenience, but according to His divine plan to establish a covenant people. Abram's willingness to be called makes him a leader through whom God's purposes are accomplished.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-02-17",
-        "date": "2026-02-17",
-        "doctrine": {
-          "doctrine": "Faith demonstrates our trust in God's promises",
-          "summary": "Abraham left everything familiar to follow God's call, trusting in promises he would not see fulfilled in his lifetime.",
-          "explanation": "Abraham 'sought for the blessings of the fathers' and desired 'the right belonging to the fathers, even to be a high priest.' He abandoned the false worship of his father's house despite pressure. His faith meant believing God would give him a land, a seed numerous as stars, and name that would bless all nations—years before these promises materialized. True faith trusts God when circumstances don't yet confirm His word.",
-          "references": [
-            {
-              "display": "Abraham 1:2",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/1?lang=eng&id=p2#p2"
-            },
-            {
-              "display": "Hebrews 11:8-10",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/heb/11?lang=eng&id=p8-p10#p8"
-            },
-            {
-              "display": "Alma 32:21",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/32?lang=eng&id=p21#p21"
-            }
-          ],
-          "scriptures": []
-        },
-                "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 12",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
-            "question": "What does Abram's response to God's call teach us about faith?",
-            "options": [
-              "Faith means questioning God extensively before making decisions",
-              "Faith means leaving the familiar to follow God, even without knowing the destination",
-              "Faith means first establishing financial security in your current location",
-              "Faith is demonstrated by bringing all your relatives with you"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Genesis 12:4 states, 'So Abram went, as the Lord had told him.' Hebrews 11:8 explains this faith further: 'By faith Abraham, when called to go to a place he would later receive as his inheritance, obeyed and went, even though he did not know where he was going.' Abram's faith included leaving all that was familiar—his country, his people, his father's house—in response to God's direction, without knowing specifically where God would lead him.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-02-18",
-        "date": "2026-02-18",
-        "doctrine": {
-          "doctrine": "God calls us out to build His kingdom",
-          "summary": "The Lord calls His servants away from familiar surroundings to specific places and purposes aligned with His kingdom.",
-          "explanation": "The Lord said to Abraham, 'Get thee out of thy country, and from thy kindred, and from thy father's house, unto a land that I will shew thee.' Abraham didn't know where he was going—only that God was calling him to go. His call involved separation: leaving family, country, and the known world. God often requires us to leave behind comfort and familiarity to answer His specific call.",
-          "references": [
-            {
-              "display": "Genesis 12:1",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/12?lang=eng&id=p1#p1"
-            },
-            {
-              "display": "Doctrine and Covenants 29:8",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/29?lang=eng&id=p8#p8"
-            },
-            {
-              "display": "Matthew 19:29",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/19?lang=eng&id=p29#p29"
-            }
-          ],
-          "scriptures": []
-        },
-                "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 12",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
-            "question": "What did God promise Abram when He appeared to him in Canaan, and what is the nature of this covenant?",
-            "options": [
-              "That Abram would become the richest man of his generation",
-              "That God would establish a covenant giving Abram's descendants the land as an inheritance",
-              "That Abram would have exactly twelve sons",
-              "That Abram would live in Canaan for exactly forty years"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Genesis 12:7 records, 'The Lord appeared to Abram and said, \"To your offspring I will give this land.\"' This covenant established specific promises: descendants and a land inheritance. God's covenants are not vague blessings but specific promises that give direction and hope. This particular covenant promise came to Abram in response to his faith and obedience, establishing the pattern of divine covenants as sacred agreements with defined terms.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-02-19",
-        "date": "2026-02-19",
-        "doctrine": {
-          "doctrine": "The Lord establishes covenants to bring eternal blessing",
-          "summary": "God makes binding agreements with His people that are eternal in nature and bring salvation to all generations.",
-          "explanation": "God said to Abraham, 'I will make of thee a great nation, and I will bless thee...and thou shalt be a blessing...in thee shall all families of the earth be blessed.' This covenant was not simply for Abraham's benefit alone but extended to his seed and to all humanity. The Abrahamic covenant represents God's commitment to bless His faithful children eternally—making their names great, multiplying them, and making them instrumental in blessings for all.",
-          "references": [
-            {
-              "display": "Genesis 12:2-3",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/12?lang=eng&id=p2-p3#p2"
-            },
-            {
-              "display": "Abraham 2:6-11",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/2?lang=eng&id=p6-p11#p6"
-            },
-            {
-              "display": "Galatians 3:29",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/gal/3?lang=eng&id=p29#p29"
-            }
-          ],
-          "scriptures": []
-        },
-                "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 13",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
-            "question": "How did Lot's choice of land demonstrate spiritual separation from Abraham?",
-            "options": [
-              "Lot chose to live where there were more spiritual teachers",
-              "Lot chose the valley of the Jordan because it looked well-watered, putting material prosperity above proximity to faithful worship",
-              "Lot chose to stay in Canaan while Abraham traveled elsewhere",
-              "Lot refused to help Abraham build altars"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Genesis 13:10-11 describes how 'Lot looked up and saw that the whole plain of the Jordan...was well watered...like the garden of the Lord. So Lot chose for himself the whole plain of the Jordan and set out toward the east.' His choice was motivated by earthly advantages rather than spiritual proximity. This separation had spiritual consequences, as Lot ended up in Sodom—a wicked city—showing that choosing based on material priority separates us from God's community.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-02-20",
-        "date": "2026-02-20",
-        "doctrine": {
-          "doctrine": "Trials test and develop our faith and character",
-          "summary": "The challenges we face are opportunities for spiritual growth and proof of our devotion to God.",
-          "explanation": "Abraham's journey to the promised land was not without trials. Famine, conflict with Lot, battles against kings—all tested him. Yet through each challenge, Abraham's faith deepened. God did not spare Abraham difficulty; rather, He used it to purify and strengthen his faith. Sometimes the most difficult moments become the most character-building, developing in us a faith that cannot be shaken.",
-          "references": [
-            {
-              "display": "1 Peter 1:6-7",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/1-pet/1?lang=eng&id=p6-p7#p6"
-            },
-            {
-              "display": "James 1:2-4",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/james/1?lang=eng&id=p2-p4#p2"
-            },
-            {
-              "display": "D&C 121:7-8",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/121?lang=eng&id=p7-p8#p7"
-            }
-          ],
-          "scriptures": []
-        },
-                "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 13",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
-            "question": "What was the result of the wickedness in Sodom and Gomorrah, and how did God respond?",
-            "options": [
-              "God sent prophets repeatedly until the people repented",
-              "God warned the kings but allowed the cities to continue",
-              "God judged the wickedness while preserving His righteous servant Lot",
-              "God tolerated the wickedness as part of human free agency"
-            ],
-            "correctAnswer": 2,
-            "explanation": "Genesis 13:13 notes 'the men of Sodom were wicked and sinners against the Lord exceedingly,' and Genesis 19:24-25 records that 'the Lord rained upon Sodom and upon Gomorrah brimstone and fire from the Lord out of heaven.' However, Genesis 19:16 states the angels 'brought him [Lot] forth, and set him outside the city,' preserving the righteous while judging wickedness. This demonstrates God's justice in responding to deliberate sin while showing mercy to the righteous.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-02-21",
-        "date": "2026-02-21",
-        "doctrine": {
-          "doctrine": "Our identity is defined by our covenant with God",
-          "summary": "As members of God's covenant people, we receive a new name and inheritance that supersedes earthly titles.",
-          "explanation": "When God established His covenant with Abraham, it was not merely a transaction—it was a transformation of relationship. Abraham was not then called 'Abram who was a seeker of righteousness,' but 'Abraham,' father of many nations. His identity was forever changed by his covenant with God. Similarly, through baptism and confirmation, we are given new names and identities as children of God, heirs to His promises, and members of His covenant people.",
-          "references": [
-            {
-              "display": "Genesis 17:5",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/17?lang=eng&id=p5#p5"
-            },
-            {
-              "display": "2 Corinthians 5:17",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/2-cor/5?lang=eng&id=p17#p17"
-            },
-            {
-              "display": "D&C 130:11",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/130?lang=eng&id=p11#p11"
-            }
-          ],
-          "scriptures": []
-        },
-                "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 19",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
-            "question": "What consequence did Lot face as a result of his choice to prioritize earthly prosperity?",
-            "options": [
-              "He became extraordinarily wealthy beyond all measure",
-              "He lost his family and possessions, though his life was preserved",
-              "He was immediately killed by the fire from heaven",
-              "He never had children or descendants"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Genesis 19:15-16 records how Lot was warned to flee, though his sons-in-law did not believe. While Lot and his daughters were preserved (Genesis 19:26-29), he lost his wife and his possessions to the judgment on Sodom. 2 Peter 2:7-8 notes Lot was 'righteous' and 'his righteous soul was vexed,' yet he suffered loss as a consequence of his earlier earthly-focused choices. This reveals that choosing earthly priorities over faith results in material and relational loss.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-02-22",
-        "date": "2026-02-22",
-        "doctrine": {
-          "doctrine": "God's covenant extends to our posterity",
-          "summary": "The blessings we receive through our covenants with God pass to our children and their children's children.",
-          "explanation": "God's covenant with Abraham included not only Abraham but 'thy seed after thee in their generations for an everlasting covenant.' Through Isaac, Jacob, the twelve tribes, and ultimately all who embrace the gospel, Abraham's covenant seed has been multiplied. As we keep our temple covenants and raise faithful families, we become part of this eternal chain of blessings. Our faithfulness today blesses generations yet unborn.",
-          "references": [
-            {
-              "display": "Genesis 17:7-8",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/17?lang=eng&id=p7-p8#p7"
-            },
-            {
-              "display": "D&C 132:30-31",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/132?lang=eng&id=p30-p31#p30"
-            },
-            {
-              "display": "1 Nephi 15:18",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/15?lang=eng&id=p18#p18"
-            }
-          ],
-          "scriptures": []
-        },
-                "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 14",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
-            "question": "What did Melchizedek representing in his interaction with Abraham, and what does this teach about trusting God's timing?",
-            "options": [
-              "A military commander who taught Abraham battle strategy",
-              "The priest-king who blessed Abraham and received tithes, representing God's provision at the appointed time",
-              "An entrepreneur who helped Abraham gain wealth",
-              "A relative of Abraham from Canaan"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Genesis 14:18-20 records how Melchizedek, 'priest of God Most High...blessed Abram' and Abraham 'gave him a tenth of everything.' This appears after Abraham's military victory but also represents God's provision and blessing. Abraham's trust in avoiding riches from the king of Sodom (verse 23) demonstrates that trusting God's timing brings blessings through the appointed priesthood and divine blessing rather than through worldly alliances. God's timing provided both victory and divine confirmation.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      }
-    ],
-    "places": [],
-    "people": []
-  },
-  {
-    "id": "week-2026-09",
-    "startDate": "2026-02-23",
-    "endDate": "2026-03-01",
-    "title": "Genesis 18–23",
-    "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/09?lang=eng",
-    "scriptures": [
-      {
-        "reference": "Genesis 18–23",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/18?lang=eng"
-      }
-    ],
-    "days": [
-      {
-        "id": "day-2026-02-23",
-        "date": "2026-02-23",
-        "doctrine": {
-          "doctrine": "Pride leads to spiritual downfall",
-          "summary": "Pride and seeking glory for ourselves rather than God leads to confusion and separation from Him.",
-          "explanation": "The builders of Babel sought to 'make us a name' and reach heaven by their own means. Their pride led to the confounding of languages and scattering. Conversely, humility and seeking God's glory brings unity and divine blessings.",
-          "references": [
-            {
-              "display": "Genesis 11:4",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/11?lang=eng&id=p4#p4"
-            },
-            {
-              "display": "Proverbs 16:18",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/prov/16?lang=eng&id=p18#p18"
-            },
-            {
-              "display": "Ezra Taft Benson, 'Beware of Pride'",
-              "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/beware-of-pride?lang=eng"
-            }
-          ],
-          "scriptures": []
-        },
-                "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 15",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
-            "question": "What does God's statement to Abraham 'Fear not, I am your shield' reveal about faith?",
-            "options": [
-              "Abraham should have moved to a different region for safety",
-              "What we believe about God—that He protects and rewards the faithful—shapes how we trust and live",
-              "Abraham's wealth was all the security he needed",
-              "Abraham was not supposed to fear any physical danger whatsoever"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Genesis 15:1 records, 'The word of the Lord came to Abram in a vision: \"Fear not, Abram: I am thy shield, and thy exceeding great reward.\"' God's self-revelation as both protector and reward addresses both Abraham's insecurity and his understanding of the future. This foundation of belief—knowing God as protector and rewarder—shapes how Abraham will live in faith, trust during uncertainties, and respond to God's calling. Our theology directly determines our practice.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-02-24",
-        "date": "2026-02-24",
-        "doctrine": {
-          "doctrine": "God distinguishes the chosen from the wayward",
-          "summary": "God's judgment separates the righteous from the wicked, preserving those who follow Him.",
-          "explanation": "When God confused the languages at Babel, He disrupted the works of the prideful. Later, after humanity's continued wickedness, He destroyed Sodom and Gomorrah with fire, yet preserved Lot for his righteousness. God consistently separates His covenant people from those who reject Him, blessing the faithful and allowing the wicked to face consequences.",
-          "references": [
-            {
-              "display": "Genesis 11:8-9",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/11?lang=eng&id=p8-p9#p8"
-            },
-            {
-              "display": "Genesis 19:14-25",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/19?lang=eng&id=p14-p25#p14"
-            },
-            {
-              "display": "D&C 63:34",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/63?lang=eng&id=p34#p34"
-            }
-          ],
-          "scriptures": []
-        },
-                "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 15",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
-            "question": "What sacred act did God command Abraham to perform to confirm his covenant, and what does this signify?",
-            "options": [
-              "To offer animal sacrifices without any particular meaning",
-              "To pass between the pieces of sacrificed animals in a covenant-cutting ceremony, confirming the binding nature of God's promise",
-              "To walk around the altar seven times",
-              "To fast for forty days as a test of faith"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Genesis 15:9-10 records, 'He said, \"Bring me a heifer, a goat and a ram, each three years old...Abram brought all these to him, cut them in two and arranged the halves'\"—this was the 'cutting of the covenant' ritual. In verse 17-18, God passed between the pieces in a theophany, confirming the covenant. This sacred ordinance demonstrated the solemn, binding nature of God's covenant promises. The ritual confirmed that God takes His covenants seriously, making them sacred and enforceable agreements.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-02-25",
-        "date": "2026-02-25",
-        "doctrine": {
-          "doctrine": "We are freed from spiritual bondage through God's truth",
-          "summary": "Just as God freed Abraham from the false worship of his father's house, He frees us from spiritual darkness when we accept His truth.",
-          "explanation": "Abraham was born into a family that worshiped false gods and idols. Yet he sought the truth and the priesthood blessings. God responded by calling him out and delivering him from that spiritual bondage. In our time, God's truth, received through living prophets and personal revelation, frees us from the false doctrines and dark practices that would keep us in spiritual captivity.",
-          "references": [
-            {
-              "display": "Abraham 1:5-8",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/1?lang=eng&id=p5-p8#p5"
-            },
-            {
-              "display": "John 8:32",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/john/8?lang=eng&id=p32#p32"
-            },
-            {
-              "display": "D&C 88:86",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/88?lang=eng&id=p86#p86"
-            }
-          ],
-          "scriptures": []
-        },
-                "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 15",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
-            "question": "What was required of Abraham in order to receive God's covenant promise, and what does this teach about faith?",
-            "options": [
-              "He had to build an enormous city to prove his capability",
-              "He had to complete all the works God required before the promise could take effect",
-              "He believed God, and this faith was credited to him as righteousness—yet he still had to wait",
-              "He had to convince other nations of God's existence"
-            ],
-            "correctAnswer": 2,
-            "explanation": "Genesis 15:6 states, 'Abram believed the Lord, and he credited it to him as righteousness.' Yet the promise of descendants wouldn't be fulfilled for many years. Romans 4:17-22 expands on this: Abraham 'believed...against all hope...being fully persuaded that God had power to do what he had promised.' This teaches that God's promise requires both faith and patience—Abraham's belief was credited as righteousness even as he waited for the actual fulfillment of what God promised.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-02-26",
-        "date": "2026-02-26",
-        "doctrine": {
-          "doctrine": "Opposition to truth reveals our commitment",
-          "summary": "Those who cling to false teachings and oppose God's truth reveal their hearts' true condition.",
-          "explanation": "Abraham's father and people clung to their idols and rejected God's revelation to Abraham. Their opposition to his convictions tested Abraham's resolve. Where there is true revelation, opposition will arise from those invested in error. Steadfastness in truth despite cultural and familial pressure demonstrates genuine conversion and devotion to God.",
-          "references": [
-            {
-              "display": "Abraham 1:6-7",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/1?lang=eng&id=p6-p7#p6"
-            },
-            {
-              "display": "2 Timothy 3:12",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/2-tim/3?lang=eng&id=p12#p12"
-            },
-            {
-              "display": "Alma 30:7-30",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/30?lang=eng&id=p7-p30#p7"
-            }
-          ],
-          "scriptures": []
-        },
-                "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 17",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
-            "question": "What did God establish with Abraham regarding circumcision, and why is it described as a covenant sign?",
-            "options": [
-              "Circumcision was a temporary practice only for Abraham's generation",
-              "It was a sign of covenant commitment showing Abraham's willingness to obey God's specific command",
-              "Circumcision was purely for health reasons",
-              "God required it to test if Abraham would obey something difficult"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Genesis 17:10-11 records, 'This is my covenant...Every male among you shall be circumcised...It shall be a sign of the covenant between me and you.' The physical sign on the body represented an internal commitment to God's covenant. This wasn't arbitrary but demonstrated willingness to submit to God's specific requirements. The sign made the covenant visible and personal—something Abraham and his descendants carried in their bodies as constant reminder of their covenant relationship with God.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-02-27",
-        "date": "2026-02-27",
-        "doctrine": {
-          "doctrine": "God's promises create both responsibility and hope",
-          "summary": "When God makes a covenant promise, it brings both the obligation to obey and the assurance of divine support.",
-          "explanation": "God promised Abraham a land—not just for personal possession but as a foundation for God's work and the expansion of His kingdom. Yet this promise came with the responsibility to be faithful and righteous. Every promise from God carries with it a covenant obligation. When we accept God's promises, we accept the accompanying responsibility to live according to His will, and we gain the hope that He will sustain us in fulfilling our part.",
-          "references": [
-            {
-              "display": "Abraham 2:19",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/2?lang=eng&id=p19#p19"
-            },
-            {
-              "display": "Joshua 1:7-8",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/josh/1?lang=eng&id=p7-p8#p7"
-            },
-            {
-              "display": "D&C 82:10",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/82?lang=eng&id=p10#p10"
-            }
-          ],
-          "scriptures": []
-        },
-                "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 17",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
-            "question": "How did Sarah respond to the promise of a child at her advanced age, and what does this reveal about faith being tested?",
-            "options": [
-              "Sarah immediately believed and experienced no doubt",
-              "Sarah laughed, revealing her doubt, yet her faith was ultimately refined through waiting and seeing God's promise fulfilled",
-              "Sarah refused to believe and ran away",
-              "Sarah had already borne many children before this promise"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Genesis 17:17 and 18:12 record Sarah laughed at the promise because she was past childbearing age. Yet Genesis 21:6 reveals that once Isaac was born, 'Sarah said, \"God has brought me laughter, and everyone who hears about this will laugh with me.\"' Hebrews 11:11 explains, 'By faith Sarah...was enabled to bear a child...because she considered him faithful.' Sarah's faith was tested and refined by waiting, transforming her laughter of doubt into laughter of joy when God fulfilled His promise.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-02-28",
-        "date": "2026-02-28",
-        "doctrine": {
-          "doctrine": "The gospel's reach extends to all God's children",
-          "summary": "God's plan of salvation is offered to all people without exception, and His covenant people become instruments to bring these blessings to others.",
-          "explanation": "The promise to Abraham stated that 'in thee shall all families of the earth be blessed, even with the blessings of the Gospel.' This wasn't exclusive to Abraham's immediate family but extended to all humanity. Today, members of The Church of Jesus Christ bear responsibility to share the gospel with all people. Every person is a child of God entitled to hear His word and have the opportunity to accept His gospel.",
-          "references": [
-            {
-              "display": "Abraham 2:11",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/2?lang=eng&id=p11#p11"
-            },
-            {
-              "display": "D&C 88:81",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/88?lang=eng&id=p81#p81"
-            },
-            {
-              "display": "Matthew 28:19-20",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/28?lang=eng&id=p19-p20#p19"
-            }
-          ],
-          "scriptures": []
-        },
-                "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 17",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
-            "question": "What transformation occurred in Abraham and Sarah's names and what does this signify about God's power over human limitations?",
-            "options": [
-              "God changed their names arbitrarily to show His authority",
-              "The name changes from Abram to Abraham and Sarai to Sarah reflected God's promise to make them fruitful, revealing His power to transcend human limitations",
-              "Their names were changed for business and legal purposes only",
-              "Only Abraham's name changed because only he believed fully"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Genesis 17:5 records, 'No longer will you be called Abram; your name will be Abraham, for I have made you a father of many nations.' Genesis 17:15 states, 'Sarah shall be a blessing; indeed, I will give you a son by her.' The name changes proclaimed what God would make them—Abraham means 'father of multitudes' and Sarah means 'princess.' These renamed them according to God's promise, demonstrating that God's promises supersede human limitations of age, infertility, and circumstance. God's word creates the reality it declares.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-03-01",
-        "date": "2026-03-01",
-        "doctrine": {
-          "doctrine": "God never requires the sacrifice we cannot give",
-          "summary": "When God asks us to sacrifice, He ensures we receive divine support and ultimately provides a way of redemption.",
-          "explanation": "Abraham was willing to offer Isaac, his only begotten son, in obedience to God. Yet God never intended for the sacrifice to be completed. Instead, He provided a substitute—the ram in the thicket. This pattern teaches us that God's tests are designed to prove our faith and willingness, not to destroy us. The ultimate sacrifice came through Christ, whose atonement provides redemption for all. We can trust that God will never require more than we can bear with His help.",
-          "references": [
-            {
-              "display": "Abraham 1:15-20",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/1?lang=eng&id=p15-p20#p15"
-            },
-            {
-              "display": "1 Corinthians 10:13",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/1-cor/10?lang=eng&id=p13#p13"
-            },
-            {
-              "display": "D&C 121:7-8",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/121?lang=eng&id=p7-p8#p7"
-            }
-          ],
-          "scriptures": []
-        },
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Abraham 1",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/09?lang=eng",
-            "question": "How was Abraham saved from being sacrificed?",
-            "options": [
-              "He escaped on his own",
-              "An angel of the Lord delivered him",
-              "His father saved him",
-              "The altar broke"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'The Lord... filled me with the vision of the Almighty, and the angel of his presence stood by me, and... loosed my bands' (Abraham 1:15).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      }
-    ],
-    "places": [],
-    "people": []
-  },
-  {
-    "id": "week-2026-10",
-    "startDate": "2026-03-02",
-    "endDate": "2026-03-08",
-    "title": "Genesis 24–33",
-    "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/10?lang=eng",
-    "scriptures": [
-      {
-        "reference": "Genesis 24–33",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/24?lang=eng"
-      }
-    ],
-    "days": [
-      {
-        "id": "day-2026-03-02",
-        "date": "2026-03-02",
-        "doctrine": {
-          "doctrine": "Through Abraham's seed, all nations are blessed",
-          "summary": "God promised Abraham that through his posterity, the blessings of the gospel would reach all people.",
-          "explanation": "The Abrahamic covenant includes the promise that through Abraham's seed, all families of the earth would be blessed. This refers to Jesus Christ and the spreading of the gospel. Covenant members share this blessing as they invite others to Christ.",
-          "references": [
-            {
-              "display": "Abraham 2:9-11",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/2?lang=eng&id=p9-p11#p9"
-            },
-            {
-              "display": "Genesis 22:18",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/22?lang=eng&id=p18#p18"
-            },
-            {
-              "display": "Galatians 3:8",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/gal/3?lang=eng&id=p8#p8"
-            }
-          ],
-          "scriptures": []
-        },
-                "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 18",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
-            "question": "Why did Abraham show hospitality to the three strangers, and what does this teach about righteousness?",
-            "options": [
-              "He hoped they would give him wealth in return",
-              "He recognized this as a sacred duty—showing hospitality to strangers as part of righteousness before God",
-              "He was lonely and needed companionship",
-              "The Bible requires hospitality to be practiced exactly once per year"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Genesis 18:1-3 describes, 'The Lord appeared to Abraham near the great trees...Abraham looked up and saw three men...he ran to meet them...saying, \"Let me bring some water and wash your feet.\"' Abraham's immediate, generous hospitality, though he didn't know these were God's messengers, demonstrated his righteousness. Romans 12:13 connects this: 'Share with the Lord's people who are in need. Practice hospitality.' Hebrews 13:2 reveals the deeper principle: 'Do not forget to show hospitality to strangers, for by so doing some people have shown hospitality to angels.' Righteousness includes caring for others' needs.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-03-03",
-        "date": "2026-03-03",
-        "doctrine": {
-          "doctrine": "Wise choices in companions shape our eternal destiny",
-          "summary": "The people we associate with and the decisions we make about relationships have eternal consequences.",
-          "explanation": "When Abraham and Lot separated, Lot 'chose him all the plain of Jordan' and moved toward Sodom. His choice of location and companions led him toward wickedness and destruction. Conversely, Abraham's choice to live righteously and separate himself from wickedness protected him and his family. Our choices about where we live, whom we befriend, and what community we join profoundly shape our spiritual path and our family's destiny.",
-          "references": [
-            {
-              "display": "Genesis 13:11-13",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/13?lang=eng&id=p11-p13#p11"
-            },
-            {
-              "display": "2 Corinthians 6:14-18",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/2-cor/6?lang=eng&id=p14-p18#p14"
-            },
-            {
-              "display": "Proverbs 13:20",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/prov/13?lang=eng&id=p20#p20"
-            }
-          ],
-          "scriptures": []
-        },
-                "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 18",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
-            "question": "What did Abraham learn about God's nature through God's appearance and promise?",
-            "options": [
-              "God shares His counsel with the righteous and makes them aware of His plans",
-              "God keeps all His plans secret from His people",
-              "God appears to wealthy people but not to the poor",
-              "God's appearance was only for Abraham's amusement"
-            ],
-            "correctAnswer": 0,
-            "explanation": "Genesis 18:17-18 records, 'The Lord said, \"Shall I hide from Abraham what I am about to do?...Abraham will surely become a great and powerful nation.\"' God chose to share His counsel regarding His plans for Sodom with Abraham. This reveals that God appears to the righteous, shares His purposes with those faithful to Him, and values their partnership. It demonstrates that God's righteousness includes transparency with His covenant people and drawing them into His purposes through revelation and communion.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-03-04",
-        "date": "2026-03-04",
-        "doctrine": {
-          "doctrine": "Priesthood authority is recognized and honored across generations",
-          "summary": "God's priesthood requires recognition of authority and proper honor for those who bear it.",
-          "explanation": "Melchizedek, 'king of Salem,' held the priesthood and was 'the priest of the most high God.' When Abraham met him, he paid tithes, acknowledging Melchizedek's priesthood authority. This shows that priesthood authority was known and honored among the righteous even in Abraham's time. The priesthood lineage from Adam through Abraham demonstrates God's consistent pattern of preserving priesthood authority through His servants.",
-          "references": [
-            {
-              "display": "Genesis 14:18-20",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/14?lang=eng&id=p18-p20#p18"
-            },
-            {
-              "display": "Hebrews 7:1-10",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/heb/7?lang=eng&id=p1-p10#p1"
-            },
-            {
-              "display": "D&C 84:14-20",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/84?lang=eng&id=p14-p20#p14"
-            }
-          ],
-          "scriptures": []
-        },
-                "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 18",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
-            "question": "What was Abraham's concern when he learned of God's plan, and what does this teach about prayer and intercession?",
-            "options": [
-              "Abraham didn't care what God did to the cities",
-              "Abraham interceded for the righteous in Sodom, asking if God would spare the city if righteous people were there",
-              "Abraham wanted to move to Sodom himself",
-              "Abraham believed all the people in Sodom deserved destruction"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Genesis 18:23-32 records Abraham's dialogue with God: 'Will you sweep away the righteous with the wicked? What if there are fifty righteous people in the city?...What if the number of the righteous is five less than fifty?' Abraham interceded repeatedly, demonstrating his concern for the righteous. This teaches that intercessory prayer—standing in the gap for others—is part of righteousness. Abraham didn't merely accept God's judgment passively but actively pleaded for mercy for the righteous, showing that faithful people can earnestly petition God on behalf of others.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-03-05",
-        "date": "2026-03-05",
-        "doctrine": {
-          "doctrine": "God's promises are as sure as the stars",
-          "summary": "When God makes a promise, it is permanent, fixed, and will be fulfilled exactly as He declares.",
-          "explanation": "God told Abraham to look toward heaven and count the stars, using them as a symbol of his future posterity. The stars remain constant, visible, and sure—never failing. God's promise to Abraham was not figurative but literal: his descendants would be as numerous and eternal as the stars. We can depend on God's promises with the same certainty we depend on the existence of the stars.",
-          "references": [
-            {
-              "display": "Genesis 15:5-6",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/15?lang=eng&id=p5-p6#p5"
-            },
-            {
-              "display": "Jeremiah 31:37",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/31?lang=eng&id=p37#p37"
-            },
-            {
-              "display": "D&C 121:22-23",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/121?lang=eng&id=p22-p23#p22"
-            }
-          ],
-          "scriptures": []
-        },
-                "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 19",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
-            "question": "How did God respond to the deliberate sins of Sodom and Gomorrah, and what does this demonstrate about consequences?",
-            "options": [
-              "God overlooked the sins to avoid judgment",
-              "God's judgment fell as recorded—brimstone and fire from heaven—showing that deliberate sin brings consequences",
-              "The people repented so God withheld judgment",
-              "Only some people were affected while others were spared from consequences"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Genesis 19:24-25 records, 'The Lord rained down burning sulfur on Sodom and Gomorrah—from the Lord out of the sky. Thus he overthrew those cities and the entire plain.' Jude 7 explains, 'In a similar way, Sodom and Gomorrah and the surrounding towns gave themselves up to sexual immorality and perversion. They serve as an example of those who suffer the punishment of eternal fire.' This demonstrates that persistent, deliberate sin—chosen and embraced as a way of life—brings consequential judgment from God. There is no escape from consequences without repentance.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-03-06",
-        "date": "2026-03-06",
-        "doctrine": {
-          "doctrine": "Faith is counted as righteousness",
-          "summary": "When we believe in the Lord and trust His promises, our faith is reckoned to us as righteousness.",
-          "explanation": "Scripture declares that 'Abraham believed in the Lord; and he counted it to him for righteousness.' Abraham's righteousness wasn't based on his works alone but fundamentally on his faith in God and His promises. This principle shows us that genuine faith—complete trust in God's character and promises—constitutes righteousness. It is the foundation upon which obedience and good works are built.",
-          "references": [
-            {
-              "display": "Genesis 15:6",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/15?lang=eng&id=p6#p6"
-            },
-            {
-              "display": "Romans 4:3",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/rom/4?lang=eng&id=p3#p3"
-            },
-            {
-              "display": "Alma 32:17-21",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/32?lang=eng&id=p17-p21#p17"
-            }
-          ],
-          "scriptures": []
-        },
-                "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 19",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
-            "question": "How did God respond to Lot's danger in Sodom, and what does this teach about God's covenantal care?",
-            "options": [
-              "Lot had to escape completely on his own strength",
-              "The angels took hold of Lot and his family and led them outside the city to safety because of God's mercy",
-              "God only saved Lot's possessions but not his family",
-              "Lot never actually left Sodom"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Genesis 19:16 records, 'When he hesitated, the men grasped his hand...and brought him forth, and set him outside the city.' Verse 29 notes, 'When God destroyed the cities of the plain, he remembered Abraham, and he brought Lot out of the catastrophe.' God actively rescued Lot from judgment, not because of Lot's righteousness (his character had compromised) but because of His relationship with Abraham and His commitment to preserve the righteous. This demonstrates that God rescues those in covenant relationship from divine judgment, physically delivering them to safety.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-03-07",
-        "date": "2026-03-07",
-        "doctrine": {
-          "doctrine": "Covenants are marked by sacred tokens and signs",
-          "summary": "God establishes visible signs and tokens to remind us of our covenants and His promises.",
-          "explanation": "God commanded Abraham to circumcise every male as 'a token of the covenant.' This physical sign served as a constant reminder of the covenant between Abraham and God. In our time, temple covenants are similarly marked with sacred tokens and signs that remind us of our commitments and God's promises. These tangible reminders strengthen our resolve and keep us focused on our eternal responsibilities.",
-          "references": [
-            {
-              "display": "Genesis 17:10-11",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/17?lang=eng&id=p10-p11#p10"
-            },
-            {
-              "display": "D&C 121:36",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/121?lang=eng&id=p36#p36"
-            },
-            {
-              "display": "2 Nephi 32:3",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/32?lang=eng&id=p3#p3"
-            }
-          ],
-          "scriptures": []
-        },
-                "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 20",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
-            "question": "Why did Abraham say to Abimelech, 'There is surely no fear of God in this place, so they will kill me because of my wife'?",
-            "options": [
-              "Abraham was being too cautious unnecessarily",
-              "Fear caused Abraham to distrust God's protection, leading him to deceive about Sarah's identity",
-              "Abraham was testing Abimelech's faith",
-              "Abraham had no reason to be concerned"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Genesis 20:11 records Abraham's explanation: 'I said to myself, \"There is surely no fear of God in this place, and they will kill me because of my wife.\"' Abraham allowed fear to override his faith in God's protection, causing him to tell Abimelech that Sarah was his sister. This resulted in deception and complications. Genesis 20:6 shows God still protected through a dream warning Abimelech. This teaches that fear can cause us to distrust God's protective care and lead us to use deception as a 'backup plan,' undermining faith's foundation.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-03-08",
-        "date": "2026-03-08",
-        "doctrine": {
-          "doctrine": "Our names reflect who we become through covenant",
-          "summary": "God often gives new names to those who make covenants with Him, reflecting their transformed nature and destiny.",
-          "explanation": "God changed Sarai's name to Sarah, meaning 'princess.' This was not a casual renaming but a reflection of her covenant relationship with God. Her new name indicated her elevated role as the mother of covenant people. When we enter into covenants with God—through baptism, confirmation, or other ordinances—we become new creatures, with a new identity in Christ. Our nature and purpose are transformed by our commitment to God.",
-          "references": [
-            {
-              "display": "Genesis 17:15-16",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/17?lang=eng&id=p15-p16#p15"
-            },
-            {
-              "display": "2 Corinthians 5:17",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/2-cor/5?lang=eng&id=p17#p17"
-            },
-            {
-              "display": "Revelation 2:17",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/rev/2?lang=eng&id=p17#p17"
-            }
-          ],
-          "scriptures": []
-        },
-                "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 20",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
-            "question": "What warning did God give Abimelech in a dream, and what does this reveal about God's mercy?",
-            "options": [
-              "God had no concern for Abimelech because he was not part of the covenant",
-              "God warned Abimelech about Sarah and gave him opportunity to respond correctly, showing His mercy as a call to repentance",
-              "God struck Abimelech immediately without warning",
-              "God only warned people in Israel, not outsiders"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Genesis 20:3-7 records how God appeared to Abimelech in a dream and revealed the truth about Sarah, stating if Abimelech didn't return her, he would die. However, God also showed mercy by acknowledging 'you did this with a clear conscience' and offered restoration. Genesis records God said Abraham 'will pray for you,' offering reconciliation. This demonstrates that God's warnings are merciful calls to repentance—even non-covenant peoples receive warning and opportunity to correct their course before judgment. God's communications aim at redemption through repentance.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      }
-    ],
-    "places": [],
-    "people": []
-  },
-  {
-    "id": "week-2026-11",
-    "startDate": "2026-03-09",
-    "endDate": "2026-03-15",
-    "title": "Genesis 37–41",
-    "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/11?lang=eng",
-    "scriptures": [
-      {
-        "reference": "Genesis 37–41",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/37?lang=eng"
-      }
-    ],
-    "days": [
-      {
-        "id": "day-2026-03-09",
-        "date": "2026-03-09",
-        "doctrine": {
-          "doctrine": "Nothing is too hard for the Lord",
-          "summary": "God's power is unlimited—He can accomplish anything according to His will and purposes.",
-          "explanation": "When Sarah laughed at the promise of a child in her old age, the Lord asked, 'Is any thing too hard for the Lord?' His question reminds us that human limitations do not constrain God. What seems impossible to us is simple for Him.",
-          "references": [
-            {
-              "display": "Genesis 18:14",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/18?lang=eng&id=p14#p14"
-            },
-            {
-              "display": "Luke 1:37",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/luke/1?lang=eng&id=p37#p37"
-            },
-            {
-              "display": "1 Nephi 17:50",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/17?lang=eng&id=p50#p50"
-            }
-          ],
-          "scriptures": []
-        },
-                "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 21",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
-            "question": "How did God's promise to Abraham and Sarah become fulfilled at the proper time, and what does this teach about faith's testing?",
-            "options": [
-              "The promise came immediately despite their ages",
-              "The promise came according to God's appointed time when Abraham was 100 and Sarah was 90, demonstrating that God's promises come true according to His timing, not ours",
-              "The promise was delayed indefinitely and never came true",
-              "The promise could only come through adoption, not biological birth"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Genesis 21:1-2 records, 'The Lord was gracious to Sarah...and the Lord did for Sarah all he had promised...Sarah became pregnant and bore a son to Abraham in his old age, at the very time God had promised him.' Romans 4:19-20 explains, 'Without weakening in his faith, he faced the fact that his body was as good as dead...Yet he did not waver through unbelief regarding the promise of God, but was strengthened in his faith.' This reveals that God's promises come true according to His time, not our urgency. The very circumstances that challenged faith's possibility proved God's power when He fulfilled the promise.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-03-10",
-        "date": "2026-03-10",
-        "doctrine": {
-          "doctrine": "God's promises test and strengthen our faith",
-          "summary": "Delays in the fulfillment of God's promises provide opportunities for our faith to grow and be tested.",
-          "explanation": "Sarah laughed when she heard that she would bear a child, thinking it impossible given her advanced age. Yet what seems impossible to us is simple for God. The delay in receiving the promise was not a denial but an opportunity for their faith to mature. When we wait for God's promises to be fulfilled, our patience and trust are refined like gold in fire. We learn who God truly is and develop deeper faith.",
-          "references": [
-            {
-              "display": "Genesis 18:10-14",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/18?lang=eng&id=p10-p14#p10"
-            },
-            {
-              "display": "Hebrews 6:12",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/heb/6?lang=eng&id=p12#p12"
-            },
-            {
-              "display": "D&C 130:20-21",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/130?lang=eng&id=p20-p21#p20"
-            }
-          ],
-          "scriptures": []
-        },
-                "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 21",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
-            "question": "What did Sarah express in her joy after Isaac's birth, and what does this reveal about faith's fulfillment?",
-            "options": [
-              "Laughter of sorrow that her youth had passed",
-              "Laughter of joy because God had brought laughter—her faith had been restored to joy and she became a mother of nations through God's power",
-              "Laughter at Abraham's belief",
-              "Sorrow that Isaac's birth meant hardship"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Genesis 21:6 records, 'Sarah said, \"God has brought me laughter, and everyone who hears about this will laugh with me. Who would have said to Abraham that Sarah would nurse children? Yet I have borne him a son in his old age.\"' The laughter transformed from doubt (Genesis 17:17, 18:12) to joy and vindication. Sarah became 'a mother of nations' (Genesis 17:16) later affirmed in 1 Peter 3:5-6. Her faith produced what seemed humanly impossible. This demonstrates that faith through testing brings joy, vindication, and the literal fulfillment of covenant promises.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-03-11",
-        "date": "2026-03-11",
-        "doctrine": {
-          "doctrine": "God's omnipotence transcends human understanding",
-          "summary": "What appears impossible to human reason is always possible for God, who has all power.",
-          "explanation": "The Lord's question to Sarah—'Is anything too hard for the Lord?'—contains a profound truth. There is no limitation to God's power. He created the universe, sustains it, and holds all things in His hands. Our limitations and doubts often come from measuring God by human standards. When we truly internalize that nothing is impossible for God, our faith is revolutionized and our prayers gain new power.",
-          "references": [
-            {
-              "display": "Genesis 18:14",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/18?lang=eng&id=p14#p14"
-            },
-            {
-              "display": "Jeremiah 32:17",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/32?lang=eng&id=p17#p17"
-            },
-            {
-              "display": "D&C 19:1-3",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/19?lang=eng&id=p1-p3#p1"
-            }
-          ],
-          "scriptures": []
-        },
-                "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 21",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
-            "question": "What blessing did God provide to Ishmael despite not being the covenant heir, and what does this teach about God's care?",
-            "options": [
-              "Ishmael received no blessings whatsoever",
-              "God blessed Ishmael, making him into a great nation, showing that God's care extends even to those outside the primary covenant line",
-              "Ishmael was rejected entirely by God",
-              "Ishmael's only blessing was abandonment"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Genesis 21:13 records God's promise about Ishmael: 'I will make the son of the slave into a nation also, because he is your offspring.' Genesis 16:10-12 earlier records God's appearance to Hagar, promising to multiply Ishmael's descendants and that 'he will be a wild donkey of a man.' Genesis 25:12-18 demonstrates these blessings were fulfilled—Ishmael became a great nation with twelve princes. This teaches that while Isaac carried the covenant succession, God's care and blessing extended to Ishmael. God's goodness is not limited only to the primary covenant line.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-03-12",
-        "date": "2026-03-12",
-        "doctrine": {
-          "doctrine": "Intercession on behalf of others shows God's justice",
-          "summary": "God listens to righteous intercession and delays judgment for the sake of the righteous.",
-          "explanation": "Abraham boldly prayed for Sodom, interceding from 50 righteous people down to 10. God responded to each prayer. This shows that God's justice includes mercy and delay when the righteous intercede. It also shows the profound impact of even a few righteous people in a wicked generation. Our prayers for others matter. God cares about our intercessions and acts according to His justice and mercy.",
-          "references": [
-            {
-              "display": "Genesis 18:20-32",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/18?lang=eng&id=p20-p32#p20"
-            },
-            {
-              "display": "1 Timothy 2:1-4",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/1-tim/2?lang=eng&id=p1-p4#p1"
-            },
-            {
-              "display": "D&C 29:7-8",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/29?lang=eng&id=p7-p8#p7"
-            }
-          ],
-          "scriptures": []
-        },
-                "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 22",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
-            "question": "Why did God command Abraham to sacrifice his son Isaac, and what was the purpose of this test?",
-            "options": [
-              "God wanted to acquire a human sacrifice for Himself",
-              "God wanted to know if Abraham's faith and obedience were genuine, and the test would develop his discipleship by proving his willingness to trust God completely",
-              "Abraham had been disobedient and needed punishment",
-              "The test had no real spiritual purpose"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Genesis 22:1-2 states, 'God tested Abraham...\"Take your son, your only son, whom you love—Isaac...and go to the region of Moriah. Sacrifice him.\"' Verse 12 reveals, 'Do not lay a hand on the boy...Now I know that you fear God, because you have not withheld from me your son, your only son.' Hebrews 11:17-19 explains that Abraham's willingness 'offered up his one and only son' believing 'God could even raise the dead.' Testing our faith develops our discipleship by proving its genuine nature and deepening our trust in God above all other commitments.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-03-13",
-        "date": "2026-03-13",
-        "doctrine": {
-          "doctrine": "Looking backward in regret separates us from deliverance",
-          "summary": "Those who escape danger but long for what they left behind expose their unfaithful hearts.",
-          "explanation": "Lot and his daughters fled Sodom as it burned, warned not to look back. Yet Lot's wife 'looked back from behind him, and she became a pillar of salt.' Her backward glance revealed her heart was still attached to the wickedness she was fleeing. In our spiritual journey, we too must not look back with longing at old lifestyles or former kingdoms of darkness. A complete and forward-focused abandonment of sin is required for our deliverance.",
-          "references": [
-            {
-              "display": "Genesis 19:24-26",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/19?lang=eng&id=p24-p26#p24"
-            },
-            {
-              "display": "Luke 9:62",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/luke/9?lang=eng&id=p62#p62"
-            },
-            {
-              "display": "D&C 25:10-11",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/25?lang=eng&id=p10-p11#p10"
-            }
-          ],
-          "scriptures": []
-        },
-                "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 22",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
-            "question": "What did Abraham demonstrate through his willingness to obey God's command regarding Isaac?",
-            "options": [
-              "That his son was more important than his covenant with God",
-              "That obedience to God requires trusting His greater purpose even when it doesn't make rational sense",
-              "That God required child sacrifice",
-              "That faith and obedience are optional in the covenant relationship"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Genesis 22:12 records God's words: 'Now I know that you fear God, because you have not withheld from me your son, your only son.' Abraham's obedience—his willingness to surrender his most precious possession—demonstrated ultimate trust in God's purposes. He didn't understand how God's promise of numerous descendants could be fulfilled if Isaac was sacrificed, yet he obeyed anyway. This teaches that true discipleship requires surrendering even our most cherished understandings to God's greater purpose. Our 'limited sight' must yield to faith in God's wisdom.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-03-14",
-        "date": "2026-03-14",
-        "doctrine": {
-          "doctrine": "God's judgment is certain against persistent wickedness",
-          "summary": "When sin reaches a certain measure and is persistently chosen, God's judgment must come to preserve the righteous.",
-          "explanation": "God 'rained upon Sodom and upon Gomorrah brimstone and fire from the Lord out of heaven.' This judgment was not arbitrary but the inevitable consequence of systematic, generational wickedness. God permits sin for a season and sends warnings through prophets. But when people persist in rejecting light, choosing evil, and spreading corruption, judgment must fall. This pattern teaches that there are limits to God's patience, though they are generous and clearly marked.",
-          "references": [
-            {
-              "display": "Genesis 19:1-25",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/19?lang=eng&id=p1-p25#p1"
-            },
-            {
-              "display": "D&C 88:110",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/88?lang=eng&id=p110#p110"
-            },
-            {
-              "display": "Alma 12:32-37",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/12?lang=eng&id=p32-p37#p32"
-            }
-          ],
-          "scriptures": []
-        },
-                "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 22",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
-            "question": "How did God provide for Abraham's obedience and willingness to sacrifice, and what does this teach about God's provision?",
-            "options": [
-              "God did not provide anything and allowed the sacrifice to proceed",
-              "God provided a ram as a substitute sacrifice, demonstrating His faithful provision when we are willing to surrender everything to His will",
-              "Abraham had to find his own animal",
-              "The sacrifice never actually took place because it was merely hypothetical"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Genesis 22:11-13 records, 'The angel of the Lord called out to him from heaven...\"Do not lay a hand on the boy...\" Abraham looked up and there in a thicket he saw a ram caught by its horns. He took the ram and sacrificed it as a burnt offering instead of his son.' Genesis 22:14 notes, 'Abraham called that place The Lord Will Provide. And to this day it is said, \"On the mountain of the Lord it will be provided.\"' This reveals that when we are willing to sacrifice, God provides. Our willingness to give everything to God unlocks His provision and care. The ram foreshadows God's ultimate provision of Christ as the Lamb of God.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-03-15",
-        "date": "2026-03-15",
-        "doctrine": {
-          "doctrine": "Small righteous remnants are preserved for future blessing",
-          "summary": "God preserves a remnant of the righteous through destruction so that His purposes can continue.",
-          "explanation": "Though Sodom and Gomorrah were destroyed, Lot and his daughters were preserved and escaped to Zoar. This preservation was not because they had earned it through personal righteousness but because of Abraham's intercession and God's purpose to preserve life. Similarly, throughout history, God has preserved a righteous remnant through periods of judgment. We see this pattern repeated: a large population turns wicked, God preserves the righteous, and through them, His purposes continue forward.",
-          "references": [
-            {
-              "display": "Genesis 19:15-22",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/19?lang=eng&id=p15-p22#p15"
-            },
-            {
-              "display": "Isaiah 10:20-22",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/10?lang=eng&id=p20-p22#p20"
-            },
-            {
-              "display": "1 Nephi 19:14",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/19?lang=eng&id=p14#p14"
-            }
-          ],
-          "scriptures": []
-        },
-                "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 24",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
-            "question": "Why did Isaac go to Beersheba to meditate 'in the field' at evening, and what does this suggest symbolically?",
-            "options": [
-              "He was running away from his family",
-              "He was seeking solitude to process the covenant experience, ascending spiritually to a higher perspective",
-              "He was going to work as a shepherd",
-              "He had forgotten where he lived"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Genesis 24:63 describes, 'Isaac went out to the field at the time of evening meditation.' This pattern—ascending to higher ground, taking time for personal contemplation—reflects spiritual practice. After the intense covenant testing on Mount Moriah, Isaac's time in the field for meditation suggests spiritual processing and growth. Symbolically, ascending to higher ground brings clearer spiritual perspective. This moment of quiet meditation prepared Isaac to meet Rebekah, connecting his inner spiritual foundation to his relational future. The field represents space for personal communion with God and spiritual reflection.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      }
-    ],
-    "places": [],
-    "people": []
-  },
-  {
-    "id": "week-2026-12",
-    "startDate": "2026-03-16",
-    "endDate": "2026-03-22",
-    "title": "Genesis 42–50",
-    "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/12?lang=eng",
-    "scriptures": [
-      {
-        "reference": "Genesis 42–50",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/42?lang=eng"
-      }
-    ],
-    "days": [
-      {
-        "id": "day-2026-03-16",
-        "date": "2026-03-16",
-        "doctrine": {
-          "doctrine": "Eternal marriage is essential for exaltation",
-          "summary": "Marriage between a man and woman, sealed by priesthood authority, is ordained of God and essential for the highest degree of glory.",
-          "explanation": "Abraham sent his servant to find a righteous wife for Isaac, understanding the eternal importance of covenant marriage. Today, temple marriage seals families for eternity and is required for exaltation in the celestial kingdom.",
-          "references": [
-            {
-              "display": "Genesis 24:3-4",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/24?lang=eng&id=p3-p4#p3"
-            },
-            {
-              "display": "D&C 131:1-4",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/131?lang=eng&id=p1-p4#p1"
-            },
-            {
-              "display": "D&C 132:19",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/132?lang=eng&id=p19#p19"
-            }
-          ],
-          "scriptures": []
-        },
-                "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 25",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
-            "question": "What was the significance of the birthright that Esau traded to Jacob?",
-            "options": [
-              "The birthright was purely about receiving extra food",
-              "The birthright conveyed spiritual leadership authority—the right to be the covenant heir and patriarch",
-              "The birthright had no real value since both brothers would inherit equally",
-              "Only the firstborn could ever have any inheritance"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Genesis 25:31-34 describes how Jacob offered Esau bread and lentil stew, asking, 'First sell me your birthright.' Esau sold his birthright for the immediate meal. The birthright was not merely about inheritance but about the position of covenant leadership and authority passed to the firstborn. Hebrews 12:16-17 refers to Esau as 'godless' because 'he sold his inheritance rights as the firstborn.' Romans 9:12-13 shows God cared about the birthright's spiritual significance, stating His purpose depended on 'the one who serves.' The birthright conveyed not just material goods but spiritual authority to lead the covenant people.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-03-17",
-        "date": "2026-03-17",
-        "doctrine": {
-          "doctrine": "Understanding our family history strengthens covenant commitment",
-          "summary": "Knowledge of our spiritual heritage helps us understand the continuity of God's purposes and our role within them.",
-          "explanation": "Isaac was born to Abraham and Sarah as the fulfillment of God's promise. Yet he also represented a new generation in the covenant line. Understanding that Isaac was the promised seed—the one through whom all God's promises would flow—gave Isaac's life profound meaning and purpose. In our own lives, understanding our membership in the covenant community and our role in continuing God's work across generations deepens our commitment and motivation for righteousness.",
-          "references": [
-            {
-              "display": "Genesis 21:1-6",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/21?lang=eng&id=p1-p6#p1"
-            },
-            {
-              "display": "D&C 2:1-2",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/2?lang=eng&id=p1-p2#p1"
-            },
-            {
-              "display": "2 Timothy 2:1-2",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/2-tim/2?lang=eng&id=p1-p2#p1"
-            }
-          ],
-          "scriptures": []
-        },
-                "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 25",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
-            "question": "What does Esau's immediate satisfaction with momentary gratification reveal about spiritual consequence?",
-            "options": [
-              "Making hasty choices when weak has no lasting impact",
-              "Seeking immediate satisfaction over long-term spiritual inheritance creates irreversible consequences",
-              "All decisions have equal weight regardless of timing",
-              "Physical hunger is more important than spiritual heritage"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Genesis 25:33-34 records, 'So Esau despised his birthright.' Hebrews 12:16-17 adds, 'See that no one is...godless like Esau, who for a single meal sold his inheritance rights as the firstborn. Afterward, as you know, when he wanted to inherit this blessing, he was rejected. He could bring about no change of mind, though he sought the blessing with tears.' Esau's hasty decision in a moment of weakness created permanent consequences. He could later regret it and even weep over it, but the birthright—once sold—could not be regained. This demonstrates that decisions made in moments of weakness or to satisfy immediate desires can create lasting, irreversible consequences.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-03-18",
-        "date": "2026-03-18",
-        "doctrine": {
-          "doctrine": "Willingness to sacrifice everything proves authentic devotion",
-          "summary": "True discipleship requires willingness to surrender our most precious possessions and desires to God.",
-          "explanation": "God commanded Abraham to offer Isaac, his only begotten son, the child of promise, as a sacrifice. Abraham's willingness to obey without question demonstrated his complete devotion to God. This test revealed that Abraham's love for God exceeded even his love for his promised son. Our own discipleship is tested similarly: are we willing to put God first, even above our greatest treasures?",
-          "references": [
-            {
-              "display": "Genesis 22:1-13",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/22?lang=eng&id=p1-p13#p1"
-            },
-            {
-              "display": "Luke 14:26-27",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/luke/14?lang=eng&id=p26-p27#p26"
-            },
-            {
-              "display": "D&C 19:35",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/19?lang=eng&id=p35#p35"
-            }
-          ],
-          "scriptures": []
-        },
-                "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 27",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
-            "question": "What did Isaac's deception reveal about the consequences of broken trust, even within families?",
-            "options": [
-              "Deception strengthened family bonds",
-              "Rebekah's plot to help Jacob deceive Isaac regarding the blessing broke trust and created lasting family estrangement—Isaac's pain at the deception is evident in his anguish",
-              "Jacob was justified in any action he took",
-              "Deception had no real consequences"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Genesis 27:30-35 records that 'Esau came in... [and when] Isaac found out the truth...Isaac was overcome with violent trembling.' Verse 34 notes, 'When Esau heard his father's words, he burst out with a loud and bitter cry and said to his father, \"Bless me—me too, my father!\"' Genesis 27:41 adds, 'Esau held a grudge against Jacob because of the blessing his father had given him...so he said to himself, \"I will kill my brother Jacob.\"' The deception fractured the family, forced Jacob to flee, and created years of separation. This teaches that deception breaks trust even in families, creating wounds that require years of reconciliation and producing harmful consequences the deceiver must eventually face.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-03-19",
-        "date": "2026-03-19",
-        "doctrine": {
-          "doctrine": "Faith includes confidence in God's ultimate deliverance",
-          "summary": "Even when facing what appears to be the end, faith trusts that God will deliver us.",
-          "explanation": "Abraham told his servants, 'I and the lad will go yonder and worship, and come again to you.' He spoke with absolute confidence, even though he was about to offer his son as a sacrifice. Abraham's faith was not based on his understanding of how God would preserve Isaac but on God's character and His promise. This teaches us to face our trials with confidence that somehow, someway, God will preserve and deliver us.",
-          "references": [
-            {
-              "display": "Genesis 22:5",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/22?lang=eng&id=p5#p5"
-            },
-            {
-              "display": "Hebrews 11:19",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/heb/11?lang=eng&id=p19#p19"
-            },
-            {
-              "display": "D&C 121:7",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/121?lang=eng&id=p7#p7"
-            }
-          ],
-          "scriptures": []
-        },
-                "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 26",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
-            "question": "How did God bless Isaac despite the family drama, and what does this reveal about God's faithfulness?",
-            "options": [
-              "Isaac's family problems means God abandoned him",
-              "God blessed Isaac in Gerar, multiplying his crops abundantly because Isaac sought God's will earnestly",
-              "Isaac had to leave and find blessing in a foreign land",
-              "Blessings only come through perfect families"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Genesis 26:12 records, 'Isaac planted crops in that land and the same year reaped a hundredfold, because the Lord blessed him.' This came after Isaac moved to Gerar during a famine. Despite the family conflict and his own act of deception (like his father's) regarding Rebekah (Genesis 26:7), God blessed Isaac's earnest seeking and obedience. Genesis 26:2-5 shows God appeared to Isaac saying, 'I will be with you and will bless you,' affirming the covenant with Abraham. This demonstrates that God's faithfulness continues even when families struggle, blessing those who earnestly seek His will.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-03-20",
-        "date": "2026-03-20",
-        "doctrine": {
-          "doctrine": "God provides the way when we trust and obey",
-          "summary": "When we do our part in faith and obedience, God provides what we cannot provide for ourselves.",
-          "explanation": "As Abraham prepared to offer Isaac, 'a ram caught in a thicket' appeared, provided by God as the substitute sacrifice. Abraham's faithful obedience opened the way for God's provision. He did not rescue Abraham before the test but provided exactly what was needed at the crucial moment. This pattern shows us that God's provision often comes when we're in the midst of faithful action, not before we begin to obey.",
-          "references": [
-            {
-              "display": "Genesis 22:11-14",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/22?lang=eng&id=p11-p14#p11"
-            },
-            {
-              "display": "Matthew 6:11",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/6?lang=eng&id=p11#p11"
-            },
-            {
-              "display": "1 Nephi 3:7",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7"
-            }
-          ],
-          "scriptures": []
-        },
-                "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 33",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
-            "question": "How did Jacob's reunion with Esau demonstrate repentance and reconciliation?",
-            "options": [
-              "Jacob avoided Esau at all costs",
-              "Jacob humbled himself, approaching with fear, then embraced Esau in tears, bringing reconciliation and renewed relationship",
-              "The brothers never reconciled",
-              "Jacob forced Esau to accept him"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Genesis 33:1-4 records, 'Jacob looked up and there was Esau, coming with his four hundred men...Jacob bowed down to the ground seven times...Then Esau ran to meet him and embraced him; he threw his arms around his neck and kissed him. And they wept.' Genesis 33:10-11 shows Jacob's humility: 'If I have found favor in your eyes, accept this gift from me...God has been gracious to me and I have all I need.' Through repentance, humility, and generous reconciliation gifts, Jacob made amends. Esau, whose initial rage had threatened genocide (Genesis 27:41), accepted reconciliation. This demonstrates that repentance brings reconciliation and renewed relationships, healing family wounds through humility and grace.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-03-21",
-        "date": "2026-03-21",
-        "doctrine": {
-          "doctrine": "We testify of God's provision by giving Him all the glory",
-          "summary": "Naming the place of God's deliverance perpetuates testimony of His goodness across generations.",
-          "explanation": "Abraham called the place 'Jehovah-jireh,' meaning 'The Lord will provide.' By naming the location, Abraham created a permanent witness to God's provision. This name would be remembered and shared, testifying to future generations of God's faithfulness. In our lives, whenever God delivers us, we should acknowledge His hand and bear witness to others of His goodness. Our testimonies become monuments pointing others to God's character.",
-          "references": [
-            {
-              "display": "Genesis 22:14",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/22?lang=eng&id=p14#p14"
-            },
-            {
-              "display": "Psalm 113:1-3",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/ps/113?lang=eng&id=p1-p3#p1"
-            },
-            {
-              "display": "D&C 21:4-5",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/21?lang=eng&id=p4-p5#p4"
-            }
-          ],
-          "scriptures": []
-        },
-                "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 32",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
-            "question": "What transformation occurred when Jacob wrestled with God at Peniel, and what does this reveal about discipleship?",
-            "options": [
-              "Jacob remained unchanged after the wrestling match",
-              "Jacob's wrestling with God brought transformation—his name changed to Israel ('he who prevails with God'), marking his spiritual breakthrough from self-reliance to dependence on God",
-              "Jacob lost the wrestling match completely",
-              "God refused to bless Jacob after the wrestling"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Genesis 32:24-28 records, 'A man wrestled with him till daybreak...Then the man said, \"Your name will no longer be Jacob, but Israel, because you have struggled with God and with humans and have overcome.\"' Genesis 32:30 notes, 'Jacob called the place Peniel, saying, \"It is because I saw God face to face, and yet my life was spared.\"' This wrestling—a wrestling of the soul—transformed Jacob. His new name represented new spiritual identity. Though Jacob's hip was wrenched (showing he didn't 'win' in human terms), he received God's blessing and a new name. This teaches that wrestling with God—struggled with Him spiritually—brings transformation. Israel means 'one who strives with God,' marking Jacob as one who earnestly seeks God despite struggle.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-03-22",
-        "date": "2026-03-22",
-        "doctrine": {
-          "doctrine": "The fear of God is the foundation of all blessings",
-          "summary": "Reverence and fear of God—genuine respect for His authority—opens the door to all His blessings.",
-          "explanation": "After Abraham demonstrated his willingness to sacrifice Isaac, God said, 'Now I know that thou fearest God.' This fear was not terror but profound reverence—putting God first and above all else. This fear of God became the foundation for God's unlimited blessings to Abraham and his seed. In our lives, when we genuinely fear and reverence God, putting His will above our preferences, we position ourselves to receive all that He desires to give us.",
-          "references": [
-            {
-              "display": "Genesis 22:12",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/22?lang=eng&id=p12#p12"
-            },
-            {
-              "display": "Proverbs 1:7",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/prov/1?lang=eng&id=p7#p7"
-            },
-            {
-              "display": "D&C 98:1-3",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/98?lang=eng&id=p1-p3#p1"
-            }
-          ],
-          "scriptures": []
-        },
-                "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 35",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
-            "question": "What did Jacob's acceptance of his new identity as Israel demonstrate about surrender to God?",
-            "options": [
-              "Jacob refused to accept his new name",
-              "Jacob's acceptance of the name Israel marked his surrender of independence to God's will, demonstrating that discipleship requires yielding our identity and agenda to God",
-              "The new name had no spiritual significance",
-              "Jacob kept both names but never fully accepted either one"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Genesis 35:10 records God affirming, 'Your name is Jacob, but you will no longer be called Jacob; your name will be Israel.' Jacob accepted this new identity. The shift from 'Jacob' (meaning 'deceiver' or 'supplanter') to 'Israel' (meaning 'he who strives with God' or 'God prevails') represented profound transformation. Jacob stopped relying on deception and cunning; he now defined himself by his relationship with God. This marking of discipleship—receiving God's chosen identity rather than the one earned by human effort—shows that true discipleship requires surrendering our self-made identity in exchange for God's definition of who we are.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      }
-    ],
-    "places": [],
-    "people": []
-  },
-  {
-    "id": "week-2026-13",
-    "startDate": "2026-03-23",
-    "endDate": "2026-03-29",
-    "title": "Exodus 1–6",
-    "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/13?lang=eng",
-    "scriptures": [
-      {
-        "reference": "Exodus 1–6",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/ex/1?lang=eng"
-      }
-    ],
-    "days": [
-      {
-        "id": "day-2026-03-23",
-        "date": "2026-03-23",
-        "doctrine": {
-          "doctrine": "Temples connect heaven and earth",
-          "summary": "Temples are sacred places where heaven and earth meet, and where eternal ordinances are performed.",
-          "explanation": "Jacob's vision of a ladder reaching to heaven, with angels ascending and descending, symbolizes the temple. In temples, we make covenants with God, receive ordinances, and experience the closest connection to heaven available on earth.",
-          "references": [
-            {
-              "display": "Genesis 28:12-17",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/28?lang=eng&id=p12-p17#p12"
-            },
-            {
-              "display": "D&C 109:13-21",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/109?lang=eng&id=p13-p21#p13"
-            },
-            {
-              "display": "D&C 124:40-41",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/124?lang=eng&id=p40-p41#p40"
-            }
-          ],
-          "scriptures": []
-        },
-                "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 28",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
-            "question": "What did Jacob's vision of angels ascending and descending reveal about God's character?",
-            "options": [
-              "God was distant and unconcerned with Jacob's family",
-              "The divine vision showed God's active involvement and communication, providing direction and comfort through His heavenly realm",
-              "Angels were purely decorative in the vision",
-              "God never communicated with Jacob again after this vision"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Genesis 28:12-13 records, 'He had a dream in which he saw a stairway resting on the earth, with its top reaching to heaven, and the angels of God were ascending and descending on it. There above it stood the Lord, and he said: \"I am the Lord, the God of your father Abraham and the God of Isaac.\"' This vision revealed God's active involvement—the angels ascending and descending depicted God's constant communication between heaven and earth. The vision provided direction ('the land you are lying on I will give to you and your offspring') and comfort (God's promise to be with Jacob: 'I am with you and will watch over you'). Divine visions provide both direction and comfort, showing God's intimate engagement with His people.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-03-24",
-        "date": "2026-03-24",
-        "doctrine": {
-          "doctrine": "Sacred responsibilities are honored and invested in",
-          "summary": "Those who hold office or stewardship in God's kingdom take their responsibilities with utmost seriousness.",
-          "explanation": "Abraham purchased the cave of Machpelah as a burial place for Sarah. His careful investment in a proper, respectable place for Sarah's burial showed his honor for the covenant family. This respect for sacred responsibility extended to treating deaths and family legacy with great importance. In the Church, those who hold positions of responsibility, including temple workers and priesthood holders, similarly honor their sacred duties as fundamental acts of reverence for God.",
-          "references": [
-            {
-              "display": "Genesis 23:3-20",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/23?lang=eng&id=p3-p20#p3"
-            },
-            {
-              "display": "D&C 126:1",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/126?lang=eng&id=p1#p1"
-            },
-            {
-              "display": "Alma 53:20-21",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/53?lang=eng&id=p20-p21#p20"
-            }
-          ],
-          "scriptures": []
-        },
-                "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 28",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
-            "question": "Why did Jacob name the place Bethel, and what does this reveal about his spiritual response?",
-            "options": [
-              "Jacob randomly chose the name without meaning",
-              "Jacob named the place Bethel ('house of God') in response to recognizing God's presence there, showing his obedience to acknowledge God",
-              "The place was already named Bethel before Jacob arrived there",
-              "Jacob refused to name the place after his spiritual experience"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Genesis 28:16-19 records, 'When Jacob awoke from his sleep, he thought, \"Surely the Lord is in this place, and I was not aware of it.\" He was afraid and said, \"How awesome is this place! This is none other than the house of God; this is the gate of heaven.\" Early the next morning Jacob...set up the stone as a pillar and poured oil on top of it...He called that place Bethel.' Jacob's naming of the place demonstrated his recognition of God's presence and his spiritual obedience in marking holy ground. This showed Jacob's transformation—from fleeing in fear to recognizing and honoring God's presence. His obedience brought him to Bethel and established a place of worship.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-03-25",
-        "date": "2026-03-25",
-        "doctrine": {
-          "doctrine": "Faithful servants guide providential outcomes",
-          "summary": "God often uses faithful, detail-oriented servants as instruments to fulfill His purposes.",
-          "explanation": "Abraham sent his trusted servant to find a wife for Isaac, not leaving it to chance. The servant, recognizing his sacred responsibility, approached the task with prayer and careful attention. His faithfulness to the assignment, combined with prayerful direction, led him to Rebekah. God often works through faithful human agents who approach their assignments with diligence and faith. We too are servants with sacred assignments, and our faithfulness matters in God's plan.",
-          "references": [
-            {
-              "display": "Genesis 24:1-10",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/24?lang=eng&id=p1-p10#p1"
-            },
-            {
-              "display": "D&C 42:29-30",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/42?lang=eng&id=p29-p30#p29"
-            },
-            {
-              "display": "1 Corinthians 4:1-2",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/1-cor/4?lang=eng&id=p1-p2#p1"
-            }
-          ],
-          "scriptures": []
-        },
-                "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 30",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
-            "question": "How did Jacob's diligent work for Laban result in blessings, and what does this teach about integrity?",
-            "options": [
-              "Jacob's work made Laban's household worse off",
-              "Jacob's work with integrity and diligence caused the Lord to bless Laban's household abundantly because of Jacob's presence, showing that working with integrity leads to increased blessings",
-              "Jacob's work had no effect on anyone's fortunes",
-              "Dishonest work brings better blessings than honest work"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Genesis 30:25-30 records Jacob's testimony: 'You know how much work I've done for you and how your livestock has fared under my care...Few animals were before I came, but now they have increased greatly. The Lord has blessed you wherever I've gone.' Genesis 29:20-25 initially shows Jacob worked seven years in love for Rachel, then was deceived and worked another seven years. Despite deception, God blessed Jacob. However, it was his diligent, faithful work that produced increase. When Jacob later worked for himself, Genesis 30:30 confirms the principle: God blessed because of Jacob's integrity and diligent work. This reveals that working with integrity and dedication attracts God's blessing and leads to multiplication of resources.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-03-26",
-        "date": "2026-03-26",
-        "doctrine": {
-          "doctrine": "God gives us personal revelation to recognize His will",
-          "summary": "Through prayer and personal revelation, we are able to recognize and follow God's guidance.",
-          "explanation": "Abraham's servant prayed for a sign to identify Isaac's future wife—that she would offer water to him and his camels. When Rebekah immediately did exactly this, the servant recognized God's hand. This shows that when we ask God for guidance and remain alert, He provides clear confirmations. Rebekah's kindness, though a simple act, revealed her character. God works through patterns and confirmations we can recognize when we're watching and listening.",
-          "references": [
-            {
-              "display": "Genesis 24:12-15",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/24?lang=eng&id=p12-p15#p12"
-            },
-            {
-              "display": "D&C 6:22-23",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/6?lang=eng&id=p22-p23#p22"
-            },
-            {
-              "display": "James 1:5-6",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/james/1?lang=eng&id=p5-p6#p5"
-            }
-          ],
-          "scriptures": []
-        },
-                "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 35",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
-            "question": "What covenant did God reaffirm with Jacob at Bethel, and what does this reveal about God's purposes?",
-            "options": [
-              "God had no plans for Jacob or his descendants",
-              "God reaffirmed the Abrahamic covenant with Jacob, promising that his descendants would become great nations and possess the land, showing God's covenant continues through descended generations",
-              "Jacob had to create an entirely new covenant",
-              "God's covenant only worked for Abraham and Isaac"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Genesis 35:11-12 records, 'God said to him, \"I am God Almighty; be fruitful and increase in number. A nation and a community of nations will come from you, and kings will be among your descendants. The land I gave to Abraham and Isaac I also give to you, and I will give this land to your descendants after you.\"' This reaffirmation shows God's covenant continues through successive generations. The promises made to Abraham and renewed with Isaac are now confirmed to Jacob. This pattern reveals that God's covenant is not limited to one person but flows through the family line, showing that God's covenant continues through descendants and establishes an ongoing purpose spanning generations.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-03-27",
-        "date": "2026-03-27",
-        "doctrine": {
-          "doctrine": "Family relationships strengthen faith and commitment",
-          "summary": "Close family ties create support systems that sustain us in faith and righteousness.",
-          "explanation": "Rebekah had connections to a righteous family lineage. Her brother Laban, though later showed his own struggles, was initially part of a family context where righteousness could be fostered. Families that share spiritual values and support each other in faith create environments where each member's commitment is deepened. The relationships between family members—particularly siblings—provide encouragement, accountability, and shared purpose that sustains everyone in their journey of discipleship.",
-          "references": [
-            {
-              "display": "Genesis 24:29-60",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/24?lang=eng&id=p29-p60#p29"
-            },
-            {
-              "display": "1 Thessalonians 5:11",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/1-thes/5?lang=eng&id=p11#p11"
-            },
-            {
-              "display": "D&C 42:51-52",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/42?lang=eng&id=p51-p52#p51"
-            }
-          ],
-          "scriptures": []
-        },
-                "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 29",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
-            "question": "Why was Jacob's relationship with Rachel spiritually significant in the covenant context?",
-            "options": [
-              "Rachel was unimportant to Jacob's spiritual journey",
-              "Rachel was the right spouse who supported Jacob's covenant righteousness and became the mother of spiritual heirs",
-              "Jacob had no real attachment to Rachel",
-              "Spouses have no role in spiritual heritage"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Genesis 29:20 states, 'Jacob loved Rachel; so he served seven years for her, and they seemed to him but a few days because of the love he had for her.' Genesis 29:28-29 shows Jacob also married Leah, yet Genesis 30:22-24 records, 'God remembered Rachel...and she became pregnant and bore a son. She said, \"God has taken away my disgrace.\" She named him Joseph.' Joseph, Rachel's son, became foundational to God's covenant purposes (the twelve tribes of Israel derived from Jacob's sons). Rachel, though experiencing initial barrenness, became the mother of key covenant heirs. Her role as Jacob's beloved wife supported his spiritual journey and covenant fidelity. The right spouse supports covenant righteousness and becomes instrumental in God's purposes.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-03-28",
-        "date": "2026-03-28",
-        "doctrine": {
-          "doctrine": "True discipleship requires willingness and willing sacrifice",
-          "summary": "Covenant commitment is demonstrated through willing, conscious choice to follow God's path.",
-          "explanation": "When asked if she would go with Abraham's servant to become Isaac's wife, Rebekah answered, 'I will go.' She didn't hesitate or demand more information. Her immediate consent showed that her heart was prepared and willing. In our spiritual journey, we too must make willing choices to follow God. The willingness is as important as the action. When we consciously and willingly choose to covenant with God, our commitment becomes whole-hearted and genuine.",
-          "references": [
-            {
-              "display": "Genesis 24:58",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/24?lang=eng&id=p58#p58"
-            },
-            {
-              "display": "D&C 59:5-6",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/59?lang=eng&id=p5-p6#p5"
-            },
-            {
-              "display": "1 Corinthians 7:3-5",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/1-cor/7?lang=eng&id=p3-p5#p3"
-            }
-          ],
-          "scriptures": []
-        },
-                "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 29",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
-            "question": "What did Jacob learn through the complications of his marriage arrangements, and what does this reveal about character development?",
-            "options": [
-              "Jacob learned deception was always the right strategy",
-              "Jacob learned through facing obstacles similar to those he had caused—being deceived about Leah as he had deceived Isaac—building his character through challenges",
-              "Jacob avoided all difficulties without learning",
-              "Obstacles have no role in spiritual growth"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Genesis 29:21-25 records that Jacob worked seven years for Rachel but 'when morning came, there was Leah!'—Jacob had been deceived by Laban, just as Jacob had deceived Isaac years earlier. Overcoming this obstacle—the complicated polygamous family, Leah's initial lack of love from Jacob, the years of additional work—built Jacob's character. His love for Rachel persisted despite deception, and through these obstacles, Jacob developed patience, faithfulness, and understanding. Genesis 30:1-24 shows Jacob's family growing and his wealth increasing through years of work. Overcoming obstacles builds strength of character, teaches humility, and develops the spiritual maturity necessary for covenant leadership. The man who began as a deceiver became Israel, a man who 'strives with God.'",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-03-29",
-        "date": "2026-03-29",
-        "doctrine": {
-          "doctrine": "Divine appointments transcend human planning",
-          "summary": "God orchestrates our path and brings us to people and places according to His perfect design.",
-          "explanation": "Isaac went out to 'meditate in the field' just as Rebekah arrived with the servant. This seemingly chance meeting was actually a divine appointment. Isaac's spiritual practice of meditation and prayer placed him in exactly the right place at the right time. God often coordinates our paths in ways we don't fully perceive until later. When we maintain spiritual patterns—prayer, meditation, seeking God—we position ourselves for the divine appointments He has prepared for us.",
-          "references": [
-            {
-              "display": "Genesis 24:63-65",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/24?lang=eng&id=p63-p65#p63"
-            },
-            {
-              "display": "D&C 58:26-28",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/58?lang=eng&id=p26-p28#p26"
-            },
-            {
-              "display": "1 Nephi 3:11-15",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p11-p15#p11"
-            }
-          ],
-          "scriptures": []
-        },
-                "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 30",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/07?lang=eng",
-            "question": "What did Joseph's birth represent to Rachel and the covenant community?",
-            "options": [
-              "Joseph's birth was insignificant to covenant purposes",
-              "Joseph's birth represented God's fulfillment of promise—ending Rachel's barrenness and beginning a new era of blessing",
-              "Joseph would have no role in God's plan",
-              "Barrenness was a permanent condition"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Genesis 30:23-24 records, 'She became pregnant and bore a son and said, \"God has taken away my disgrace.\" She named him Joseph, and said, \"May the Lord add to me another son.\"' Rachel's joy in Joseph's birth marked God's resolution of her barrenness—a painful trial throughout her marriage. Joseph's name means 'he will add' or 'may God add,' expressing faith that God would continue His fulfillment. Genesis 37:3 shows Jacob loved Joseph more than all his sons, and Genesis 42-50 reveals Joseph became crucial to God's covenant purposes—saving the family through famine and ensuring their settlement in Egypt. Joseph's birth symbolized God's faithfulness to His promises, the beginning of a new phase in covenant history, and the continuation of God's purposes through the covenant line.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      }
-    ],
-    "places": [],
-    "people": []
-  },
-  {
-    "id": "week-2026-14",
-    "startDate": "2026-03-30",
-    "endDate": "2026-04-05",
-    "title": "Easter — Jesus’s empty tomb",
-    "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/14?lang=eng",
-    "scriptures": [
-      {
-        "reference": "Easter",
-        "url": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/14?lang=eng"
-      }
-    ],
-    "days": [
-      {
-        "id": "day-2026-03-30",
-        "date": "2026-03-30",
-        "doctrine": {
-          "doctrine": "Forgiveness is required of all",
-          "summary": "We are commanded to forgive everyone, leaving judgment to the Lord.",
-          "explanation": "Jacob and Esau's reconciliation demonstrates the power of forgiveness. The Lord has declared that we must forgive all men—holding grudges harms us and prevents us from receiving forgiveness ourselves.",
-          "references": [
-            {
-              "display": "Genesis 33:4",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/33?lang=eng&id=p4#p4"
-            },
-            {
-              "display": "D&C 64:9-10",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/64?lang=eng&id=p9-p10#p9"
-            },
-            {
-              "display": "Matthew 6:14-15",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/6?lang=eng&id=p14-p15#p14"
-            }
-          ],
-          "scriptures": []
-        },
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 25",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/14?lang=eng",
-            "question": "Who was born first, Jacob or Esau?",
-            "options": [
-              "Jacob",
-              "Esau",
-              "They were born at the same time",
-              "It is not recorded"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'The first came out red... and they called his name Esau' (Genesis 25:25).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-03-31",
-        "date": "2026-03-31",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 25",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/14?lang=eng",
-            "question": "What was Jacob holding when he was born?",
-            "options": [
-              "A staff",
-              "Esau's heel",
-              "A piece of cloth",
-              "Nothing"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'His hand took hold on Esau's heel; and his name was called Jacob' (Genesis 25:26).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-04-01",
-        "date": "2026-04-01",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 25",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/14?lang=eng",
-            "question": "What did Esau sell to Jacob for a mess of pottage?",
-            "options": [
-              "His inheritance",
-              "His birthright",
-              "His sword",
-              "His flock"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'Esau said... sell me this day thy birthright... Thus Esau despised his birthright' (Genesis 25:31-34).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-04-02",
-        "date": "2026-04-02",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 25",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/14?lang=eng",
-            "question": "What occupation did Esau have?",
-            "options": [
-              "A shepherd",
-              "A cunning hunter",
-              "A farmer",
-              "A merchant"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'Esau was a cunning hunter, a man of the field' (Genesis 25:27).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-04-03",
-        "date": "2026-04-03",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 25",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/14?lang=eng",
-            "question": "What was Jacob described as?",
-            "options": [
-              "A mighty warrior",
-              "A plain man, dwelling in tents",
-              "A cunning hunter",
-              "A wealthy trader"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'Jacob was a plain man, dwelling in tents' (Genesis 25:27).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-04-04",
-        "date": "2026-04-04",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 26",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/14?lang=eng",
-            "question": "What did Isaac do during a famine in the land?",
-            "options": [
-              "He went to Egypt",
-              "He stayed in Gerar as God commanded",
-              "He moved to Babylon",
-              "He returned to Haran"
-            ],
-            "correctAnswer": 1,
-            "explanation": "God said to Isaac, 'Go not down into Egypt; dwell in the land which I shall tell thee of' (Genesis 26:2).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-04-05",
-        "date": "2026-04-05",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 26",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/14?lang=eng",
-            "question": "Why did the Philistines envy Isaac?",
-            "options": [
-              "His wisdom",
-              "His great wealth and blessings from God",
-              "His military power",
-              "His many children"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'The Philistines envied him' because 'the man waxed great, and went forward, and grew until he became very great' (Genesis 26:13-14).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      }
-    ],
-    "places": [],
-    "people": []
-  },
-  {
-    "id": "week-2026-15",
-    "startDate": "2026-04-06",
-    "endDate": "2026-04-12",
-    "title": "Exodus 7–13",
-    "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/15?lang=eng",
-    "scriptures": [
-      {
-        "reference": "Exodus 7–13",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/ex/7?lang=eng"
-      }
-    ],
-    "days": [
-      {
-        "id": "day-2026-04-06",
-        "date": "2026-04-06",
-        "doctrine": {
-          "doctrine": "God is with us in adversity",
-          "summary": "Even in our darkest trials, God does not abandon us. He is with us and can bring good from our suffering.",
-          "explanation": "Joseph was sold into slavery and wrongly imprisoned, yet 'the Lord was with Joseph.' Through every trial, God sustained him and eventually elevated him to save his family. Our trials can likewise become the means of our growth and others' blessing.",
-          "references": [
-            {
-              "display": "Genesis 39:2-3, 21",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/39?lang=eng&id=p2-p3,p21#p2"
-            },
-            {
-              "display": "D&C 122:7",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/122?lang=eng&id=p7#p7"
-            },
-            {
-              "display": "Romans 8:28",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/rom/8?lang=eng&id=p28#p28"
-            }
-          ],
-          "scriptures": []
-        },
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 27",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/15?lang=eng",
-            "question": "Who helped Jacob deceive Isaac to receive the blessing?",
-            "options": [
-              "His servant",
-              "Rebekah, his mother",
-              "Esau",
-              "An angel"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Rebekah instructed Jacob on how to receive Isaac's blessing (Genesis 27:6-17).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-04-07",
-        "date": "2026-04-07",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 27",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/15?lang=eng",
-            "question": "How did Jacob disguise himself to feel like Esau?",
-            "options": [
-              "He wore Esau's clothes and goat skins on his hands",
-              "He changed his voice",
-              "He wore a wig",
-              "He used makeup"
-            ],
-            "correctAnswer": 0,
-            "explanation": "Rebekah 'put the skins of the kids of the goats upon his hands' and dressed him in Esau's clothes (Genesis 27:15-16).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-04-08",
-        "date": "2026-04-08",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 27",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/15?lang=eng",
-            "question": "What was Esau's reaction when he discovered Jacob received the blessing?",
-            "options": [
-              "He laughed",
-              "He cried with a great and bitter cry",
-              "He was indifferent",
-              "He congratulated Jacob"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'He cried with a great and exceeding bitter cry' (Genesis 27:34).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-04-09",
-        "date": "2026-04-09",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 28",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/15?lang=eng",
-            "question": "What did Jacob see in his dream at Bethel?",
-            "options": [
-              "A burning bush",
-              "A ladder reaching to heaven with angels ascending and descending",
-              "A river of fire",
-              "A great army"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'He dreamed, and behold a ladder set up on the earth, and the top of it reached to heaven: and behold the angels of God ascending and descending on it' (Genesis 28:12).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-04-10",
-        "date": "2026-04-10",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 28",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/15?lang=eng",
-            "question": "What did Jacob name the place where he had his dream?",
-            "options": [
-              "Jerusalem",
-              "Bethel (House of God)",
-              "Hebron",
-              "Beersheba"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'He called the name of that place Bethel' meaning 'house of God' (Genesis 28:19).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-04-11",
-        "date": "2026-04-11",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 28",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/15?lang=eng",
-            "question": "What did Jacob do with the stone he had used as a pillow?",
-            "options": [
-              "He threw it away",
-              "He set it up as a pillar and poured oil on it",
-              "He carved it into an idol",
-              "He built a house with it"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'Jacob... took the stone... and set it up for a pillar, and poured oil upon the top of it' (Genesis 28:18).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-04-12",
-        "date": "2026-04-12",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 28",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/15?lang=eng",
-            "question": "What did Jacob vow to give to God?",
-            "options": [
-              "His firstborn son",
-              "A tenth of all he received",
-              "His entire flock",
-              "A temple"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'Of all that thou shalt give me I will surely give the tenth unto thee' (Genesis 28:22).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      }
-    ],
-    "places": [],
-    "people": []
-  },
-  {
-    "id": "week-2026-16",
-    "startDate": "2026-04-13",
-    "endDate": "2026-04-19",
-    "title": "Exodus 14–18",
-    "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/16?lang=eng",
-    "scriptures": [
-      {
-        "reference": "Exodus 14–18",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/ex/14?lang=eng"
-      }
-    ],
-    "days": [
-      {
-        "id": "day-2026-04-13",
-        "date": "2026-04-13",
-        "doctrine": {
-          "doctrine": "God turns all things for our good",
-          "summary": "What others may intend for evil, God can transform into blessings and salvation.",
-          "explanation": "Joseph told his brothers, 'Ye thought evil against me; but God meant it unto good.' This profound truth teaches that God's providence is greater than any mortal scheme. He weaves even our trials into His plan for our ultimate benefit.",
-          "references": [
-            {
-              "display": "Genesis 50:20",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/50?lang=eng&id=p20#p20"
-            },
-            {
-              "display": "Genesis 45:5-8",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/45?lang=eng&id=p5-p8#p5"
-            },
-            {
-              "display": "D&C 98:3",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/98?lang=eng&id=p3#p3"
-            }
-          ],
-          "scriptures": []
-        },
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 29",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/16?lang=eng",
-            "question": "Who did Jacob meet at the well?",
-            "options": [
-              "Leah",
-              "Rachel",
-              "Laban",
-              "Rebekah"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'While he yet spake with them, Rachel came with her father's sheep' (Genesis 29:9).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-04-14",
-        "date": "2026-04-14",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 29",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/16?lang=eng",
-            "question": "How many years did Jacob serve Laban for Rachel?",
-            "options": [
-              "Three years",
-              "Seven years",
-              "Ten years",
-              "Fourteen years"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'I will serve thee seven years for Rachel thy younger daughter' (Genesis 29:18).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-04-15",
-        "date": "2026-04-15",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 29",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/16?lang=eng",
-            "question": "Who did Laban deceive Jacob into marrying first?",
-            "options": [
-              "Rachel",
-              "Leah",
-              "Bilhah",
-              "Zilpah"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'In the morning, behold, it was Leah' instead of Rachel (Genesis 29:25).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-04-16",
-        "date": "2026-04-16",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 29",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/16?lang=eng",
-            "question": "What was Laban's excuse for substituting Leah for Rachel?",
-            "options": [
-              "Rachel was too young",
-              "It was not done to give the younger before the firstborn",
-              "Leah loved Jacob more",
-              "Rachel had another suitor"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'It must not be so done in our country, to give the younger before the firstborn' (Genesis 29:26).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-04-17",
-        "date": "2026-04-17",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 29",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/16?lang=eng",
-            "question": "What was the name of Leah's firstborn son?",
-            "options": [
-              "Joseph",
-              "Reuben",
-              "Judah",
-              "Simeon"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'Leah conceived, and bare a son, and she called his name Reuben' (Genesis 29:32).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-04-18",
-        "date": "2026-04-18",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 30",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/16?lang=eng",
-            "question": "What was the name of Rachel's firstborn son?",
-            "options": [
-              "Benjamin",
-              "Joseph",
-              "Dan",
-              "Naphtali"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'God remembered Rachel... and she conceived, and bare a son; and called his name Joseph' (Genesis 30:22-24).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-04-19",
-        "date": "2026-04-19",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 30",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/16?lang=eng",
-            "question": "How many sons did Jacob have?",
-            "options": [
-              "Ten",
-              "Twelve",
-              "Fourteen",
-              "Eight"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Jacob had twelve sons who became the heads of the twelve tribes of Israel.",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      }
-    ],
-    "places": [],
-    "people": []
-  },
-  {
-    "id": "week-2026-17",
-    "startDate": "2026-04-20",
-    "endDate": "2026-04-26",
-    "title": "Exodus 19–20; 24; 31–34",
-    "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/17?lang=eng",
-    "scriptures": [
-      {
-        "reference": "Exodus 19–20",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/ex/19?lang=eng"
-      },
-      {
-        "reference": "Exodus 24",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/ex/24?lang=eng"
-      },
-      {
-        "reference": "Exodus 31–34",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/ex/31?lang=eng"
-      }
-    ],
-    "days": [
-      {
-        "id": "day-2026-04-20",
-        "date": "2026-04-20",
-        "doctrine": {
-          "doctrine": "Families can be together forever",
-          "summary": "Through temple ordinances, families can be sealed together for eternity, not just until death.",
-          "explanation": "Jacob's blessing of his sons and the reunion with Joseph remind us of the eternal nature of family. God's plan is centered on families. Through temple sealings, the bonds of family can extend beyond the grave forever.",
-          "references": [
-            {
-              "display": "Genesis 46:29-30",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/46?lang=eng&id=p29-p30#p29"
-            },
-            {
-              "display": "D&C 138:47-48",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/138?lang=eng&id=p47-p48#p47"
-            },
-            {
-              "display": "Malachi 4:5-6",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/mal/4?lang=eng&id=p5-p6#p5"
-            }
-          ],
-          "scriptures": []
-        },
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 31",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/17?lang=eng",
-            "question": "Why did Jacob leave Laban secretly?",
-            "options": [
-              "He was afraid Laban wouldn't let him go",
-              "God told him to leave at night",
-              "He wanted to surprise his family",
-              "Rachel suggested it"
-            ],
-            "correctAnswer": 0,
-            "explanation": "Jacob 'stole away unawares to Laban' because he feared Laban would take his daughters away (Genesis 31:20, 31).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-04-21",
-        "date": "2026-04-21",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 31",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/17?lang=eng",
-            "question": "What did Rachel steal from Laban?",
-            "options": [
-              "His gold",
-              "His household images (idols)",
-              "His best sheep",
-              "His blessing"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'Rachel had stolen the images that were her father's' (Genesis 31:19).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-04-22",
-        "date": "2026-04-22",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 32",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/17?lang=eng",
-            "question": "How many men was Esau bringing to meet Jacob?",
-            "options": [
-              "100",
-              "200",
-              "400",
-              "1000"
-            ],
-            "correctAnswer": 2,
-            "explanation": "'Esau cometh to meet thee, and four hundred men with him' (Genesis 32:6).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-04-23",
-        "date": "2026-04-23",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 32",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/17?lang=eng",
-            "question": "What did Jacob send ahead as a gift to Esau?",
-            "options": [
-              "Gold and silver",
-              "Herds of goats, sheep, camels, cattle, and donkeys",
-              "Servants",
-              "Clothing"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Jacob sent 'two hundred she goats... two hundred ewes... thirty milch camels' and more (Genesis 32:14-15).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-04-24",
-        "date": "2026-04-24",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 32",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/17?lang=eng",
-            "question": "What happened to Jacob at Peniel?",
-            "options": [
-              "He had a vision",
-              "He wrestled with a man until daybreak",
-              "He was attacked by wild animals",
-              "He found a treasure"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'There wrestled a man with him until the breaking of the day' (Genesis 32:24).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-04-25",
-        "date": "2026-04-25",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 32",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/17?lang=eng",
-            "question": "What new name was given to Jacob?",
-            "options": [
-              "Abraham",
-              "Israel",
-              "Judah",
-              "Joseph"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'Thy name shall be called no more Jacob, but Israel' (Genesis 32:28).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-04-26",
-        "date": "2026-04-26",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 32",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/17?lang=eng",
-            "question": "What does the name Israel mean?",
-            "options": [
-              "Blessed of God",
-              "One who prevails with God",
-              "Prince of peace",
-              "Chosen one"
-            ],
-            "correctAnswer": 1,
-            "explanation": "The name means 'for as a prince hast thou power with God and with men, and hast prevailed' (Genesis 32:28).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      }
-    ],
-    "places": [],
-    "people": []
-  },
-  {
-    "id": "week-2026-18",
-    "startDate": "2026-04-27",
-    "endDate": "2026-05-03",
-    "title": "Exodus 35–40; Leviticus 1; 4; 16; 19",
-    "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/18?lang=eng",
-    "scriptures": [
-      {
-        "reference": "Exodus 35–40",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/ex/35?lang=eng"
-      },
-      {
-        "reference": "Leviticus 1",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/lev/1?lang=eng"
-      },
-      {
-        "reference": "Leviticus 4",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/lev/4?lang=eng"
-      },
-      {
-        "reference": "Leviticus 16",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/lev/16?lang=eng"
-      },
-      {
-        "reference": "Leviticus 19",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/lev/19?lang=eng"
-      }
-    ],
-    "days": [
-      {
-        "id": "day-2026-04-27",
-        "date": "2026-04-27",
-        "doctrine": {
-          "doctrine": "God hears and remembers His people",
-          "summary": "God is aware of our suffering and remembers His covenants with us. He will deliver us.",
-          "explanation": "When Israel groaned in bondage, 'God heard their groaning, and God remembered his covenant.' God is never unaware of our struggles. He remembers every promise and covenant, and in His time, He will deliver His faithful children.",
-          "references": [
-            {
-              "display": "Exodus 2:24-25",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/ex/2?lang=eng&id=p24-p25#p24"
-            },
-            {
-              "display": "1 Nephi 21:15-16",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/21?lang=eng&id=p15-p16#p15"
-            },
-            {
-              "display": "D&C 3:1",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/3?lang=eng&id=p1#p1"
-            }
-          ],
-          "scriptures": []
-        },
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 33",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/18?lang=eng",
-            "question": "How did Esau greet Jacob when they met?",
-            "options": [
-              "With anger",
-              "He ran to embrace and kiss him",
-              "With suspicion",
-              "He ignored him"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'Esau ran to meet him, and embraced him, and fell on his neck, and kissed him' (Genesis 33:4).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-04-28",
-        "date": "2026-04-28",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 33",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/18?lang=eng",
-            "question": "Where did Jacob settle after parting from Esau?",
-            "options": [
-              "Beersheba",
-              "Shechem",
-              "Hebron",
-              "Bethel"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'Jacob came to Shalem, a city of Shechem... and pitched his tent' (Genesis 33:18).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-04-29",
-        "date": "2026-04-29",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 35",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/18?lang=eng",
-            "question": "What did God command Jacob to do at Bethel?",
-            "options": [
-              "Offer a sacrifice",
-              "Build an altar",
-              "Marry another wife",
-              "Fast for seven days"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'God said unto Jacob, Arise, go up to Bethel... and make there an altar unto God' (Genesis 35:1).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-04-30",
-        "date": "2026-04-30",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 35",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/18?lang=eng",
-            "question": "What did Jacob tell his household to put away before going to Bethel?",
-            "options": [
-              "Their weapons",
-              "Their strange gods (idols)",
-              "Their extra possessions",
-              "Their Egyptian clothing"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'Put away the strange gods that are among you, and be clean' (Genesis 35:2).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-05-01",
-        "date": "2026-05-01",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 35",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/18?lang=eng",
-            "question": "Where did Rachel die?",
-            "options": [
-              "In Bethel",
-              "On the way to Ephrath (Bethlehem)",
-              "In Shechem",
-              "In Hebron"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'Rachel died, and was buried in the way to Ephrath, which is Bethlehem' (Genesis 35:19).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-05-02",
-        "date": "2026-05-02",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 35",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/18?lang=eng",
-            "question": "What was the name of Rachel's second son?",
-            "options": [
-              "Joseph",
-              "Benjamin",
-              "Judah",
-              "Dan"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'She called his name Benoni: but his father called him Benjamin' (Genesis 35:18).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-05-03",
-        "date": "2026-05-03",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 35",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/18?lang=eng",
-            "question": "How old was Isaac when he died?",
-            "options": [
-              "120 years old",
-              "150 years old",
-              "180 years old",
-              "200 years old"
-            ],
-            "correctAnswer": 2,
-            "explanation": "'The days of Isaac were an hundred and fourscore years' (180 years) (Genesis 35:28).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      }
-    ],
-    "places": [],
-    "people": []
-  },
-  {
-    "id": "week-2026-19",
-    "startDate": "2026-05-04",
-    "endDate": "2026-05-10",
-    "title": "Numbers 11–14; 20–24; 27",
-    "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/19?lang=eng",
-    "scriptures": [
-      {
-        "reference": "Numbers 11–14",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/num/11?lang=eng"
-      },
-      {
-        "reference": "Numbers 20–24",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/num/20?lang=eng"
-      },
-      {
-        "reference": "Numbers 27",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/num/27?lang=eng"
-      }
-    ],
-    "days": [
-      {
-        "id": "day-2026-05-04",
-        "date": "2026-05-04",
-        "doctrine": {
-          "doctrine": "Jesus Christ is our Passover",
-          "summary": "The Passover lamb was a type and shadow of Jesus Christ, whose blood saves us from spiritual death.",
-          "explanation": "The blood of the lamb on Israelite doorposts saved the firstborn from death. This foreshadowed Jesus Christ, 'the Lamb of God,' whose atoning blood saves all who accept Him from spiritual death and brings eternal life.",
-          "references": [
-            {
-              "display": "Exodus 12:13",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/ex/12?lang=eng&id=p13#p13"
-            },
-            {
-              "display": "1 Corinthians 5:7",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/1-cor/5?lang=eng&id=p7#p7"
-            },
-            {
-              "display": "John 1:29",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/john/1?lang=eng&id=p29#p29"
-            }
-          ],
-          "scriptures": []
-        },
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 37",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/19?lang=eng",
-            "question": "Why did Joseph's brothers hate him?",
-            "options": [
-              "He was lazy",
-              "Their father loved him more and gave him a coat of many colors",
-              "He was older than them",
-              "He stole their inheritance"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'Israel loved Joseph more than all his children... he made him a coat of many colours' and his brothers 'hated him' (Genesis 37:3-4).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-05-05",
-        "date": "2026-05-05",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 37",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/19?lang=eng",
-            "question": "In Joseph's first dream, what did his brothers' sheaves do?",
-            "options": [
-              "They burned",
-              "They bowed down to his sheaf",
-              "They blew away",
-              "They turned into gold"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'Your sheaves stood round about, and made obeisance to my sheaf' (Genesis 37:7).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-05-06",
-        "date": "2026-05-06",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 37",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/19?lang=eng",
-            "question": "In Joseph's second dream, what bowed down to him?",
-            "options": [
-              "Trees",
-              "The sun, moon, and eleven stars",
-              "Animals",
-              "Mountains"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'The sun and the moon and the eleven stars made obeisance to me' (Genesis 37:9).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-05-07",
-        "date": "2026-05-07",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 37",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/19?lang=eng",
-            "question": "Where were Joseph's brothers when they plotted against him?",
-            "options": [
-              "In Egypt",
-              "In Shechem/Dothan",
-              "In Hebron",
-              "In Beersheba"
-            ],
-            "correctAnswer": 1,
-            "explanation": "The brothers were feeding their flocks near Shechem and then Dothan (Genesis 37:12-17).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-05-08",
-        "date": "2026-05-08",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 37",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/19?lang=eng",
-            "question": "Which brother saved Joseph from being killed?",
-            "options": [
-              "Judah",
-              "Reuben",
-              "Simeon",
-              "Levi"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'Reuben heard it, and he delivered him out of their hands; and said, Let us not kill him' (Genesis 37:21).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-05-09",
-        "date": "2026-05-09",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 37",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/19?lang=eng",
-            "question": "To whom did Joseph's brothers sell him?",
-            "options": [
-              "Egyptians",
-              "Ishmeelite/Midianite merchants",
-              "Philistines",
-              "Canaanites"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'They... sold Joseph to the Ishmeelites for twenty pieces of silver' (Genesis 37:28).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-05-10",
-        "date": "2026-05-10",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 37",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/19?lang=eng",
-            "question": "What did the brothers use to deceive Jacob about Joseph's fate?",
-            "options": [
-              "A false letter",
-              "Joseph's coat dipped in goat's blood",
-              "A false witness",
-              "Joseph's sandals"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'They took Joseph's coat... and dipped the coat in the blood' of a goat (Genesis 37:31).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      }
-    ],
-    "places": [],
-    "people": []
-  },
-  {
-    "id": "week-2026-20",
-    "startDate": "2026-05-11",
-    "endDate": "2026-05-17",
-    "title": "Deuteronomy 6–8; 15; 18; 29–30; 34",
-    "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/20?lang=eng",
-    "scriptures": [
-      {
-        "reference": "Deuteronomy 6–8",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/deut/6?lang=eng"
-      },
-      {
-        "reference": "Deuteronomy 15",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/deut/15?lang=eng"
-      },
-      {
-        "reference": "Deuteronomy 18",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/deut/18?lang=eng"
-      },
-      {
-        "reference": "Deuteronomy 29–30",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/deut/29?lang=eng"
-      },
-      {
-        "reference": "Deuteronomy 34",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/deut/34?lang=eng"
-      }
-    ],
-    "days": [
-      {
-        "id": "day-2026-05-11",
-        "date": "2026-05-11",
-        "doctrine": {
-          "doctrine": "The Lord will fight our battles",
-          "summary": "When we trust in the Lord, He fights for us against challenges we cannot overcome alone.",
-          "explanation": "At the Red Sea, Moses told the terrified Israelites, 'The Lord shall fight for you.' When we face overwhelming opposition—whether physical, spiritual, or emotional—we can trust that God will intervene and deliver us.",
-          "references": [
-            {
-              "display": "Exodus 14:13-14",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/ex/14?lang=eng&id=p13-p14#p13"
-            },
-            {
-              "display": "D&C 105:14",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/105?lang=eng&id=p14#p14"
-            },
-            {
-              "display": "2 Chronicles 20:15",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/20?lang=eng&id=p15#p15"
-            }
-          ],
-          "scriptures": []
-        },
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 39",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/20?lang=eng",
-            "question": "Who bought Joseph in Egypt?",
-            "options": [
-              "Pharaoh",
-              "Potiphar, captain of Pharaoh's guard",
-              "A merchant",
-              "The high priest"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'Potiphar, an officer of Pharaoh, captain of the guard... bought him' (Genesis 39:1).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-05-12",
-        "date": "2026-05-12",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 39",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/20?lang=eng",
-            "question": "Why did everything Joseph do prosper in Potiphar's house?",
-            "options": [
-              "He was very smart",
-              "The Lord was with him",
-              "Potiphar helped him",
-              "He was lucky"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'The Lord was with Joseph, and he was a prosperous man' (Genesis 39:2).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-05-13",
-        "date": "2026-05-13",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 39",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/20?lang=eng",
-            "question": "What position did Potiphar give Joseph?",
-            "options": [
-              "Field worker",
-              "Overseer of his house",
-              "Cook",
-              "Guard"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'He made him overseer over his house, and all that he had he put into his hand' (Genesis 39:4).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-05-14",
-        "date": "2026-05-14",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 39",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/20?lang=eng",
-            "question": "How did Joseph respond to Potiphar's wife's temptation?",
-            "options": [
-              "He considered it",
-              "He fled and left his garment in her hand",
-              "He agreed",
-              "He told Potiphar"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'He left his garment in her hand, and fled, and got him out' (Genesis 39:12).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-05-15",
-        "date": "2026-05-15",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 39",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/20?lang=eng",
-            "question": "What reason did Joseph give for refusing Potiphar's wife?",
-            "options": [
-              "Fear of Potiphar",
-              "It would be a great sin against God",
-              "He was engaged",
-              "He didn't like her"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'How then can I do this great wickedness, and sin against God?' (Genesis 39:9).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-05-16",
-        "date": "2026-05-16",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 39",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/20?lang=eng",
-            "question": "Where was Joseph put after being falsely accused?",
-            "options": [
-              "He was executed",
-              "In prison",
-              "He was sold again",
-              "He was banished"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'Joseph's master took him, and put him into the prison' (Genesis 39:20).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-05-17",
-        "date": "2026-05-17",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 39",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/20?lang=eng",
-            "question": "Even in prison, what happened to Joseph?",
-            "options": [
-              "He was forgotten",
-              "The Lord was with him and gave him favor",
-              "He escaped",
-              "He became ill"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'The Lord was with Joseph, and shewed him mercy, and gave him favour in the sight of the keeper of the prison' (Genesis 39:21).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      }
-    ],
-    "places": [],
-    "people": []
-  },
-  {
-    "id": "week-2026-21",
-    "startDate": "2026-05-18",
-    "endDate": "2026-05-24",
-    "title": "Joshua 1–8; 23–24",
-    "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/21?lang=eng",
-    "scriptures": [
-      {
-        "reference": "Joshua 1–8",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/jos/1?lang=eng"
-      },
-      {
-        "reference": "Joshua 23–24",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/jos/23?lang=eng"
-      }
-    ],
-    "days": [
-      {
-        "id": "day-2026-05-18",
-        "date": "2026-05-18",
-        "doctrine": {
-          "doctrine": "Keeping the commandments brings blessings",
-          "summary": "God gives commandments to bless us. Obedience brings happiness; disobedience brings sorrow.",
-          "explanation": "The Ten Commandments were given to guide Israel into happiness and prosperity. Commandments are not restrictions but divine instructions for joy. Every commandment carries promised blessings for those who obey.",
-          "references": [
-            {
-              "display": "Exodus 20:1-17",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/ex/20?lang=eng&id=p1-p17#p1"
-            },
-            {
-              "display": "Mosiah 2:41",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/2?lang=eng&id=p41#p41"
-            },
-            {
-              "display": "D&C 130:20-21",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/130?lang=eng&id=p20-p21#p20"
-            }
-          ],
-          "scriptures": []
-        },
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 40",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/21?lang=eng",
-            "question": "Whose dreams did Joseph interpret in prison?",
-            "options": [
-              "Pharaoh's and his wife's",
-              "The butler's and baker's",
-              "Two soldiers'",
-              "His fellow prisoners'"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Joseph interpreted the dreams of 'the butler of the king of Egypt and his baker' (Genesis 40:1).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-05-19",
-        "date": "2026-05-19",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 40",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/21?lang=eng",
-            "question": "What did the butler's dream mean?",
-            "options": [
-              "He would die",
-              "He would be restored to his position in three days",
-              "He would escape prison",
-              "He would become Pharaoh"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'Within three days shall Pharaoh... restore thee unto thy place' (Genesis 40:13).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-05-20",
-        "date": "2026-05-20",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 40",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/21?lang=eng",
-            "question": "What did the baker's dream mean?",
-            "options": [
-              "He would be freed",
-              "He would be hanged in three days",
-              "He would become wealthy",
-              "He would serve Pharaoh again"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'Within three days shall Pharaoh... hang thee on a tree' (Genesis 40:19).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-05-21",
-        "date": "2026-05-21",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 41",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/21?lang=eng",
-            "question": "What did Pharaoh's dream about seven fat and lean cows mean?",
-            "options": [
-              "Seven years of war",
-              "Seven years of plenty followed by seven years of famine",
-              "A flood",
-              "A plague"
-            ],
-            "correctAnswer": 1,
-            "explanation": "The seven good cows represented seven years of plenty, and the lean cows seven years of famine (Genesis 41:26-27).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-05-22",
-        "date": "2026-05-22",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 41",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/21?lang=eng",
-            "question": "Who did Joseph credit for his ability to interpret dreams?",
-            "options": [
-              "Himself",
-              "God",
-              "His father Jacob",
-              "Egyptian wisdom"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'It is not in me: God shall give Pharaoh an answer of peace' (Genesis 41:16).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-05-23",
-        "date": "2026-05-23",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 41",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/21?lang=eng",
-            "question": "What position did Pharaoh give Joseph?",
-            "options": [
-              "Captain of the guard",
-              "Ruler over all Egypt, second only to Pharaoh",
-              "High priest",
-              "Head butler"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'Thou shalt be over my house, and according unto thy word shall all my people be ruled' (Genesis 41:40).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-05-24",
-        "date": "2026-05-24",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 41",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/21?lang=eng",
-            "question": "How old was Joseph when he stood before Pharaoh?",
-            "options": [
-              "17 years old",
-              "25 years old",
-              "30 years old",
-              "40 years old"
-            ],
-            "correctAnswer": 2,
-            "explanation": "'Joseph was thirty years old when he stood before Pharaoh' (Genesis 41:46).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      }
-    ],
-    "places": [],
-    "people": []
-  },
-  {
-    "id": "week-2026-22",
-    "startDate": "2026-05-25",
-    "endDate": "2026-05-31",
-    "title": "Judges 2–4; 6–8; 13–16",
-    "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/22?lang=eng",
-    "scriptures": [
-      {
-        "reference": "Judges 2–4",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/judg/2?lang=eng"
-      },
-      {
-        "reference": "Judges 6–8",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/judg/6?lang=eng"
-      },
-      {
-        "reference": "Judges 13–16",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/judg/13?lang=eng"
-      }
-    ],
-    "days": [
-      {
-        "id": "day-2026-05-25",
-        "date": "2026-05-25",
-        "doctrine": {
-          "doctrine": "We can see God and live",
-          "summary": "Through righteousness and the power of the priesthood, mortals can be sanctified to behold God.",
-          "explanation": "Moses and the elders of Israel saw God and 'did eat and drink' in His presence. While normally mortals cannot endure God's glory, He can sanctify individuals to enter His presence—a promise available to all who seek Him.",
-          "references": [
-            {
-              "display": "Exodus 24:9-11",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/ex/24?lang=eng&id=p9-p11#p9"
-            },
-            {
-              "display": "D&C 93:1",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/93?lang=eng&id=p1#p1"
-            },
-            {
-              "display": "D&C 88:68",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/88?lang=eng&id=p68#p68"
-            }
-          ],
-          "scriptures": []
-        },
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 42",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/22?lang=eng",
-            "question": "Why did Jacob send his sons to Egypt?",
-            "options": [
-              "To find Joseph",
-              "To buy corn during the famine",
-              "To trade goods",
-              "To meet Pharaoh"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'Jacob saw that there was corn in Egypt' and sent his sons to buy grain (Genesis 42:1-2).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-05-26",
-        "date": "2026-05-26",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 42",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/22?lang=eng",
-            "question": "Which brother did Jacob not send to Egypt initially?",
-            "options": [
-              "Reuben",
-              "Judah",
-              "Benjamin",
-              "Simeon"
-            ],
-            "correctAnswer": 2,
-            "explanation": "'Benjamin, Joseph's brother, Jacob sent not with his brethren; for he said, Lest peradventure mischief befall him' (Genesis 42:4).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-05-27",
-        "date": "2026-05-27",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 42",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/22?lang=eng",
-            "question": "Did Joseph's brothers recognize him?",
-            "options": [
-              "Yes, immediately",
-              "No, he was dressed as an Egyptian ruler",
-              "Yes, after some time",
-              "No, he wore a mask"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'Joseph knew his brethren, but they knew not him' (Genesis 42:8).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-05-28",
-        "date": "2026-05-28",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 42",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/22?lang=eng",
-            "question": "What did Joseph accuse his brothers of being?",
-            "options": [
-              "Thieves",
-              "Spies",
-              "Liars",
-              "Rebels"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'Joseph said unto them, Ye are spies; to see the nakedness of the land ye are come' (Genesis 42:9).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-05-29",
-        "date": "2026-05-29",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 42",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/22?lang=eng",
-            "question": "Which brother was kept in Egypt while the others returned home?",
-            "options": [
-              "Reuben",
-              "Judah",
-              "Simeon",
-              "Levi"
-            ],
-            "correctAnswer": 2,
-            "explanation": "'He took from them Simeon, and bound him before their eyes' (Genesis 42:24).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-05-30",
-        "date": "2026-05-30",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 43",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/22?lang=eng",
-            "question": "Who pledged himself as surety for Benjamin's safety?",
-            "options": [
-              "Reuben",
-              "Judah",
-              "Simeon",
-              "Dan"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'Judah said... I will be surety for him' (Genesis 43:9).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-05-31",
-        "date": "2026-05-31",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 43",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/22?lang=eng",
-            "question": "How did Joseph react when he saw Benjamin?",
-            "options": [
-              "He was angry",
-              "He wept privately because his emotions were stirred",
-              "He ignored him",
-              "He immediately revealed himself"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'Joseph made haste; for his bowels did yearn upon his brother: and he sought where to weep' (Genesis 43:30).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      }
-    ],
-    "places": [],
-    "people": []
-  },
-  {
-    "id": "week-2026-23",
-    "startDate": "2026-06-01",
-    "endDate": "2026-06-07",
-    "title": "Ruth; 1 Samuel 1–7",
-    "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/23?lang=eng",
-    "scriptures": [
-      {
-        "reference": "Ruth",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/ruth/1?lang=eng"
-      },
-      {
-        "reference": "1 Samuel 1–7",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/1_sam/1?lang=eng"
-      }
-    ],
-    "days": [
-      {
-        "id": "day-2026-06-01",
-        "date": "2026-06-01",
-        "doctrine": {
-          "doctrine": "The tabernacle represents God's presence among His people",
-          "summary": "Sacred places of worship allow God to dwell symbolically among His people and bless them.",
-          "explanation": "The tabernacle was built so that God could 'dwell among' Israel. It symbolized His presence and provided a place for sacred ordinances. Today, temples serve the same purpose—sacred spaces where we feel God's presence and receive His blessings.",
-          "references": [
-            {
-              "display": "Exodus 25:8",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/ex/25?lang=eng&id=p8#p8"
-            },
-            {
-              "display": "Exodus 40:34-35",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/ex/40?lang=eng&id=p34-p35#p34"
-            },
-            {
-              "display": "D&C 97:15-16",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/97?lang=eng&id=p15-p16#p15"
-            }
-          ],
-          "scriptures": []
-        },
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 44",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/23?lang=eng",
-            "question": "What did Joseph hide in Benjamin's sack?",
-            "options": [
-              "Gold",
-              "His silver cup",
-              "A scroll",
-              "Jewels"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'Put my cup, the silver cup, in the sack's mouth of the youngest' (Genesis 44:2).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-06-02",
-        "date": "2026-06-02",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 44",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/23?lang=eng",
-            "question": "What did Judah offer to do in place of Benjamin?",
-            "options": [
-              "Pay a large fine",
-              "Become a slave in Benjamin's place",
-              "Fight for Benjamin's freedom",
-              "Bring their father to Egypt"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'Let thy servant abide instead of the lad a bondman to my lord' (Genesis 44:33).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-06-03",
-        "date": "2026-06-03",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 45",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/23?lang=eng",
-            "question": "What did Joseph say when he revealed himself to his brothers?",
-            "options": [
-              "Why did you sell me?",
-              "I am Joseph; doth my father yet live?",
-              "I will have my revenge",
-              "You are forgiven"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'Joseph said unto his brethren, I am Joseph; doth my father yet live?' (Genesis 45:3).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-06-04",
-        "date": "2026-06-04",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 45",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/23?lang=eng",
-            "question": "How did Joseph explain why he was sold into Egypt?",
-            "options": [
-              "It was their mistake",
-              "God sent him to preserve life",
-              "It was punishment for his pride",
-              "It was fate"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'God did send me before you to preserve life' (Genesis 45:5).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-06-05",
-        "date": "2026-06-05",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 45",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/23?lang=eng",
-            "question": "Where did Joseph invite his family to live?",
-            "options": [
-              "In the capital city",
-              "In the land of Goshen",
-              "Near the pyramids",
-              "In Pharaoh's palace"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'Thou shalt dwell in the land of Goshen, and thou shalt be near unto me' (Genesis 45:10).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-06-06",
-        "date": "2026-06-06",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 45",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/23?lang=eng",
-            "question": "How did Pharaoh react to hearing about Joseph's brothers?",
-            "options": [
-              "He was angry",
-              "He was pleased and invited them to Egypt",
-              "He was indifferent",
-              "He feared them"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'It pleased Pharaoh well' and he commanded Joseph to bring his family (Genesis 45:16-18).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-06-07",
-        "date": "2026-06-07",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 45",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/23?lang=eng",
-            "question": "How did Jacob react when he heard Joseph was alive?",
-            "options": [
-              "He didn't believe it at first",
-              "He immediately packed to leave",
-              "He was angry at his sons",
-              "He fainted"
-            ],
-            "correctAnswer": 0,
-            "explanation": "'Jacob's heart fainted, for he believed them not' at first (Genesis 45:26).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      }
-    ],
-    "places": [],
-    "people": []
-  },
-  {
-    "id": "week-2026-24",
-    "startDate": "2026-06-08",
-    "endDate": "2026-06-14",
-    "title": "1 Samuel 8–10; 13; 15–16",
-    "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/24?lang=eng",
-    "scriptures": [
-      {
-        "reference": "1 Samuel 8–10",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/1_sam/8?lang=eng"
-      },
-      {
-        "reference": "1 Samuel 13",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/1_sam/13?lang=eng"
-      },
-      {
-        "reference": "1 Samuel 15–16",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/1_sam/15?lang=eng"
-      }
-    ],
-    "days": [
-      {
-        "id": "day-2026-06-08",
-        "date": "2026-06-08",
-        "doctrine": {
-          "doctrine": "Murmuring shows lack of faith",
-          "summary": "Complaining against God and His servants demonstrates a lack of trust and leads to lost blessings.",
-          "explanation": "Israel's constant murmuring in the wilderness led to serious consequences, including being denied entry to the promised land. Murmuring is more than complaining—it reflects distrust in God's purposes and His chosen leaders.",
-          "references": [
-            {
-              "display": "Numbers 14:27-30",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/num/14?lang=eng&id=p27-p30#p27"
-            },
-            {
-              "display": "1 Nephi 2:11-12",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/2?lang=eng&id=p11-p12#p11"
-            },
-            {
-              "display": "D&C 75:7",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/75?lang=eng&id=p7#p7"
-            }
-          ],
-          "scriptures": []
-        },
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 46",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/24?lang=eng",
-            "question": "What did God tell Jacob at Beersheba before going to Egypt?",
-            "options": [
-              "Do not go to Egypt",
-              "Fear not to go down into Egypt",
-              "Stay in Canaan",
-              "Send only your sons"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'Fear not to go down into Egypt; for I will there make of thee a great nation' (Genesis 46:3).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-06-09",
-        "date": "2026-06-09",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 46",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/24?lang=eng",
-            "question": "How many of Jacob's family went to Egypt?",
-            "options": [
-              "12",
-              "50",
-              "70",
-              "100"
-            ],
-            "correctAnswer": 2,
-            "explanation": "'All the souls of the house of Jacob, which came into Egypt, were threescore and ten' (70) (Genesis 46:27).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-06-10",
-        "date": "2026-06-10",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 46",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/24?lang=eng",
-            "question": "Who did Joseph send to meet Jacob as he entered Egypt?",
-            "options": [
-              "Servants",
-              "Joseph went himself",
-              "Pharaoh's guard",
-              "His own sons"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'Joseph made ready his chariot, and went up to meet Israel his father, to Goshen' (Genesis 46:29).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-06-11",
-        "date": "2026-06-11",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 47",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/24?lang=eng",
-            "question": "What occupation did Joseph tell his brothers to mention to Pharaoh?",
-            "options": [
-              "Farmers",
-              "Shepherds",
-              "Merchants",
-              "Builders"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Joseph instructed them to say, 'Thy servants' trade hath been about cattle... we are shepherds' (Genesis 46:34).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-06-12",
-        "date": "2026-06-12",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 47",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/24?lang=eng",
-            "question": "How old was Jacob when he came before Pharaoh?",
-            "options": [
-              "100 years old",
-              "130 years old",
-              "147 years old",
-              "175 years old"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'Jacob said unto Pharaoh, The days of the years of my pilgrimage are an hundred and thirty years' (Genesis 47:9).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-06-13",
-        "date": "2026-06-13",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 47",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/24?lang=eng",
-            "question": "What did Jacob do when he met Pharaoh?",
-            "options": [
-              "He bowed seven times",
-              "He blessed Pharaoh",
-              "He asked for gifts",
-              "He was silent"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'Jacob blessed Pharaoh' both upon arrival and departure (Genesis 47:7, 10).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-06-14",
-        "date": "2026-06-14",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 47",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/24?lang=eng",
-            "question": "How long did Jacob live in Egypt?",
-            "options": [
-              "7 years",
-              "17 years",
-              "30 years",
-              "40 years"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'Jacob lived in the land of Egypt seventeen years' (Genesis 47:28).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      }
-    ],
-    "places": [],
-    "people": []
-  },
-  {
-    "id": "week-2026-25",
-    "startDate": "2026-06-15",
-    "endDate": "2026-06-21",
-    "title": "1 Samuel 17–18; 24–26; 2 Samuel 5–7",
-    "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/25?lang=eng",
-    "scriptures": [
-      {
-        "reference": "1 Samuel 17–18",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/1_sam/17?lang=eng"
-      },
-      {
-        "reference": "1 Samuel 24–26",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/1_sam/24?lang=eng"
-      },
-      {
-        "reference": "2 Samuel 5–7",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/2_sam/5?lang=eng"
-      }
-    ],
-    "days": [
-      {
-        "id": "day-2026-06-15",
-        "date": "2026-06-15",
-        "doctrine": {
-          "doctrine": "Love God with all your heart, might, mind, and strength",
-          "summary": "The first and great commandment is to love God completely and unreservedly.",
-          "explanation": "The Shema—'Hear, O Israel: The Lord our God is one Lord: And thou shalt love the Lord thy God with all thine heart'—remains the central commandment. Complete love for God is expressed through obedience, worship, and devotion.",
-          "references": [
-            {
-              "display": "Deuteronomy 6:4-5",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/deut/6?lang=eng&id=p4-p5#p4"
-            },
-            {
-              "display": "Matthew 22:37-38",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/22?lang=eng&id=p37-p38#p37"
-            },
-            {
-              "display": "D&C 59:5",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/59?lang=eng&id=p5#p5"
-            }
-          ],
-          "scriptures": []
-        },
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 48",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/25?lang=eng",
-            "question": "Which of Joseph's sons did Jacob adopt as his own?",
-            "options": [
-              "Only Ephraim",
-              "Only Manasseh",
-              "Both Ephraim and Manasseh",
-              "Neither"
-            ],
-            "correctAnswer": 2,
-            "explanation": "'Ephraim and Manasseh... are mine; as Reuben and Simeon, they shall be mine' (Genesis 48:5).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-06-16",
-        "date": "2026-06-16",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 48",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/25?lang=eng",
-            "question": "Which grandson did Jacob give the greater blessing to?",
-            "options": [
-              "Manasseh, the firstborn",
-              "Ephraim, the younger",
-              "He blessed them equally",
-              "He refused to bless them"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Jacob crossed his hands to place his right hand on Ephraim, the younger, giving him the greater blessing (Genesis 48:17-19).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-06-17",
-        "date": "2026-06-17",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 49",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/25?lang=eng",
-            "question": "Which son did Jacob prophesy would hold the scepter and produce the Messiah?",
-            "options": [
-              "Reuben",
-              "Joseph",
-              "Judah",
-              "Benjamin"
-            ],
-            "correctAnswer": 2,
-            "explanation": "'The sceptre shall not depart from Judah... until Shiloh come' (Genesis 49:10).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-06-18",
-        "date": "2026-06-18",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 49",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/25?lang=eng",
-            "question": "What did Jacob call Joseph?",
-            "options": [
-              "A mighty warrior",
-              "A fruitful bough by a well",
-              "A wise counselor",
-              "A great king"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'Joseph is a fruitful bough, even a fruitful bough by a well' (Genesis 49:22).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-06-19",
-        "date": "2026-06-19",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 49",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/25?lang=eng",
-            "question": "Why did Reuben lose his birthright blessing?",
-            "options": [
-              "He was too young",
-              "He defiled his father's bed",
-              "He sold Joseph",
-              "He worshipped idols"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'Unstable as water, thou shalt not excel; because thou wentest up to thy father's bed' (Genesis 49:4).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-06-20",
-        "date": "2026-06-20",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 49",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/25?lang=eng",
-            "question": "Where did Jacob request to be buried?",
-            "options": [
-              "In Egypt",
-              "In the cave of Machpelah with his fathers",
-              "In Bethel",
-              "In Beersheba"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'Bury me with my fathers in the cave... of Machpelah' (Genesis 49:29-30).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-06-21",
-        "date": "2026-06-21",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 49",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/25?lang=eng",
-            "question": "What did Jacob compare Benjamin to?",
-            "options": [
-              "A lion",
-              "A wolf",
-              "An eagle",
-              "A serpent"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'Benjamin shall ravin as a wolf' (Genesis 49:27).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      }
-    ],
-    "places": [],
-    "people": []
-  },
-  {
-    "id": "week-2026-26",
-    "startDate": "2026-06-22",
-    "endDate": "2026-06-28",
-    "title": "2 Samuel 11–12; 1 Kings 3; 6–9; 11",
-    "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/26?lang=eng",
-    "scriptures": [
-      {
-        "reference": "2 Samuel 11–12",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/2_sam/11?lang=eng"
-      },
-      {
-        "reference": "1 Kings 3",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/1_kgs/3?lang=eng"
-      },
-      {
-        "reference": "1 Kings 6–9",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/1_kgs/6?lang=eng"
-      },
-      {
-        "reference": "1 Kings 11",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/1_kgs/11?lang=eng"
-      }
-    ],
-    "days": [
-      {
-        "id": "day-2026-06-22",
-        "date": "2026-06-22",
-        "doctrine": {
-          "doctrine": "Choose you this day whom ye will serve",
-          "summary": "We must make an active, personal choice to serve God. Neutrality is not an option.",
-          "explanation": "Joshua's declaration—'Choose you this day whom ye will serve... but as for me and my house, we will serve the Lord'—reminds us that following God requires deliberate choice. We cannot drift into discipleship; we must decide.",
-          "references": [
-            {
-              "display": "Joshua 24:15",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/josh/24?lang=eng&id=p15#p15"
-            },
-            {
-              "display": "2 Nephi 2:27",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/2?lang=eng&id=p27#p27"
-            },
-            {
-              "display": "Alma 30:8",
-              "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/30?lang=eng&id=p8#p8"
-            }
-          ],
-          "scriptures": []
-        },
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 50",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/26?lang=eng",
-            "question": "How many days did the Egyptians mourn Jacob?",
-            "options": [
-              "7 days",
-              "40 days",
-              "70 days",
-              "100 days"
-            ],
-            "correctAnswer": 2,
-            "explanation": "'The Egyptians mourned for him threescore and ten days' (70 days) (Genesis 50:3).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-06-23",
-        "date": "2026-06-23",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 50",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/26?lang=eng",
-            "question": "What did Joseph's brothers fear after Jacob died?",
-            "options": [
-              "That they would be sent away",
-              "That Joseph would now take revenge on them",
-              "That they would lose their inheritance",
-              "That Egypt would enslave them"
-            ],
-            "correctAnswer": 1,
-            "explanation": "The brothers feared 'Joseph will peradventure hate us, and will certainly requite us all the evil' (Genesis 50:15).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-06-24",
-        "date": "2026-06-24",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 50",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/26?lang=eng",
-            "question": "What famous statement did Joseph make about their evil intent?",
-            "options": [
-              "I forgive you",
-              "Ye thought evil against me; but God meant it unto good",
-              "All is forgotten",
-              "I will not punish you"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'Ye thought evil against me; but God meant it unto good, to... save much people alive' (Genesis 50:20).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-06-25",
-        "date": "2026-06-25",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 50",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/26?lang=eng",
-            "question": "How did Joseph respond to his brothers' fear?",
-            "options": [
-              "He punished them",
-              "He wept and comforted them",
-              "He ignored them",
-              "He sent them away"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'Joseph wept when they spake unto him... and said... Fear not: I will nourish you' (Genesis 50:17-21).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-06-26",
-        "date": "2026-06-26",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 50",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/26?lang=eng",
-            "question": "How old was Joseph when he died?",
-            "options": [
-              "100 years old",
-              "110 years old",
-              "120 years old",
-              "147 years old"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'Joseph died, being an hundred and ten years old' (Genesis 50:26).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-06-27",
-        "date": "2026-06-27",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 50",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/26?lang=eng",
-            "question": "What prophecy did Joseph give before he died?",
-            "options": [
-              "That Egypt would be destroyed",
-              "That God would visit them and bring them out of Egypt",
-              "That a new Pharaoh would arise",
-              "That there would be another famine"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'God will surely visit you, and bring you out of this land' unto the promised land (Genesis 50:24).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-06-28",
-        "date": "2026-06-28",
-        "doctrine": null,
-        "questions": [
-          {
-            "scriptureReference": {
-              "reference": "Genesis 50",
-              "url": ""
-            },
-            "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/26?lang=eng",
-            "question": "What did Joseph make his brethren promise about his bones?",
-            "options": [
-              "To bury them in Egypt",
-              "To carry them up out of Egypt when God visited them",
-              "To build a monument over them",
-              "To scatter them in the desert"
-            ],
-            "correctAnswer": 1,
-            "explanation": "'Joseph took an oath of the children of Israel, saying, God will surely visit you, and ye shall carry up my bones from hence' (Genesis 50:25).",
-            "references": []
-          }
-        ],
-        "scripturePassages": []
-      }
-    ],
-    "places": [],
-    "people": []
-  },
-  {
-    "id": "week-2026-27",
-    "startDate": "2026-06-29",
-    "endDate": "2026-07-05",
-    "title": "1 Kings 12–13; 17–22",
-    "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/27?lang=eng",
-    "scriptures": [
-      {
-        "reference": "1 Kings 12–13",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/1_kgs/12?lang=eng"
-      },
-      {
-        "reference": "1 Kings 17–22",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/1_kgs/17?lang=eng"
-      }
-    ],
-    "days": [
-      {
-        "id": "day-2026-06-29",
-        "date": "2026-06-29",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-06-30",
-        "date": "2026-06-30",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-07-01",
-        "date": "2026-07-01",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-07-02",
-        "date": "2026-07-02",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-07-03",
-        "date": "2026-07-03",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-07-04",
-        "date": "2026-07-04",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-07-05",
-        "date": "2026-07-05",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      }
-    ],
-    "places": [],
-    "people": []
-  },
-  {
-    "id": "week-2026-28",
-    "startDate": "2026-07-06",
-    "endDate": "2026-07-12",
-    "title": "2 Kings 2–7",
-    "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/28?lang=eng",
-    "scriptures": [
-      {
-        "reference": "2 Kings 2–7",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/2_kgs/2?lang=eng"
-      }
-    ],
-    "days": [
-      {
-        "id": "day-2026-07-06",
-        "date": "2026-07-06",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-07-07",
-        "date": "2026-07-07",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-07-08",
-        "date": "2026-07-08",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-07-09",
-        "date": "2026-07-09",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-07-10",
-        "date": "2026-07-10",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-07-11",
-        "date": "2026-07-11",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-07-12",
-        "date": "2026-07-12",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      }
-    ],
-    "places": [],
-    "people": []
-  },
-  {
-    "id": "week-2026-29",
-    "startDate": "2026-07-13",
-    "endDate": "2026-07-19",
-    "title": "2 Kings 16–25",
-    "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/29?lang=eng",
-    "scriptures": [
-      {
-        "reference": "2 Kings 16–25",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/2_kgs/16?lang=eng"
-      }
-    ],
-    "days": [
-      {
-        "id": "day-2026-07-13",
-        "date": "2026-07-13",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-07-14",
-        "date": "2026-07-14",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-07-15",
-        "date": "2026-07-15",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-07-16",
-        "date": "2026-07-16",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-07-17",
-        "date": "2026-07-17",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-07-18",
-        "date": "2026-07-18",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-07-19",
-        "date": "2026-07-19",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      }
-    ],
-    "places": [],
-    "people": []
-  },
-  {
-    "id": "week-2026-30",
-    "startDate": "2026-07-20",
-    "endDate": "2026-07-26",
-    "title": "2 Chronicles 14–20; 26; 30",
-    "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/30?lang=eng",
-    "scriptures": [
-      {
-        "reference": "2 Chronicles 14–20",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/2_chr/14?lang=eng"
-      },
-      {
-        "reference": "2 Chronicles 26",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/2_chr/26?lang=eng"
-      },
-      {
-        "reference": "2 Chronicles 30",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/2_chr/30?lang=eng"
-      }
-    ],
-    "days": [
-      {
-        "id": "day-2026-07-20",
-        "date": "2026-07-20",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-07-21",
-        "date": "2026-07-21",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-07-22",
-        "date": "2026-07-22",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-07-23",
-        "date": "2026-07-23",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-07-24",
-        "date": "2026-07-24",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-07-25",
-        "date": "2026-07-25",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-07-26",
-        "date": "2026-07-26",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      }
-    ],
-    "places": [],
-    "people": []
-  },
-  {
-    "id": "week-2026-31",
-    "startDate": "2026-07-27",
-    "endDate": "2026-08-02",
-    "title": "Ezra 1; 3–7; Nehemiah 2; 4–6; 8",
-    "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/31?lang=eng",
-    "scriptures": [
-      {
-        "reference": "Ezra 1; 3–7",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/ezra/1?lang=eng"
-      },
-      {
-        "reference": "Nehemiah 2; 4–6; 8",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/neh/2?lang=eng"
-      }
-    ],
-    "days": [
-      {
-        "id": "day-2026-07-27",
-        "date": "2026-07-27",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-07-28",
-        "date": "2026-07-28",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-07-29",
-        "date": "2026-07-29",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-07-30",
-        "date": "2026-07-30",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-07-31",
-        "date": "2026-07-31",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-08-01",
-        "date": "2026-08-01",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-08-02",
-        "date": "2026-08-02",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      }
-    ],
-    "places": [],
-    "people": []
-  },
-  {
-    "id": "week-2026-32",
-    "startDate": "2026-08-03",
-    "endDate": "2026-08-09",
-    "title": "Esther",
-    "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/32?lang=eng",
-    "scriptures": [
-      {
-        "reference": "Esther",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/esther/1?lang=eng"
-      }
-    ],
-    "days": [
-      {
-        "id": "day-2026-08-03",
-        "date": "2026-08-03",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-08-04",
-        "date": "2026-08-04",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-08-05",
-        "date": "2026-08-05",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-08-06",
-        "date": "2026-08-06",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-08-07",
-        "date": "2026-08-07",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-08-08",
-        "date": "2026-08-08",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-08-09",
-        "date": "2026-08-09",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      }
-    ],
-    "places": [],
-    "people": []
-  },
-  {
-    "id": "week-2026-33",
-    "startDate": "2026-08-10",
-    "endDate": "2026-08-16",
-    "title": "Job 1–3; 12–14; 19; 21–24; 38–40; 42",
-    "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/33?lang=eng",
-    "scriptures": [
-      {
-        "reference": "Job 1–3",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/job/1?lang=eng"
-      },
-      {
-        "reference": "Job 12–14",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/job/12?lang=eng"
-      },
-      {
-        "reference": "Job 19",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/job/19?lang=eng"
-      },
-      {
-        "reference": "Job 21–24",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/job/21?lang=eng"
-      },
-      {
-        "reference": "Job 38–40",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/job/38?lang=eng"
-      },
-      {
-        "reference": "Job 42",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/job/42?lang=eng"
-      }
-    ],
-    "days": [
-      {
-        "id": "day-2026-08-10",
-        "date": "2026-08-10",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-08-11",
-        "date": "2026-08-11",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-08-12",
-        "date": "2026-08-12",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-08-13",
-        "date": "2026-08-13",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-08-14",
-        "date": "2026-08-14",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-08-15",
-        "date": "2026-08-15",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-08-16",
-        "date": "2026-08-16",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      }
-    ],
-    "places": [],
-    "people": []
-  },
-  {
-    "id": "week-2026-34",
-    "startDate": "2026-08-17",
-    "endDate": "2026-08-23",
-    "title": "Psalms 1–2; 8; 19–33; 40; 46",
-    "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/34?lang=eng",
-    "scriptures": [
-      {
-        "reference": "Psalms 1–2",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/ps/1?lang=eng"
-      },
-      {
-        "reference": "Psalms 8",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/ps/8?lang=eng"
-      },
-      {
-        "reference": "Psalms 19–33",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/ps/19?lang=eng"
-      },
-      {
-        "reference": "Psalms 40",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/ps/40?lang=eng"
-      },
-      {
-        "reference": "Psalms 46",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/ps/46?lang=eng"
-      }
-    ],
-    "days": [
-      {
-        "id": "day-2026-08-17",
-        "date": "2026-08-17",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-08-18",
-        "date": "2026-08-18",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-08-19",
-        "date": "2026-08-19",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-08-20",
-        "date": "2026-08-20",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-08-21",
-        "date": "2026-08-21",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-08-22",
-        "date": "2026-08-22",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-08-23",
-        "date": "2026-08-23",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      }
-    ],
-    "places": [],
-    "people": []
-  },
-  {
-    "id": "week-2026-35",
-    "startDate": "2026-08-24",
-    "endDate": "2026-08-30",
-    "title": "Psalms 49–51; 61–66; 69–72; 77–78; 85–86",
-    "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/35?lang=eng",
-    "scriptures": [
-      {
-        "reference": "Psalms 49–51",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/ps/49?lang=eng"
-      },
-      {
-        "reference": "Psalms 61–66",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/ps/61?lang=eng"
-      },
-      {
-        "reference": "Psalms 69–72",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/ps/69?lang=eng"
-      },
-      {
-        "reference": "Psalms 77–78",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/ps/77?lang=eng"
-      },
-      {
-        "reference": "Psalms 85–86",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/ps/85?lang=eng"
-      }
-    ],
-    "days": [
-      {
-        "id": "day-2026-08-24",
-        "date": "2026-08-24",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-08-25",
-        "date": "2026-08-25",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-08-26",
-        "date": "2026-08-26",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-08-27",
-        "date": "2026-08-27",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-08-28",
-        "date": "2026-08-28",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-08-29",
-        "date": "2026-08-29",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-08-30",
-        "date": "2026-08-30",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      }
-    ],
-    "places": [],
-    "people": []
-  },
-  {
-    "id": "week-2026-36",
-    "startDate": "2026-08-31",
-    "endDate": "2026-09-06",
-    "title": "Psalms 102–103; 110; 116–119; 127–128; 135–139; 146–150",
-    "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/36?lang=eng",
-    "scriptures": [
-      {
-        "reference": "Psalms 102–103",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/ps/102?lang=eng"
-      },
-      {
-        "reference": "Psalms 110",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/ps/110?lang=eng"
-      },
-      {
-        "reference": "Psalms 116–119",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/ps/116?lang=eng"
-      },
-      {
-        "reference": "Psalms 127–128",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/ps/127?lang=eng"
-      },
-      {
-        "reference": "Psalms 135–139",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/ps/135?lang=eng"
-      },
-      {
-        "reference": "Psalms 146–150",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/ps/146?lang=eng"
-      }
-    ],
-    "days": [
-      {
-        "id": "day-2026-08-31",
-        "date": "2026-08-31",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-09-01",
-        "date": "2026-09-01",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-09-02",
-        "date": "2026-09-02",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-09-03",
-        "date": "2026-09-03",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-09-04",
-        "date": "2026-09-04",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-09-05",
-        "date": "2026-09-05",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-09-06",
-        "date": "2026-09-06",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      }
-    ],
-    "places": [],
-    "people": []
-  },
-  {
-    "id": "week-2026-37",
-    "startDate": "2026-09-07",
-    "endDate": "2026-09-13",
-    "title": "Proverbs 1–4; 15–16; 22; 31; Ecclesiastes 1–3; 11–12",
-    "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/37?lang=eng",
-    "scriptures": [
-      {
-        "reference": "Proverbs 1–4",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/prov/1?lang=eng"
-      },
-      {
-        "reference": "Proverbs 15–16",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/prov/15?lang=eng"
-      },
-      {
-        "reference": "Proverbs 22",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/prov/22?lang=eng"
-      },
-      {
-        "reference": "Proverbs 31",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/prov/31?lang=eng"
-      },
-      {
-        "reference": "Ecclesiastes 1–3",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/eccl/1?lang=eng"
-      },
-      {
-        "reference": "Ecclesiastes 11–12",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/eccl/11?lang=eng"
-      }
-    ],
-    "days": [
-      {
-        "id": "day-2026-09-07",
-        "date": "2026-09-07",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-09-08",
-        "date": "2026-09-08",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-09-09",
-        "date": "2026-09-09",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-09-10",
-        "date": "2026-09-10",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-09-11",
-        "date": "2026-09-11",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-09-12",
-        "date": "2026-09-12",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-09-13",
-        "date": "2026-09-13",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      }
-    ],
-    "places": [],
-    "people": []
-  },
-  {
-    "id": "week-2026-38",
-    "startDate": "2026-09-14",
-    "endDate": "2026-09-20",
-    "title": "Isaiah 1–12",
-    "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/38?lang=eng",
-    "scriptures": [
-      {
-        "reference": "Isaiah 1–12",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/1?lang=eng"
-      }
-    ],
-    "days": [
-      {
-        "id": "day-2026-09-14",
-        "date": "2026-09-14",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-09-15",
-        "date": "2026-09-15",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-09-16",
-        "date": "2026-09-16",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-09-17",
-        "date": "2026-09-17",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-09-18",
-        "date": "2026-09-18",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-09-19",
-        "date": "2026-09-19",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-09-20",
-        "date": "2026-09-20",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      }
-    ],
-    "places": [],
-    "people": []
-  },
-  {
-    "id": "week-2026-39",
-    "startDate": "2026-09-21",
-    "endDate": "2026-09-27",
-    "title": "Isaiah 13–14; 22; 24–30; 35",
-    "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/39?lang=eng",
-    "scriptures": [
-      {
-        "reference": "Isaiah 13–14",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/13?lang=eng"
-      },
-      {
-        "reference": "Isaiah 22",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/22?lang=eng"
-      },
-      {
-        "reference": "Isaiah 24–30",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/24?lang=eng"
-      },
-      {
-        "reference": "Isaiah 35",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/35?lang=eng"
-      }
-    ],
-    "days": [
-      {
-        "id": "day-2026-09-21",
-        "date": "2026-09-21",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-09-22",
-        "date": "2026-09-22",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-09-23",
-        "date": "2026-09-23",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-09-24",
-        "date": "2026-09-24",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-09-25",
-        "date": "2026-09-25",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-09-26",
-        "date": "2026-09-26",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-09-27",
-        "date": "2026-09-27",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      }
-    ],
-    "places": [],
-    "people": []
-  },
-  {
-    "id": "week-2026-40",
-    "startDate": "2026-09-28",
-    "endDate": "2026-10-04",
-    "title": "Isaiah 40–49",
-    "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/40?lang=eng",
-    "scriptures": [
-      {
-        "reference": "Isaiah 40–49",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/40?lang=eng"
-      }
-    ],
-    "days": [
-      {
-        "id": "day-2026-09-28",
-        "date": "2026-09-28",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-09-29",
-        "date": "2026-09-29",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-09-30",
-        "date": "2026-09-30",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-10-01",
-        "date": "2026-10-01",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-10-02",
-        "date": "2026-10-02",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-10-03",
-        "date": "2026-10-03",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-10-04",
-        "date": "2026-10-04",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      }
-    ],
-    "places": [],
-    "people": []
-  },
-  {
-    "id": "week-2026-41",
-    "startDate": "2026-10-05",
-    "endDate": "2026-10-11",
-    "title": "Isaiah 50–57",
-    "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/41?lang=eng",
-    "scriptures": [
-      {
-        "reference": "Isaiah 50–57",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/50?lang=eng"
-      }
-    ],
-    "days": [
-      {
-        "id": "day-2026-10-05",
-        "date": "2026-10-05",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-10-06",
-        "date": "2026-10-06",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-10-07",
-        "date": "2026-10-07",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-10-08",
-        "date": "2026-10-08",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-10-09",
-        "date": "2026-10-09",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-10-10",
-        "date": "2026-10-10",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-10-11",
-        "date": "2026-10-11",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      }
-    ],
-    "places": [],
-    "people": []
-  },
-  {
-    "id": "week-2026-42",
-    "startDate": "2026-10-12",
-    "endDate": "2026-10-18",
-    "title": "Isaiah 58–66",
-    "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/42?lang=eng",
-    "scriptures": [
-      {
-        "reference": "Isaiah 58–66",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/58?lang=eng"
-      }
-    ],
-    "days": [
-      {
-        "id": "day-2026-10-12",
-        "date": "2026-10-12",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-10-13",
-        "date": "2026-10-13",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-10-14",
-        "date": "2026-10-14",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-10-15",
-        "date": "2026-10-15",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-10-16",
-        "date": "2026-10-16",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-10-17",
-        "date": "2026-10-17",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-10-18",
-        "date": "2026-10-18",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      }
-    ],
-    "places": [],
-    "people": []
-  },
-  {
-    "id": "week-2026-43",
-    "startDate": "2026-10-19",
-    "endDate": "2026-10-25",
-    "title": "Jeremiah 1–3; 7; 16–18; 20",
-    "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/43?lang=eng",
-    "scriptures": [
-      {
-        "reference": "Jeremiah 1–3",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/1?lang=eng"
-      },
-      {
-        "reference": "Jeremiah 7",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/7?lang=eng"
-      },
-      {
-        "reference": "Jeremiah 16–18",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/16?lang=eng"
-      },
-      {
-        "reference": "Jeremiah 20",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/20?lang=eng"
-      }
-    ],
-    "days": [
-      {
-        "id": "day-2026-10-19",
-        "date": "2026-10-19",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-10-20",
-        "date": "2026-10-20",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-10-21",
-        "date": "2026-10-21",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-10-22",
-        "date": "2026-10-22",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-10-23",
-        "date": "2026-10-23",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-10-24",
-        "date": "2026-10-24",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-10-25",
-        "date": "2026-10-25",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      }
-    ],
-    "places": [],
-    "people": []
-  },
-  {
-    "id": "week-2026-44",
-    "startDate": "2026-10-26",
-    "endDate": "2026-11-01",
-    "title": "Jeremiah 31–33; 36–38; Lamentations 1; 3",
-    "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/44?lang=eng",
-    "scriptures": [
-      {
-        "reference": "Jeremiah 31–33",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/31?lang=eng"
-      },
-      {
-        "reference": "Jeremiah 36–38",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/36?lang=eng"
-      },
-      {
-        "reference": "Lamentations 1",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/lam/1?lang=eng"
-      },
-      {
-        "reference": "Lamentations 3",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/lam/3?lang=eng"
-      }
-    ],
-    "days": [
-      {
-        "id": "day-2026-10-26",
-        "date": "2026-10-26",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-10-27",
-        "date": "2026-10-27",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-10-28",
-        "date": "2026-10-28",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-10-29",
-        "date": "2026-10-29",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-10-30",
-        "date": "2026-10-30",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-10-31",
-        "date": "2026-10-31",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-11-01",
-        "date": "2026-11-01",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      }
-    ],
-    "places": [],
-    "people": []
-  },
-  {
-    "id": "week-2026-45",
-    "startDate": "2026-11-02",
-    "endDate": "2026-11-08",
-    "title": "Ezekiel 1–3; 33–34; 36–37; 47",
-    "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/45?lang=eng",
-    "scriptures": [
-      {
-        "reference": "Ezekiel 1–3",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/1?lang=eng"
-      },
-      {
-        "reference": "Ezekiel 33–34",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/33?lang=eng"
-      },
-      {
-        "reference": "Ezekiel 36–37",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/36?lang=eng"
-      },
-      {
-        "reference": "Ezekiel 47",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/47?lang=eng"
-      }
-    ],
-    "days": [
-      {
-        "id": "day-2026-11-02",
-        "date": "2026-11-02",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-11-03",
-        "date": "2026-11-03",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-11-04",
-        "date": "2026-11-04",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-11-05",
-        "date": "2026-11-05",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-11-06",
-        "date": "2026-11-06",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-11-07",
-        "date": "2026-11-07",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-11-08",
-        "date": "2026-11-08",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      }
-    ],
-    "places": [],
-    "people": []
-  },
-  {
-    "id": "week-2026-46",
-    "startDate": "2026-11-09",
-    "endDate": "2026-11-15",
-    "title": "Daniel 1–7",
-    "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/46?lang=eng",
-    "scriptures": [
-      {
-        "reference": "Daniel 1–7",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/dan/1?lang=eng"
-      }
-    ],
-    "days": [
-      {
-        "id": "day-2026-11-09",
-        "date": "2026-11-09",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-11-10",
-        "date": "2026-11-10",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-11-11",
-        "date": "2026-11-11",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-11-12",
-        "date": "2026-11-12",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-11-13",
-        "date": "2026-11-13",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-11-14",
-        "date": "2026-11-14",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-11-15",
-        "date": "2026-11-15",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      }
-    ],
-    "places": [],
-    "people": []
-  },
-  {
-    "id": "week-2026-47",
-    "startDate": "2026-11-16",
-    "endDate": "2026-11-22",
-    "title": "Hosea 1–6; 10–14; Joel",
-    "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/47?lang=eng",
-    "scriptures": [
-      {
-        "reference": "Hosea 1–6",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/1?lang=eng"
-      },
-      {
-        "reference": "Hosea 10–14",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/10?lang=eng"
-      },
-      {
-        "reference": "Joel",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/joel/1?lang=eng"
-      }
-    ],
-    "days": [
-      {
-        "id": "day-2026-11-16",
-        "date": "2026-11-16",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-11-17",
-        "date": "2026-11-17",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-11-18",
-        "date": "2026-11-18",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-11-19",
-        "date": "2026-11-19",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-11-20",
-        "date": "2026-11-20",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-11-21",
-        "date": "2026-11-21",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-11-22",
-        "date": "2026-11-22",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      }
-    ],
-    "places": [],
-    "people": []
-  },
-  {
-    "id": "week-2026-48",
-    "startDate": "2026-11-23",
-    "endDate": "2026-11-29",
-    "title": "Amos; Obadiah; Jonah",
-    "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/48?lang=eng",
-    "scriptures": [
-      {
-        "reference": "Amos",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/amos/1?lang=eng"
-      },
-      {
-        "reference": "Obadiah",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/obadiah/1?lang=eng"
-      },
-      {
-        "reference": "Jonah",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/jonah/1?lang=eng"
-      }
-    ],
-    "days": [
-      {
-        "id": "day-2026-11-23",
-        "date": "2026-11-23",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-11-24",
-        "date": "2026-11-24",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-11-25",
-        "date": "2026-11-25",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-11-26",
-        "date": "2026-11-26",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-11-27",
-        "date": "2026-11-27",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-11-28",
-        "date": "2026-11-28",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-11-29",
-        "date": "2026-11-29",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      }
-    ],
-    "places": [],
-    "people": []
-  },
-  {
-    "id": "week-2026-49",
-    "startDate": "2026-11-30",
-    "endDate": "2026-12-06",
-    "title": "Micah; Nahum; Habakkuk; Zephaniah",
-    "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/49?lang=eng",
-    "scriptures": [
-      {
-        "reference": "Micah",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/mic/1?lang=eng"
-      },
-      {
-        "reference": "Nahum",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/nah/1?lang=eng"
-      },
-      {
-        "reference": "Habakkuk",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/hab/1?lang=eng"
-      },
-      {
-        "reference": "Zephaniah",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/zeph/1?lang=eng"
-      }
-    ],
-    "days": [
-      {
-        "id": "day-2026-11-30",
-        "date": "2026-11-30",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-12-01",
-        "date": "2026-12-01",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-12-02",
-        "date": "2026-12-02",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-12-03",
-        "date": "2026-12-03",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-12-04",
-        "date": "2026-12-04",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-12-05",
-        "date": "2026-12-05",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-12-06",
-        "date": "2026-12-06",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      }
-    ],
-    "places": [],
-    "people": []
-  },
-  {
-    "id": "week-2026-50",
-    "startDate": "2026-12-07",
-    "endDate": "2026-12-13",
-    "title": "Haggai 1–2; Zechariah 1–4; 7–14",
-    "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/50?lang=eng",
-    "scriptures": [
-      {
-        "reference": "Haggai 1–2",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/hag/1?lang=eng"
-      },
-      {
-        "reference": "Zechariah 1–4",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/zech/1?lang=eng"
-      },
-      {
-        "reference": "Zechariah 7–14",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/zech/7?lang=eng"
-      }
-    ],
-    "days": [
-      {
-        "id": "day-2026-12-07",
-        "date": "2026-12-07",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-12-08",
-        "date": "2026-12-08",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-12-09",
-        "date": "2026-12-09",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-12-10",
-        "date": "2026-12-10",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-12-11",
-        "date": "2026-12-11",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-12-12",
-        "date": "2026-12-12",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-12-13",
-        "date": "2026-12-13",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      }
-    ],
-    "places": [],
-    "people": []
-  },
-  {
-    "id": "week-2026-51",
-    "startDate": "2026-12-14",
-    "endDate": "2026-12-20",
-    "title": "Malachi",
-    "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/51?lang=eng",
-    "scriptures": [
-      {
-        "reference": "Malachi",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/ot/mal/1?lang=eng"
-      }
-    ],
-    "days": [
-      {
-        "id": "day-2026-12-14",
-        "date": "2026-12-14",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-12-15",
-        "date": "2026-12-15",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-12-16",
-        "date": "2026-12-16",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-12-17",
-        "date": "2026-12-17",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-12-18",
-        "date": "2026-12-18",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-12-19",
-        "date": "2026-12-19",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-12-20",
-        "date": "2026-12-20",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      }
-    ],
-    "places": [],
-    "people": []
-  },
-  {
-    "id": "week-2026-52",
-    "startDate": "2026-12-21",
-    "endDate": "2026-12-27",
-    "title": "Christmas",
-    "lessonUrl": "https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/52?lang=eng",
-    "scriptures": [
-      {
-        "reference": "Christmas",
-        "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/1?lang=eng"
-      }
-    ],
-    "days": [
-      {
-        "id": "day-2026-12-21",
-        "date": "2026-12-21",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-12-22",
-        "date": "2026-12-22",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-12-23",
-        "date": "2026-12-23",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-12-24",
-        "date": "2026-12-24",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-12-25",
-        "date": "2026-12-25",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-12-26",
-        "date": "2026-12-26",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      },
-      {
-        "id": "day-2026-12-27",
-        "date": "2026-12-27",
-        "doctrine": null,
-        "questions": [],
-        "scripturePassages": []
-      }
-    ],
-    "places": [],
-    "people": []
-  }
-] as unknown as Week[];
+];

@@ -49,8 +49,8 @@ export interface Day {
   date: string;
   doctrine: Doctrine | null;
   questions: Question[];
-  scripturePassage: ScripturePassage|null;
-  word: Word|null; 
+  scripturePassage: ScripturePassage | null;
+  word: Word | null;
 }
 
 export interface Person {
@@ -60,7 +60,6 @@ export interface Person {
   scriptureReferences: Scripture[];
   citations: Reference[];
 }
-
 
 export type LocationType = "confirmed" | "probable" | "uncertain" | "symbolic";
 
