@@ -13,7 +13,9 @@ import { getDatesInWeek, getDay, getInitialWeek, getWeek } from "@/lib/utils";
 import { Week } from "@/lib/types";
 
 const Index = () => {
-  const [selectedWeek, setSelectedWeek] = useState<Week>(getWeek(new Date()) || getInitialWeek());
+  const [selectedWeek, setSelectedWeek] = useState<Week>(
+    getWeek(new Date()) || getInitialWeek(),
+  );
   const [datesInWeek, setDatesInWeek] = useState<string[]>([]);
   const [selectedDate, setSelectedDate] = useState<string>("");
   const [quizKey, setQuizKey] = useState(0);
@@ -22,7 +24,7 @@ const Index = () => {
   useEffect(() => {
     const dates = getDatesInWeek(selectedWeek);
     setDatesInWeek(dates);
-    
+
     // Check if today is in this week, otherwise default to first date
     const today = format(new Date(), "yyyy-MM-dd");
     if (dates.includes(today)) {
@@ -34,16 +36,16 @@ const Index = () => {
 
   // Reset quiz when date changes
   useEffect(() => {
-    setQuizKey(prev => prev + 1);
+    setQuizKey((prev) => prev + 1);
   }, [selectedDate]);
 
   // Get nested day data for selected date (preferred)
   const day = getDay(new Date(selectedDate));
-  const question = day?.questions?.[0];
+  const questions = day?.questions || [];
   const doctrine = day?.doctrine || null;
   const scripture = day?.scripturePassage || null;
   const word = day?.word;
-  
+
   // Weekly people/places are now nested on the `selectedWeek` object
   const people = selectedWeek.people || [];
   const places = selectedWeek.places || [];
@@ -83,9 +85,9 @@ const Index = () => {
 
       {/* Week Selector */}
       <div className="py-4 px-4">
-        <WeekSelector 
-          selectedWeek={selectedWeek} 
-          onWeekChange={setSelectedWeek} 
+        <WeekSelector
+          selectedWeek={selectedWeek}
+          onWeekChange={setSelectedWeek}
         />
       </div>
 
@@ -93,10 +95,10 @@ const Index = () => {
       <main className="px-4 pb-12">
         <div className="max-w-2xl mx-auto space-y-6">
           {/* Weekly Header with topic, scriptures, people, places */}
-          <WeeklyHeader 
-            week={selectedWeek} 
-            people={people} 
-            places={places} 
+          <WeeklyHeader
+            week={selectedWeek}
+            people={people}
+            places={places}
           />
 
           {/* Day Selector */}
@@ -110,44 +112,62 @@ const Index = () => {
 
           {/* Daily Content Tabs */}
           <div className="bg-gradient-card rounded-2xl p-4 md:p-6 shadow-card">
-            <Tabs defaultValue="scripture" className="w-full">
+            <Tabs
+              defaultValue="scripture"
+              className="w-full"
+            >
               <TabsList className="grid w-full grid-cols-4 mb-4">
                 <TabsTrigger value="scripture">Scripture</TabsTrigger>
                 <TabsTrigger value="question">Question</TabsTrigger>
                 <TabsTrigger value="doctrine">Doctrine</TabsTrigger>
                 <TabsTrigger value="word">Word</TabsTrigger>
               </TabsList>
-              
-              <TabsContent value="scripture" className="mt-0">
+
+              <TabsContent
+                value="scripture"
+                className="mt-0"
+              >
                 {scripture ? (
                   <ScriptureCard scripture={scripture} />
                 ) : (
                   <EmptyState title="Scripture" />
                 )}
               </TabsContent>
-              
-              <TabsContent value="question" className="mt-0">
-                {question ? (
-                  <QuizCard key={quizKey} question={question} />
+
+              <TabsContent
+                value="question"
+                className="mt-0"
+              >
+                {questions.length > 0 ? (
+                  <div className="space-y-6">
+                    {questions.map((q, idx) => (
+                      <QuizCard
+                        key={`${quizKey}-${idx}`}
+                        question={q}
+                      />
+                    ))}
+                  </div>
                 ) : (
                   <EmptyState title="Question" />
                 )}
               </TabsContent>
-              
-              <TabsContent value="doctrine" className="mt-0">
+
+              <TabsContent
+                value="doctrine"
+                className="mt-0"
+              >
                 {doctrine ? (
                   <DoctrineCard doctrine={doctrine} />
                 ) : (
                   <EmptyState title="Doctrine" />
                 )}
               </TabsContent>
-              
-              <TabsContent value="word" className="mt-0">
-                {word ? (
-                  <WordCard word={word} />
-                ) : (
-                  <EmptyState title="Word" />
-                )}
+
+              <TabsContent
+                value="word"
+                className="mt-0"
+              >
+                {word ? <WordCard word={word} /> : <EmptyState title="Word" />}
               </TabsContent>
             </Tabs>
           </div>
@@ -157,7 +177,8 @@ const Index = () => {
       {/* Footer */}
       <footer className="py-6 px-4 border-t border-border/50">
         <p className="text-center text-sm text-muted-foreground">
-          Based on the Come, Follow Me curriculum for The Church of Jesus Christ of Latter-day Saints
+          Based on the Come, Follow Me curriculum for The Church of Jesus Christ
+          of Latter-day Saints
         </p>
       </footer>
     </div>

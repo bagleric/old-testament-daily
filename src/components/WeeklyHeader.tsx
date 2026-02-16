@@ -1,9 +1,20 @@
 import { useState } from "react";
-import { ExternalLink, BookOpen, Users, MapPin, ChevronDown, ChevronUp } from "lucide-react";
-import type { Person, Week,Place  } from "@/lib/types";
+import {
+  ExternalLink,
+  BookOpen,
+  Users,
+  MapPin,
+  ChevronDown,
+  ChevronUp,
+} from "lucide-react";
+import type { Person, Week, Place } from "@/lib/types";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
+import {
+  Collapsible,
+  CollapsibleContent,
+  CollapsibleTrigger,
+} from "@/components/ui/collapsible";
 
 interface WeeklyHeaderProps {
   week: Week;
@@ -53,7 +64,10 @@ export function WeeklyHeader({ week, people, places }: WeeklyHeaderProps) {
       {/* People and Places Expandable Cards */}
       <div className="grid grid-cols-1 gap-4">
         {/* People Card */}
-        <Collapsible open={peopleOpen} onOpenChange={setPeopleOpen}>
+        <Collapsible
+          open={peopleOpen}
+          onOpenChange={setPeopleOpen}
+        >
           <CollapsibleTrigger asChild>
             <Button
               variant="outline"
@@ -63,7 +77,10 @@ export function WeeklyHeader({ week, people, places }: WeeklyHeaderProps) {
                 <Users className="w-4 h-4 text-primary" />
                 <span className="font-medium">People of the Week</span>
                 {people && (
-                  <Badge variant="secondary" className="text-xs">
+                  <Badge
+                    variant="secondary"
+                    className="text-xs"
+                  >
                     {people.length}
                   </Badge>
                 )}
@@ -79,10 +96,18 @@ export function WeeklyHeader({ week, people, places }: WeeklyHeaderProps) {
             {people ? (
               <div className="space-y-4 p-4 bg-muted/50 rounded-lg">
                 {people.map((person, index) => (
-                  <div key={index} className="border-l-2 border-primary/30 pl-3">
+                  <div
+                    key={index}
+                    className="border-l-2 border-primary/30 pl-3"
+                  >
                     <div className="flex items-center gap-2 mb-1">
-                      <h4 className="font-serif text-sm text-foreground">{person.name}</h4>
-                      <Badge variant="secondary" className="text-xs">
+                      <h4 className="font-serif text-sm text-foreground">
+                        {person.name}
+                      </h4>
+                      <Badge
+                        variant="secondary"
+                        className="text-xs"
+                      >
                         {person.role}
                       </Badge>
                     </div>
@@ -91,12 +116,26 @@ export function WeeklyHeader({ week, people, places }: WeeklyHeaderProps) {
                     </p>
                     <div className="flex flex-wrap gap-1 mt-2">
                       {person.scriptureReferences.map((ref, refIndex) => (
-                        <span
-                          key={refIndex}
+                        <a
+                          href={ref.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
                           className="text-xs bg-background px-1.5 py-0.5 rounded text-muted-foreground"
                         >
                           {ref.reference}
-                        </span>
+                        </a>
+                      ))}
+                    </div>
+                    <div className="flex flex-wrap gap-1 mt-2">
+                      {person.citations.map((ref, refIndex) => (
+                        <a
+                          href={ref.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-xs bg-background px-1.5 py-0.5 rounded text-muted-foreground"
+                        >
+                          {ref.display}
+                        </a>
                       ))}
                     </div>
                   </div>
@@ -120,7 +159,10 @@ export function WeeklyHeader({ week, people, places }: WeeklyHeaderProps) {
         </Collapsible>
 
         {/* Places Card */}
-        <Collapsible open={placesOpen} onOpenChange={setPlacesOpen}>
+        <Collapsible
+          open={placesOpen}
+          onOpenChange={setPlacesOpen}
+        >
           <CollapsibleTrigger asChild>
             <Button
               variant="outline"
@@ -130,7 +172,10 @@ export function WeeklyHeader({ week, people, places }: WeeklyHeaderProps) {
                 <MapPin className="w-4 h-4 text-primary" />
                 <span className="font-medium">Places of the Week</span>
                 {places && (
-                  <Badge variant="secondary" className="text-xs">
+                  <Badge
+                    variant="secondary"
+                    className="text-xs"
+                  >
                     {places.length}
                   </Badge>
                 )}
@@ -146,16 +191,24 @@ export function WeeklyHeader({ week, people, places }: WeeklyHeaderProps) {
             {places ? (
               <div className="space-y-4 p-4 bg-muted/50 rounded-lg">
                 {places.map((place, index) => (
-                  <div key={index} className="border-l-2 border-primary/30 pl-3">
+                  <div
+                    key={index}
+                    className="border-l-2 border-primary/30 pl-3"
+                  >
                     <div className="flex items-center gap-2 mb-1">
-                      <h4 className="font-serif text-sm text-foreground">{place.name}</h4>
-                      <Badge 
-                        variant="secondary" 
+                      <h4 className="font-serif text-sm text-foreground">
+                        {place.name}
+                      </h4>
+                      <Badge
+                        variant="secondary"
                         className={`text-xs ${
-                          place.locationType === 'confirmed' ? 'bg-green-100 text-green-800' :
-                          place.locationType === 'probable' ? 'bg-yellow-100 text-yellow-800' :
-                          place.locationType === 'uncertain' ? 'bg-orange-100 text-orange-800' :
-                          'bg-purple-100 text-purple-800'
+                          place.locationType === "confirmed"
+                            ? "bg-green-100 text-green-800"
+                            : place.locationType === "probable"
+                              ? "bg-yellow-100 text-yellow-800"
+                              : place.locationType === "uncertain"
+                                ? "bg-orange-100 text-orange-800"
+                                : "bg-purple-100 text-purple-800"
                         }`}
                       >
                         {place.locationType}
@@ -167,6 +220,30 @@ export function WeeklyHeader({ week, people, places }: WeeklyHeaderProps) {
                     <p className="text-xs text-muted-foreground/80 mt-1 italic">
                       📍 {place.modernLocation}
                     </p>
+                    <div className="flex flex-wrap gap-1 mt-2">
+                      {place.scriptureReferences.map((ref, refIndex) => (
+                        <a
+                          href={ref.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-xs bg-background px-1.5 py-0.5 rounded text-muted-foreground"
+                        >
+                          {ref.reference}
+                        </a>
+                      ))}
+                    </div>
+                    <div className="flex flex-wrap gap-1 mt-2">
+                      {place.citations.map((ref, refIndex) => (
+                        <a
+                          href={ref.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-xs bg-background px-1.5 py-0.5 rounded text-muted-foreground"
+                        >
+                          {ref.display}
+                        </a>
+                      ))}
+                    </div>
                   </div>
                 ))}
                 <a
